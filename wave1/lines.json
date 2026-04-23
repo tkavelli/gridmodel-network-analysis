@@ -1,0 +1,730 @@
+[
+  {
+    "connection_point_ids": [
+      "d4cb2663-969c-5148-907d-fed59315f997",
+      "e7f86592-9e17-51e2-b13f-5f50b2249ec5"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "9b9c0b85-73be-5fc9-8554-5b433a2dd32a",
+    "line_id": "bbe66830-d0e5-5c4e-a588-8c16b8dcc3fb",
+    "line_length_m": 0.0,
+    "line_name": "Airway Substation - Toluca Receiving Station",
+    "nominal_voltage_kv": 230.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "151e4fc3-f201-5af4-9427-1646b4d79baa",
+      "9b9c0b85-73be-5fc9-8554-5b433a2dd32a"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "9b9c0b85-73be-5fc9-8554-5b433a2dd32a",
+      "To Substation Id": "151e4fc3-f201-5af4-9427-1646b4d79baa"
+    },
+    "to_substation_id": "151e4fc3-f201-5af4-9427-1646b4d79baa",
+    "virtual_endpoint_ids": [],
+    "wire_count": 3
+  },
+  {
+    "connection_point_ids": [
+      "014534bf-d8b9-5d23-8f92-7acfb1a18853",
+      "1b966eb8-5108-5ac3-94de-d5524d493332"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "2747111d-0c6b-51ce-8032-11c8de67cfff",
+    "line_id": "822e373a-2945-535e-bd93-b42704838b24",
+    "line_length_m": 0.0,
+    "line_name": "Big Sky Substation - Antelope Substation (220 kV) #3",
+    "nominal_voltage_kv": 220.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "2747111d-0c6b-51ce-8032-11c8de67cfff",
+      "a799ed5a-7843-5477-981c-523fe120c14c"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "a799ed5a-7843-5477-981c-523fe120c14c",
+      "To Substation Id": "2747111d-0c6b-51ce-8032-11c8de67cfff"
+    },
+    "to_substation_id": "a799ed5a-7843-5477-981c-523fe120c14c",
+    "virtual_endpoint_ids": [],
+    "wire_count": 1
+  },
+  {
+    "connection_point_ids": [
+      "8f32749c-80e5-57a7-9057-a3764c38212e",
+      "fc203218-dfbd-56a0-afb7-21290de7bda6"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "46906f24-d7da-5847-85dc-457b6abce27a",
+    "line_id": "4be46d60-ecfe-5ac9-a59d-7d35be2b9713",
+    "line_length_m": 0.0,
+    "line_name": "Del Amo Substation - Unnamed LA Substation 383644496 (220 kV)",
+    "nominal_voltage_kv": 220.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "46906f24-d7da-5847-85dc-457b6abce27a",
+      "ab47d90a-8396-5590-a1a8-8e87864f0d05"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "46906f24-d7da-5847-85dc-457b6abce27a",
+      "To Substation Id": "20aa7d0a-ba34-5e72-a3bd-79d6dc53f83f"
+    },
+    "to_substation_id": "ab47d90a-8396-5590-a1a8-8e87864f0d05",
+    "virtual_endpoint_ids": [],
+    "wire_count": 1
+  },
+  {
+    "connection_point_ids": [
+      "223c6bd7-e239-5e57-a9df-08ce8333f46a",
+      "9cf38aa7-1375-5871-a5c5-5a7326acfc9f"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "2909ab3e-d126-53eb-968d-8f1f14dafa94",
+    "line_id": "2cf6b05c-803a-5a0a-8138-777939e709f6",
+    "line_length_m": 0.0,
+    "line_name": "Ellis Substation - Barre Substation (220 kV | Barre - Ellis)",
+    "nominal_voltage_kv": 220.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "1439ae13-5a83-517e-a86b-bf4e199c0f2e",
+      "2909ab3e-d126-53eb-968d-8f1f14dafa94"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_AND_NAME",
+      "From Substation Id": "1439ae13-5a83-517e-a86b-bf4e199c0f2e",
+      "To Substation Id": "2909ab3e-d126-53eb-968d-8f1f14dafa94"
+    },
+    "to_substation_id": "1439ae13-5a83-517e-a86b-bf4e199c0f2e",
+    "virtual_endpoint_ids": [],
+    "wire_count": 1
+  },
+  {
+    "connection_point_ids": [
+      "223c6bd7-e239-5e57-a9df-08ce8333f46a",
+      "9cf38aa7-1375-5871-a5c5-5a7326acfc9f"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "2909ab3e-d126-53eb-968d-8f1f14dafa94",
+    "line_id": "029d4fa7-6dc1-58f8-a9f1-59780e64f79c",
+    "line_length_m": 0.0,
+    "line_name": "Ellis Substation - Barre Substation (220 kV | Del Amo - Ellis)",
+    "nominal_voltage_kv": 220.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "1439ae13-5a83-517e-a86b-bf4e199c0f2e",
+      "2909ab3e-d126-53eb-968d-8f1f14dafa94"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_AND_NAME",
+      "From Substation Id": "1439ae13-5a83-517e-a86b-bf4e199c0f2e",
+      "To Substation Id": "2909ab3e-d126-53eb-968d-8f1f14dafa94"
+    },
+    "to_substation_id": "1439ae13-5a83-517e-a86b-bf4e199c0f2e",
+    "virtual_endpoint_ids": [],
+    "wire_count": 1
+  },
+  {
+    "connection_point_ids": [
+      "223c6bd7-e239-5e57-a9df-08ce8333f46a",
+      "32ccddec-c44a-590f-a7ac-a02381efa7db"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "1439ae13-5a83-517e-a86b-bf4e199c0f2e",
+    "line_id": "c5ee5bb8-47ea-5db9-af9b-f3df67fb55a0",
+    "line_length_m": 0.0,
+    "line_name": "Ellis Substation - Unnamed OC Substation 62333226 (220 kV)",
+    "nominal_voltage_kv": 220.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "1439ae13-5a83-517e-a86b-bf4e199c0f2e",
+      "6b102f89-0850-5b8e-9215-3408df597667"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "1439ae13-5a83-517e-a86b-bf4e199c0f2e",
+      "To Substation Id": "32456f3d-4112-5248-ae64-66dbdd8c91bf"
+    },
+    "to_substation_id": "6b102f89-0850-5b8e-9215-3408df597667",
+    "virtual_endpoint_ids": [],
+    "wire_count": 1
+  },
+  {
+    "connection_point_ids": [
+      "0adc2cd0-4669-5187-93d6-6c0248dacdbc",
+      "afc1008c-03a0-5af8-a0bf-a51350c1606f"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "28e2dd01-156d-5da8-99f3-dd567a4817e4",
+    "line_id": "a39201c3-16a9-524f-9ed4-33ea25c99d79",
+    "line_length_m": 0.0,
+    "line_name": "Gould Substation - Vincent Substation",
+    "nominal_voltage_kv": 220.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "28e2dd01-156d-5da8-99f3-dd567a4817e4",
+      "da125c6c-f618-5f92-b3ac-f60bf2184aae"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "28e2dd01-156d-5da8-99f3-dd567a4817e4",
+      "To Substation Id": "da125c6c-f618-5f92-b3ac-f60bf2184aae"
+    },
+    "to_substation_id": "da125c6c-f618-5f92-b3ac-f60bf2184aae",
+    "virtual_endpoint_ids": [],
+    "wire_count": 1
+  },
+  {
+    "connection_point_ids": [
+      "9ece507d-c3fe-544a-8412-ae6f20264ce7",
+      "dd6ee712-b1e6-59e1-9bc9-6e46ced63f23"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "6335af26-4e19-51ce-860a-e42d884cebf7",
+    "line_id": "6fc40c57-c934-54d9-a879-8f5500d739cb",
+    "line_length_m": 0.0,
+    "line_name": "Haskell Canyon Switching Station - Unnamed LA Substation 79123590",
+    "nominal_voltage_kv": 230.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "6335af26-4e19-51ce-860a-e42d884cebf7",
+      "fb633da3-d2f2-5a65-98d1-083dc049fa3e"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "6335af26-4e19-51ce-860a-e42d884cebf7",
+      "To Substation Id": "fb633da3-d2f2-5a65-98d1-083dc049fa3e"
+    },
+    "to_substation_id": "fb633da3-d2f2-5a65-98d1-083dc049fa3e",
+    "virtual_endpoint_ids": [],
+    "wire_count": 3
+  },
+  {
+    "connection_point_ids": [
+      "2cbd5e0f-685f-5b69-8d57-14b32990563a",
+      "818d9254-e52a-5cc2-8f29-188bfa30ce8d"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "8779f71c-b6a6-5308-ac7c-779f6c9ae248",
+    "line_id": "5664c024-8a1f-5a89-93ea-3ee301ef0462",
+    "line_length_m": 0.0,
+    "line_name": "La Fresa Substation - Unnamed LA Substation 75206072",
+    "nominal_voltage_kv": 220.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "1d2d3e5a-84a4-588d-abb8-1177089e62b7",
+      "8779f71c-b6a6-5308-ac7c-779f6c9ae248"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "8779f71c-b6a6-5308-ac7c-779f6c9ae248",
+      "To Substation Id": "1d2d3e5a-84a4-588d-abb8-1177089e62b7"
+    },
+    "to_substation_id": "1d2d3e5a-84a4-588d-abb8-1177089e62b7",
+    "virtual_endpoint_ids": [],
+    "wire_count": 1
+  },
+  {
+    "connection_point_ids": [
+      "1544a085-e3c3-5353-a29d-644573e5bdd9",
+      "8f32749c-80e5-57a7-9057-a3764c38212e"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "965f109b-c3a2-57f6-a727-cf3c7be4c486",
+    "line_id": "693094f1-cea5-50b9-b249-123c8e3c27db",
+    "line_length_m": 0.0,
+    "line_name": "Laguna Bell Substation - Lighthipe Substation (220 kV)",
+    "nominal_voltage_kv": 220.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "965f109b-c3a2-57f6-a727-cf3c7be4c486",
+      "ab47d90a-8396-5590-a1a8-8e87864f0d05"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "965f109b-c3a2-57f6-a727-cf3c7be4c486",
+      "To Substation Id": "ab47d90a-8396-5590-a1a8-8e87864f0d05"
+    },
+    "to_substation_id": "ab47d90a-8396-5590-a1a8-8e87864f0d05",
+    "virtual_endpoint_ids": [],
+    "wire_count": 1
+  },
+  {
+    "connection_point_ids": [
+      "1544a085-e3c3-5353-a29d-644573e5bdd9",
+      "8f32749c-80e5-57a7-9057-a3764c38212e"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "965f109b-c3a2-57f6-a727-cf3c7be4c486",
+    "line_id": "f1cbf529-8abe-510c-a0bc-3475600da63c",
+    "line_length_m": 0.0,
+    "line_name": "Laguna Bell Substation - Lighthipe Substation (220 kV) #2",
+    "nominal_voltage_kv": 220.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "965f109b-c3a2-57f6-a727-cf3c7be4c486",
+      "ab47d90a-8396-5590-a1a8-8e87864f0d05"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "965f109b-c3a2-57f6-a727-cf3c7be4c486",
+      "To Substation Id": "ab47d90a-8396-5590-a1a8-8e87864f0d05"
+    },
+    "to_substation_id": "ab47d90a-8396-5590-a1a8-8e87864f0d05",
+    "virtual_endpoint_ids": [],
+    "wire_count": 1
+  },
+  {
+    "connection_point_ids": [
+      "1544a085-e3c3-5353-a29d-644573e5bdd9",
+      "d4247965-22a1-5e08-8abc-4af651db7e17"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "965f109b-c3a2-57f6-a727-cf3c7be4c486",
+    "line_id": "e8496def-530f-572a-9be1-87b89aa67f18",
+    "line_length_m": 0.0,
+    "line_name": "Mesa Substation - Laguna Bell Substation",
+    "nominal_voltage_kv": 220.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "965f109b-c3a2-57f6-a727-cf3c7be4c486",
+      "f16c1abb-b232-5163-902d-9ddaf8b208c0"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "f16c1abb-b232-5163-902d-9ddaf8b208c0",
+      "To Substation Id": "965f109b-c3a2-57f6-a727-cf3c7be4c486"
+    },
+    "to_substation_id": "f16c1abb-b232-5163-902d-9ddaf8b208c0",
+    "virtual_endpoint_ids": [],
+    "wire_count": 2
+  },
+  {
+    "connection_point_ids": [
+      "5194db6f-c654-5fa1-a6b7-589f11831d82",
+      "d4247965-22a1-5e08-8abc-4af651db7e17"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "f16c1abb-b232-5163-902d-9ddaf8b208c0",
+    "line_id": "7c4bdd73-6be5-5de7-a925-5675d7686782",
+    "line_length_m": 0.0,
+    "line_name": "Rio Hondo Substation - Unnamed LA Substation 1485095008 (220 kV)",
+    "nominal_voltage_kv": 220.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "28296cc4-34c9-5b19-8b1a-56f241b8aa7b",
+      "f16c1abb-b232-5163-902d-9ddaf8b208c0"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "28296cc4-34c9-5b19-8b1a-56f241b8aa7b",
+      "To Substation Id": "b2174649-82a7-532a-b6af-9b7940af90d2"
+    },
+    "to_substation_id": "28296cc4-34c9-5b19-8b1a-56f241b8aa7b",
+    "virtual_endpoint_ids": [],
+    "wire_count": 1
+  },
+  {
+    "connection_point_ids": [
+      "0b502eec-a5e8-5ee5-a099-93cba687963a",
+      "461ccbac-05a3-55fd-b73f-0360d75a1d4c"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "7df2a264-d469-5336-a09f-d49780872dec",
+    "line_id": "e9e51095-3e8f-580f-8f8e-5dcb70207858",
+    "line_length_m": 0.0,
+    "line_name": "Santiago Substation - Johanna Substation",
+    "nominal_voltage_kv": 220.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "7df2a264-d469-5336-a09f-d49780872dec",
+      "c4bc5122-022e-5f78-8c2a-3d4a2c0cdf25"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_AND_NAME",
+      "From Substation Id": "c4bc5122-022e-5f78-8c2a-3d4a2c0cdf25",
+      "To Substation Id": "7df2a264-d469-5336-a09f-d49780872dec"
+    },
+    "to_substation_id": "c4bc5122-022e-5f78-8c2a-3d4a2c0cdf25",
+    "virtual_endpoint_ids": [],
+    "wire_count": 1
+  },
+  {
+    "connection_point_ids": [
+      "0adc2cd0-4669-5187-93d6-6c0248dacdbc",
+      "d4247965-22a1-5e08-8abc-4af651db7e17"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "28e2dd01-156d-5da8-99f3-dd567a4817e4",
+    "line_id": "dfe980f9-6f86-5adc-869c-a01ada267e07",
+    "line_length_m": 0.0,
+    "line_name": "T. M. Goodrich Substation - Mesa Substation (220 kV) #2",
+    "nominal_voltage_kv": 220.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "28e2dd01-156d-5da8-99f3-dd567a4817e4",
+      "f16c1abb-b232-5163-902d-9ddaf8b208c0"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "edea7ee8-b2c2-53ff-bcd5-e1f956b153f6",
+      "To Substation Id": "f16c1abb-b232-5163-902d-9ddaf8b208c0"
+    },
+    "to_substation_id": "f16c1abb-b232-5163-902d-9ddaf8b208c0",
+    "virtual_endpoint_ids": [],
+    "wire_count": 2
+  },
+  {
+    "connection_point_ids": [
+      "16dc9b4a-05fd-52a8-9d6e-c311de868e58",
+      "77b4bec5-ab47-5ea3-827e-0b2f525b803d"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "20d9cb6d-4af5-50ae-9e8b-6fd02dda3677",
+    "line_id": "87db2d60-a2f8-5820-936d-3375123c8bb4",
+    "line_length_m": 0.0,
+    "line_name": "Tarzana Receiving Station - Kenter Canyon Substation",
+    "nominal_voltage_kv": 230.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "20d9cb6d-4af5-50ae-9e8b-6fd02dda3677",
+      "23bbe45a-9977-5504-bcd2-339df9f0fd3f"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "23bbe45a-9977-5504-bcd2-339df9f0fd3f",
+      "To Substation Id": "20d9cb6d-4af5-50ae-9e8b-6fd02dda3677"
+    },
+    "to_substation_id": "23bbe45a-9977-5504-bcd2-339df9f0fd3f",
+    "virtual_endpoint_ids": [],
+    "wire_count": 1
+  },
+  {
+    "connection_point_ids": [
+      "76d86d1f-99bf-5aac-9270-82bc6e4cad1a",
+      "77b4bec5-ab47-5ea3-827e-0b2f525b803d"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "0d26aa16-6423-57d5-afb8-874d483b8d01",
+    "line_id": "151f4f1e-6f71-57bf-9f1b-75dc1c1e6658",
+    "line_length_m": 0.0,
+    "line_name": "Tarzana Receiving Station - LADWP Receiving Station J - Northridge",
+    "nominal_voltage_kv": 230.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "0d26aa16-6423-57d5-afb8-874d483b8d01",
+      "23bbe45a-9977-5504-bcd2-339df9f0fd3f"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "23bbe45a-9977-5504-bcd2-339df9f0fd3f",
+      "To Substation Id": "0d26aa16-6423-57d5-afb8-874d483b8d01"
+    },
+    "to_substation_id": "23bbe45a-9977-5504-bcd2-339df9f0fd3f",
+    "virtual_endpoint_ids": [],
+    "wire_count": 1
+  },
+  {
+    "connection_point_ids": [
+      "9748f8de-1f99-5ca1-a931-b5db9f5669de",
+      "d4cb2663-969c-5148-907d-fed59315f997"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "3e882381-b1ad-555a-8cc1-e4df63d7a8e9",
+    "line_id": "14b2c25a-708a-5d88-a473-7625671a80e6",
+    "line_length_m": 0.0,
+    "line_name": "Toluca Receiving Station - Atwater Receiving Station",
+    "nominal_voltage_kv": 230.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "151e4fc3-f201-5af4-9427-1646b4d79baa",
+      "3e882381-b1ad-555a-8cc1-e4df63d7a8e9"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "151e4fc3-f201-5af4-9427-1646b4d79baa",
+      "To Substation Id": "3e882381-b1ad-555a-8cc1-e4df63d7a8e9"
+    },
+    "to_substation_id": "151e4fc3-f201-5af4-9427-1646b4d79baa",
+    "virtual_endpoint_ids": [],
+    "wire_count": 2
+  },
+  {
+    "connection_point_ids": [
+      "adae50ac-9590-548b-aa76-4596738989ef",
+      "d4cb2663-969c-5148-907d-fed59315f997"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "151e4fc3-f201-5af4-9427-1646b4d79baa",
+    "line_id": "6e4a0e47-f24a-526b-bc9b-1de2685c304f",
+    "line_length_m": 0.0,
+    "line_name": "Toluca Receiving Station - DISTRIBUTING STATION 85",
+    "nominal_voltage_kv": 230.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "151e4fc3-f201-5af4-9427-1646b4d79baa",
+      "de3f3aa3-1bfc-5395-a823-4cdd72ff0834"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "151e4fc3-f201-5af4-9427-1646b4d79baa",
+      "To Substation Id": "9dd8cc3f-45b0-50f2-8469-f7af92384970"
+    },
+    "to_substation_id": "de3f3aa3-1bfc-5395-a823-4cdd72ff0834",
+    "virtual_endpoint_ids": [],
+    "wire_count": 1
+  },
+  {
+    "connection_point_ids": [
+      "8478da51-cc3a-50f1-8162-b7a50ccc7411",
+      "bbd08eed-69fa-58ba-9a64-2407784e5a88"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "b225513a-09f6-5e9c-983b-1bf077aa205d",
+    "line_id": "41722444-2a98-5834-8003-a9dd1b2ef4f5",
+    "line_length_m": 0.0,
+    "line_name": "Unnamed LA Substation 65481169 - Unnamed LA Substation 389174034",
+    "nominal_voltage_kv": 220.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "6fb76e77-6dd7-52d6-afab-49be4cc66dfd",
+      "b225513a-09f6-5e9c-983b-1bf077aa205d"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "6fb76e77-6dd7-52d6-afab-49be4cc66dfd",
+      "To Substation Id": "fe825305-feb4-5a87-ad98-59c335c464ed"
+    },
+    "to_substation_id": "6fb76e77-6dd7-52d6-afab-49be4cc66dfd",
+    "virtual_endpoint_ids": [],
+    "wire_count": 1
+  },
+  {
+    "connection_point_ids": [
+      "a493185a-32dc-566d-a233-95801fb5b074",
+      "ef77005d-bcd4-5a93-9183-5aa11697df92"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "fd4cea16-e91d-5752-a04d-689a87e0f2a1",
+    "line_id": "631c5cc2-1ce3-55f8-81e2-b9c7c733f793",
+    "line_length_m": 0.0,
+    "line_name": "Unnamed LA Substation 675049851 - Unnamed LA Substation 1467180896",
+    "nominal_voltage_kv": 220.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "8562088a-78a8-5632-8ac4-259349d25d9a",
+      "fd4cea16-e91d-5752-a04d-689a87e0f2a1"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "8562088a-78a8-5632-8ac4-259349d25d9a",
+      "To Substation Id": "dcecd3e3-242d-5f28-ab7b-160716ce5b55"
+    },
+    "to_substation_id": "8562088a-78a8-5632-8ac4-259349d25d9a",
+    "virtual_endpoint_ids": [],
+    "wire_count": 2
+  },
+  {
+    "connection_point_ids": [
+      "7a989001-0b73-5a13-9752-955ce9ea2fa3",
+      "a493185a-32dc-566d-a233-95801fb5b074"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "fd4cea16-e91d-5752-a04d-689a87e0f2a1",
+    "line_id": "d7fa7b03-003a-5b9d-a9d0-d3f85c6b534b",
+    "line_length_m": 0.0,
+    "line_name": "Unnamed LA Substation 675049852 - Unnamed LA Substation 1467180896",
+    "nominal_voltage_kv": 220.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "9d825d74-1d4d-51b1-9179-1c636859fdcf",
+      "fd4cea16-e91d-5752-a04d-689a87e0f2a1"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "9d825d74-1d4d-51b1-9179-1c636859fdcf",
+      "To Substation Id": "dcecd3e3-242d-5f28-ab7b-160716ce5b55"
+    },
+    "to_substation_id": "9d825d74-1d4d-51b1-9179-1c636859fdcf",
+    "virtual_endpoint_ids": [],
+    "wire_count": 2
+  },
+  {
+    "connection_point_ids": [
+      "8f32749c-80e5-57a7-9057-a3764c38212e",
+      "d74a9da6-3d15-5010-9731-8b7f49a742c1"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "9bfa1636-2824-503d-bbc1-eedcf7a022f3",
+    "line_id": "3aaf7870-d8f8-5921-946b-8f02d606abe2",
+    "line_length_m": 0.0,
+    "line_name": "Unnamed LA Substation 74839034 - HarborGen Substation",
+    "nominal_voltage_kv": 220.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "9bfa1636-2824-503d-bbc1-eedcf7a022f3",
+      "ab47d90a-8396-5590-a1a8-8e87864f0d05"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "b8a9fb59-3eb1-5934-80f3-18361bfb44ed",
+      "To Substation Id": "9bfa1636-2824-503d-bbc1-eedcf7a022f3"
+    },
+    "to_substation_id": "ab47d90a-8396-5590-a1a8-8e87864f0d05",
+    "virtual_endpoint_ids": [],
+    "wire_count": 4
+  },
+  {
+    "connection_point_ids": [
+      "0b502eec-a5e8-5ee5-a099-93cba687963a",
+      "223c6bd7-e239-5e57-a9df-08ce8333f46a"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "1439ae13-5a83-517e-a86b-bf4e199c0f2e",
+    "line_id": "ee625f72-648a-5f6a-81e3-787399b64fa3",
+    "line_length_m": 0.0,
+    "line_name": "Unnamed OC Substation 1296517408 - Ellis Substation (220 kV)",
+    "nominal_voltage_kv": 220.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "1439ae13-5a83-517e-a86b-bf4e199c0f2e",
+      "7df2a264-d469-5336-a09f-d49780872dec"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "935585bf-4a4a-5adf-ba2f-ec5f92642a9c",
+      "To Substation Id": "1439ae13-5a83-517e-a86b-bf4e199c0f2e"
+    },
+    "to_substation_id": "7df2a264-d469-5336-a09f-d49780872dec",
+    "virtual_endpoint_ids": [],
+    "wire_count": 1
+  },
+  {
+    "connection_point_ids": [
+      "223c6bd7-e239-5e57-a9df-08ce8333f46a",
+      "32ccddec-c44a-590f-a7ac-a02381efa7db"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "1439ae13-5a83-517e-a86b-bf4e199c0f2e",
+    "line_id": "0c848dbb-084d-598d-a11b-701159615ee3",
+    "line_length_m": 0.0,
+    "line_name": "Unnamed OC Substation 45074901 - Ellis Substation",
+    "nominal_voltage_kv": 220.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "1439ae13-5a83-517e-a86b-bf4e199c0f2e",
+      "6b102f89-0850-5b8e-9215-3408df597667"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "6b102f89-0850-5b8e-9215-3408df597667",
+      "To Substation Id": "1439ae13-5a83-517e-a86b-bf4e199c0f2e"
+    },
+    "to_substation_id": "6b102f89-0850-5b8e-9215-3408df597667",
+    "virtual_endpoint_ids": [],
+    "wire_count": 1
+  },
+  {
+    "connection_point_ids": [
+      "08deceb9-5fea-58a5-83f5-fadf74372e0e",
+      "22acaccf-f6a4-5197-86f9-1421bcfbc586"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "f1e76650-053e-5394-b64c-d521d74f63d7",
+    "line_id": "e104a9fc-21eb-52c6-b87a-858832d1fb0f",
+    "line_length_m": 0.0,
+    "line_name": "Vermont Substation - Lewis Substation",
+    "nominal_voltage_kv": 220.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "03155e80-bc4f-51d0-bd02-66f16381ed38",
+      "f1e76650-053e-5394-b64c-d521d74f63d7"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "03155e80-bc4f-51d0-bd02-66f16381ed38",
+      "To Substation Id": "f1e76650-053e-5394-b64c-d521d74f63d7"
+    },
+    "to_substation_id": "03155e80-bc4f-51d0-bd02-66f16381ed38",
+    "virtual_endpoint_ids": [],
+    "wire_count": 1
+  },
+  {
+    "connection_point_ids": [
+      "19ead322-2a6d-5778-9519-9c830e356864",
+      "e276bbfe-6670-579f-abee-6d005b3d2396"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "b54c54ea-37c2-55b9-9b7a-045efa13615d",
+    "line_id": "0890ce97-f6d6-534c-a4ab-291a5b57b6bf",
+    "line_length_m": 0.0,
+    "line_name": "Villa Park Substation - Serrano Substation (220 kV)",
+    "nominal_voltage_kv": 220.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "42df28c8-c984-5682-b2ac-1c522e64de59",
+      "b54c54ea-37c2-55b9-9b7a-045efa13615d"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "42df28c8-c984-5682-b2ac-1c522e64de59",
+      "To Substation Id": "b54c54ea-37c2-55b9-9b7a-045efa13615d"
+    },
+    "to_substation_id": "42df28c8-c984-5682-b2ac-1c522e64de59",
+    "virtual_endpoint_ids": [],
+    "wire_count": 1
+  },
+  {
+    "connection_point_ids": [
+      "19ead322-2a6d-5778-9519-9c830e356864",
+      "e276bbfe-6670-579f-abee-6d005b3d2396"
+    ],
+    "corridor_role": "FEEDER",
+    "endpoint_resolution_confidence": "CANONICAL_CP_EXACT",
+    "from_substation_id": "b54c54ea-37c2-55b9-9b7a-045efa13615d",
+    "line_id": "f3fd7510-5af9-567e-9141-9982fe24226c",
+    "line_length_m": 0.0,
+    "line_name": "Villa Park Substation - Serrano Substation (220 kV) #2",
+    "nominal_voltage_kv": 220.0,
+    "normalized_tier": "EHV_220_230",
+    "substation_ids": [
+      "42df28c8-c984-5682-b2ac-1c522e64de59",
+      "b54c54ea-37c2-55b9-9b7a-045efa13615d"
+    ],
+    "supporting_line_attrs": {
+      "Endpoint Confidence": "SPATIAL_ONLY",
+      "From Substation Id": "42df28c8-c984-5682-b2ac-1c522e64de59",
+      "To Substation Id": "b54c54ea-37c2-55b9-9b7a-045efa13615d"
+    },
+    "to_substation_id": "42df28c8-c984-5682-b2ac-1c522e64de59",
+    "virtual_endpoint_ids": [],
+    "wire_count": 1
+  }
+]

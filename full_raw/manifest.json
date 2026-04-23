@@ -1,0 +1,102 @@
+{
+  "files": [
+    {
+      "lfs_expected": true,
+      "path": "full_raw/raw_edges.jsonl.gz",
+      "row_count": 66795,
+      "sha256": "8eb58a3959924135b63be314187d7d11754f541aecc613cac14eabe1fff6b941",
+      "size_bytes": 3799350
+    },
+    {
+      "lfs_expected": true,
+      "path": "full_raw/raw_nodes.jsonl.gz",
+      "row_count": 86003,
+      "sha256": "273449322cbb70d70c754bbdfe7cefac33e1adca58f1b28d9efcb49623ba001d",
+      "size_bytes": 3608802
+    },
+    {
+      "lfs_expected": false,
+      "path": "full_raw/raw_substations.json",
+      "row_count": 674,
+      "sha256": "cc90a06ee87eee0fde5e884af8797fd4d24bd0d029b334d60886195210f889d5",
+      "size_bytes": 249445
+    },
+    {
+      "lfs_expected": true,
+      "path": "full_raw/seed_attrs.jsonl.gz",
+      "row_count": 296268,
+      "sha256": "8d41c90b0404d6718cc3c1b150b263ab75d9ac0c371574cfd088004a5829d97b",
+      "size_bytes": 13558288
+    },
+    {
+      "lfs_expected": true,
+      "path": "full_raw/seed_components.jsonl.gz",
+      "row_count": 191578,
+      "sha256": "48216c67fcd1b624a5038a5c37aec71e6f32a22023268e63584f74daacc8ca8c",
+      "size_bytes": 8443003
+    },
+    {
+      "lfs_expected": true,
+      "path": "full_raw/seed_connections.jsonl.gz",
+      "row_count": 74848,
+      "sha256": "0fd4e8ddfa0094a21ff817d2d064bdae0d81233f2e483c876d4fc513aa2475f5",
+      "size_bytes": 6572671
+    },
+    {
+      "lfs_expected": true,
+      "path": "full_raw/seed_membership.jsonl.gz",
+      "row_count": 78505,
+      "sha256": "a25410e341e4fe265ff26b8c4ff8f2154b3da8ce59e104e0ad88596936e6c182",
+      "size_bytes": 4790024
+    },
+    {
+      "lfs_expected": false,
+      "path": "wave1/anomalies.json",
+      "row_count": 1,
+      "sha256": "386928cf0c0e00694da63d7a4256665920973591432ae8b0dcc728098a68d23c",
+      "size_bytes": 169826
+    },
+    {
+      "lfs_expected": false,
+      "path": "wave1/graph_edges.json",
+      "row_count": 58,
+      "sha256": "892e63227ec56a1e0688f42f2c2426bd812b45526d2a80f1e43b0b4e9818cfab",
+      "size_bytes": 17856
+    },
+    {
+      "lfs_expected": false,
+      "path": "wave1/lines.json",
+      "row_count": 28,
+      "sha256": "8c7a28e867e1530b36290f42cabee66332ab94c54786fbae107b3adc94cc994c",
+      "size_bytes": 27324
+    },
+    {
+      "lfs_expected": false,
+      "path": "wave1/substations.json",
+      "row_count": 64,
+      "sha256": "f0ccc114730d8b075cf3c83c0b6317295e60460837f2cb1aed7fc463df93645b",
+      "size_bytes": 27109
+    },
+    {
+      "lfs_expected": false,
+      "path": "wave1/summary.json",
+      "row_count": 1,
+      "sha256": "93a0483d23c9ba54ff535aa196f5a2ca2a17be30eeb5016227a95c6148f315f2",
+      "size_bytes": 18639
+    },
+    {
+      "lfs_expected": false,
+      "path": "wave1/transformers.json",
+      "row_count": 385,
+      "sha256": "578fe8613457a7c540179898ffd069d12db2859b107abc4adb9535b672683697",
+      "size_bytes": 161749
+    }
+  ],
+  "generation_command": "python3 scripts/build_wave1_exports.py",
+  "notes": [
+    "full_raw/*.gz is intended for Git LFS",
+    "Connection Point is internal to endpoint resolution and is not exposed as a Wave 1 graph node"
+  ],
+  "source_data_mtime_utc": "2026-04-23T05:30:06Z",
+  "source_root": "/Users/nikolaybubnov/Downloads/gridmodel-dev/gridmodel-datasets/08_Data/08.01_Seed/scripts/output"
+}

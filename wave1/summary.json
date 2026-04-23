@@ -1,0 +1,648 @@
+{
+  "clean_station_to_station_ehv_edge_count": 28,
+  "connected_component_count": 40,
+  "connected_components": [
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_1",
+      "distance_from_nearest_500": {
+        "03155e80-bc4f-51d0-bd02-66f16381ed38": null,
+        "f1e76650-053e-5394-b64c-d521d74f63d7": null
+      },
+      "line_count": 1,
+      "root_station_ids": [],
+      "station_count": 2,
+      "station_ids": [
+        "03155e80-bc4f-51d0-bd02-66f16381ed38",
+        "f1e76650-053e-5394-b64c-d521d74f63d7"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_10",
+      "distance_from_nearest_500": {
+        "24cfd258-75c5-57f7-806b-e4bae3db859b": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "24cfd258-75c5-57f7-806b-e4bae3db859b"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_11",
+      "distance_from_nearest_500": {
+        "26936504-8492-5e8b-a822-489bb1ba5caa": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "26936504-8492-5e8b-a822-489bb1ba5caa"
+      ]
+    },
+    {
+      "classification": "ehv_component",
+      "component_id": "component_12",
+      "distance_from_nearest_500": {
+        "2747111d-0c6b-51ce-8032-11c8de67cfff": 0,
+        "a799ed5a-7843-5477-981c-523fe120c14c": 1
+      },
+      "line_count": 1,
+      "root_station_ids": [
+        "2747111d-0c6b-51ce-8032-11c8de67cfff"
+      ],
+      "station_count": 2,
+      "station_ids": [
+        "2747111d-0c6b-51ce-8032-11c8de67cfff",
+        "a799ed5a-7843-5477-981c-523fe120c14c"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_13",
+      "distance_from_nearest_500": {
+        "27611811-63f9-53bc-9154-63e66a03f80f": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "27611811-63f9-53bc-9154-63e66a03f80f"
+      ]
+    },
+    {
+      "classification": "ehv_component",
+      "component_id": "component_14",
+      "distance_from_nearest_500": {
+        "28296cc4-34c9-5b19-8b1a-56f241b8aa7b": 1,
+        "28e2dd01-156d-5da8-99f3-dd567a4817e4": 1,
+        "46906f24-d7da-5847-85dc-457b6abce27a": 3,
+        "965f109b-c3a2-57f6-a727-cf3c7be4c486": 1,
+        "9bfa1636-2824-503d-bbc1-eedcf7a022f3": 3,
+        "ab47d90a-8396-5590-a1a8-8e87864f0d05": 2,
+        "da125c6c-f618-5f92-b3ac-f60bf2184aae": 0,
+        "f16c1abb-b232-5163-902d-9ddaf8b208c0": 0
+      },
+      "line_count": 8,
+      "root_station_ids": [
+        "da125c6c-f618-5f92-b3ac-f60bf2184aae",
+        "f16c1abb-b232-5163-902d-9ddaf8b208c0"
+      ],
+      "station_count": 8,
+      "station_ids": [
+        "28296cc4-34c9-5b19-8b1a-56f241b8aa7b",
+        "28e2dd01-156d-5da8-99f3-dd567a4817e4",
+        "46906f24-d7da-5847-85dc-457b6abce27a",
+        "965f109b-c3a2-57f6-a727-cf3c7be4c486",
+        "9bfa1636-2824-503d-bbc1-eedcf7a022f3",
+        "ab47d90a-8396-5590-a1a8-8e87864f0d05",
+        "da125c6c-f618-5f92-b3ac-f60bf2184aae",
+        "f16c1abb-b232-5163-902d-9ddaf8b208c0"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_15",
+      "distance_from_nearest_500": {
+        "28de1490-2c4d-5c70-b68f-b11751827ddd": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "28de1490-2c4d-5c70-b68f-b11751827ddd"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_16",
+      "distance_from_nearest_500": {
+        "2d96d98b-8251-5ff7-aa3b-db54d03f972c": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "2d96d98b-8251-5ff7-aa3b-db54d03f972c"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_17",
+      "distance_from_nearest_500": {
+        "3030d2b4-f8c0-5fa7-9f07-62eced74b7a9": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "3030d2b4-f8c0-5fa7-9f07-62eced74b7a9"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_18",
+      "distance_from_nearest_500": {
+        "322d5f5b-3704-57fd-a2ff-369c72ea9dc1": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "322d5f5b-3704-57fd-a2ff-369c72ea9dc1"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_19",
+      "distance_from_nearest_500": {
+        "34e94241-7d52-5d99-8fda-a03ff27865ae": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "34e94241-7d52-5d99-8fda-a03ff27865ae"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_2",
+      "distance_from_nearest_500": {
+        "07edf980-3ffb-5906-899e-1faa44e59147": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "07edf980-3ffb-5906-899e-1faa44e59147"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_20",
+      "distance_from_nearest_500": {
+        "37d8f961-f81b-5ef7-a2fa-4ba0fee9127e": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "37d8f961-f81b-5ef7-a2fa-4ba0fee9127e"
+      ]
+    },
+    {
+      "classification": "ehv_component",
+      "component_id": "component_21",
+      "distance_from_nearest_500": {
+        "42df28c8-c984-5682-b2ac-1c522e64de59": 1,
+        "b54c54ea-37c2-55b9-9b7a-045efa13615d": 0
+      },
+      "line_count": 2,
+      "root_station_ids": [
+        "b54c54ea-37c2-55b9-9b7a-045efa13615d"
+      ],
+      "station_count": 2,
+      "station_ids": [
+        "42df28c8-c984-5682-b2ac-1c522e64de59",
+        "b54c54ea-37c2-55b9-9b7a-045efa13615d"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_22",
+      "distance_from_nearest_500": {
+        "4d7c57cb-d6b1-5710-8a87-2ff14630a1a6": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "4d7c57cb-d6b1-5710-8a87-2ff14630a1a6"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_23",
+      "distance_from_nearest_500": {
+        "6335af26-4e19-51ce-860a-e42d884cebf7": null,
+        "fb633da3-d2f2-5a65-98d1-083dc049fa3e": null
+      },
+      "line_count": 1,
+      "root_station_ids": [],
+      "station_count": 2,
+      "station_ids": [
+        "6335af26-4e19-51ce-860a-e42d884cebf7",
+        "fb633da3-d2f2-5a65-98d1-083dc049fa3e"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_24",
+      "distance_from_nearest_500": {
+        "6587aabc-0864-5e07-b9c1-596b54a6445c": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "6587aabc-0864-5e07-b9c1-596b54a6445c"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_25",
+      "distance_from_nearest_500": {
+        "677692bd-4e4c-58a5-a919-67305275fbb1": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "677692bd-4e4c-58a5-a919-67305275fbb1"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_26",
+      "distance_from_nearest_500": {
+        "6ccb8ac8-a50c-5efe-9583-d8f65f19e850": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "6ccb8ac8-a50c-5efe-9583-d8f65f19e850"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_27",
+      "distance_from_nearest_500": {
+        "6fb76e77-6dd7-52d6-afab-49be4cc66dfd": null,
+        "b225513a-09f6-5e9c-983b-1bf077aa205d": null
+      },
+      "line_count": 1,
+      "root_station_ids": [],
+      "station_count": 2,
+      "station_ids": [
+        "6fb76e77-6dd7-52d6-afab-49be4cc66dfd",
+        "b225513a-09f6-5e9c-983b-1bf077aa205d"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_28",
+      "distance_from_nearest_500": {
+        "732502bf-e213-56d7-9a77-10e912769c95": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "732502bf-e213-56d7-9a77-10e912769c95"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_29",
+      "distance_from_nearest_500": {
+        "8562088a-78a8-5632-8ac4-259349d25d9a": null,
+        "9d825d74-1d4d-51b1-9179-1c636859fdcf": null,
+        "fd4cea16-e91d-5752-a04d-689a87e0f2a1": null
+      },
+      "line_count": 2,
+      "root_station_ids": [],
+      "station_count": 3,
+      "station_ids": [
+        "8562088a-78a8-5632-8ac4-259349d25d9a",
+        "9d825d74-1d4d-51b1-9179-1c636859fdcf",
+        "fd4cea16-e91d-5752-a04d-689a87e0f2a1"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_3",
+      "distance_from_nearest_500": {
+        "0d26aa16-6423-57d5-afb8-874d483b8d01": null,
+        "20d9cb6d-4af5-50ae-9e8b-6fd02dda3677": null,
+        "23bbe45a-9977-5504-bcd2-339df9f0fd3f": null
+      },
+      "line_count": 2,
+      "root_station_ids": [],
+      "station_count": 3,
+      "station_ids": [
+        "0d26aa16-6423-57d5-afb8-874d483b8d01",
+        "20d9cb6d-4af5-50ae-9e8b-6fd02dda3677",
+        "23bbe45a-9977-5504-bcd2-339df9f0fd3f"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_30",
+      "distance_from_nearest_500": {
+        "8a6b40f4-3e27-5a07-a739-3184b82fee44": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "8a6b40f4-3e27-5a07-a739-3184b82fee44"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_31",
+      "distance_from_nearest_500": {
+        "8b01b24f-524d-5c17-ba3c-2225bea2fc31": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "8b01b24f-524d-5c17-ba3c-2225bea2fc31"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_32",
+      "distance_from_nearest_500": {
+        "b06330f3-a536-580d-af6e-a6c4bb19d710": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "b06330f3-a536-580d-af6e-a6c4bb19d710"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_33",
+      "distance_from_nearest_500": {
+        "b0cff18d-bdc5-5c24-b571-3025f55f1c58": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "b0cff18d-bdc5-5c24-b571-3025f55f1c58"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_34",
+      "distance_from_nearest_500": {
+        "b474e1ed-edaa-5b0d-92e4-f67c6dedb8b9": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "b474e1ed-edaa-5b0d-92e4-f67c6dedb8b9"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_35",
+      "distance_from_nearest_500": {
+        "b5fcb265-2046-5197-a2a7-bc9dbb943c06": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "b5fcb265-2046-5197-a2a7-bc9dbb943c06"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_36",
+      "distance_from_nearest_500": {
+        "cdd253af-7a32-5344-826e-8a86001cf6d6": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "cdd253af-7a32-5344-826e-8a86001cf6d6"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_37",
+      "distance_from_nearest_500": {
+        "d2081ded-a5de-509d-a179-71ae4bd744c5": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "d2081ded-a5de-509d-a179-71ae4bd744c5"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_38",
+      "distance_from_nearest_500": {
+        "d47b15f7-a1c6-5d75-b806-657ecdaac917": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "d47b15f7-a1c6-5d75-b806-657ecdaac917"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_39",
+      "distance_from_nearest_500": {
+        "e7200ab4-38e8-5386-bff9-d1150b6f1acd": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "e7200ab4-38e8-5386-bff9-d1150b6f1acd"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_4",
+      "distance_from_nearest_500": {
+        "12aab700-b0e3-5005-9893-35b3efeebcea": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "12aab700-b0e3-5005-9893-35b3efeebcea"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_40",
+      "distance_from_nearest_500": {
+        "edea7ee8-b2c2-53ff-bcd5-e1f956b153f6": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "edea7ee8-b2c2-53ff-bcd5-e1f956b153f6"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_5",
+      "distance_from_nearest_500": {
+        "1439ae13-5a83-517e-a86b-bf4e199c0f2e": null,
+        "2909ab3e-d126-53eb-968d-8f1f14dafa94": null,
+        "6b102f89-0850-5b8e-9215-3408df597667": null,
+        "7df2a264-d469-5336-a09f-d49780872dec": null,
+        "c4bc5122-022e-5f78-8c2a-3d4a2c0cdf25": null
+      },
+      "line_count": 6,
+      "root_station_ids": [],
+      "station_count": 5,
+      "station_ids": [
+        "1439ae13-5a83-517e-a86b-bf4e199c0f2e",
+        "2909ab3e-d126-53eb-968d-8f1f14dafa94",
+        "6b102f89-0850-5b8e-9215-3408df597667",
+        "7df2a264-d469-5336-a09f-d49780872dec",
+        "c4bc5122-022e-5f78-8c2a-3d4a2c0cdf25"
+      ]
+    },
+    {
+      "classification": "ehv_component",
+      "component_id": "component_6",
+      "distance_from_nearest_500": {
+        "151e4fc3-f201-5af4-9427-1646b4d79baa": 0,
+        "3e882381-b1ad-555a-8cc1-e4df63d7a8e9": 1,
+        "9b9c0b85-73be-5fc9-8554-5b433a2dd32a": 1,
+        "de3f3aa3-1bfc-5395-a823-4cdd72ff0834": 1
+      },
+      "line_count": 3,
+      "root_station_ids": [
+        "151e4fc3-f201-5af4-9427-1646b4d79baa"
+      ],
+      "station_count": 4,
+      "station_ids": [
+        "151e4fc3-f201-5af4-9427-1646b4d79baa",
+        "3e882381-b1ad-555a-8cc1-e4df63d7a8e9",
+        "9b9c0b85-73be-5fc9-8554-5b433a2dd32a",
+        "de3f3aa3-1bfc-5395-a823-4cdd72ff0834"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_7",
+      "distance_from_nearest_500": {
+        "17ce1ca5-672f-545b-affc-1bd681be8cf4": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "17ce1ca5-672f-545b-affc-1bd681be8cf4"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_8",
+      "distance_from_nearest_500": {
+        "19d980cc-3721-565c-ba1b-110f5d9345e4": null
+      },
+      "line_count": 0,
+      "root_station_ids": [],
+      "station_count": 1,
+      "station_ids": [
+        "19d980cc-3721-565c-ba1b-110f5d9345e4"
+      ]
+    },
+    {
+      "classification": "ehv_island_without_500_root",
+      "component_id": "component_9",
+      "distance_from_nearest_500": {
+        "1d2d3e5a-84a4-588d-abb8-1177089e62b7": null,
+        "8779f71c-b6a6-5308-ac7c-779f6c9ae248": null
+      },
+      "line_count": 1,
+      "root_station_ids": [],
+      "station_count": 2,
+      "station_ids": [
+        "1d2d3e5a-84a4-588d-abb8-1177089e62b7",
+        "8779f71c-b6a6-5308-ac7c-779f6c9ae248"
+      ]
+    }
+  ],
+  "excluded_line_counts_by_reason": {
+    "more_than_two_station_cps": 8,
+    "more_than_two_station_roots": 8,
+    "no_station_boundary_cp": 78,
+    "non_wave1_station_tier": 19,
+    "same_substation_both_ends": 105,
+    "single_station_endpoint": 105,
+    "virtual_endpoint_present": 68
+  },
+  "line_counts_by_tier": {
+    "EHV_220_230": 28
+  },
+  "outlier_voltages_excluded_from_wave1": {
+    "lines": {
+      "12": 1,
+      "138": 35,
+      "34.5": 54,
+      "35": 1,
+      "4.8": 9,
+      "66": 553,
+      "69": 31
+    },
+    "substations": {
+      "12": 2,
+      "12.47": 252,
+      "138": 11,
+      "16": 5,
+      "287": 1,
+      "34.5": 111,
+      "66": 214,
+      "69": 14
+    }
+  },
+  "source_data_mtime_utc": "2026-04-23T05:30:06Z",
+  "source_root": "/Users/nikolaybubnov/Downloads/gridmodel-dev/gridmodel-datasets/08_Data/08.01_Seed/scripts/output",
+  "station_counts_by_tier": {
+    "EHV_220_230": 59,
+    "EHV_500": 5
+  },
+  "transformer_counts_by_pair": {
+    "12->4": 3,
+    "12->4.16": 1,
+    "138->34.5": 4,
+    "138->69": 1,
+    "16->12": 19,
+    "220->34.5": 3,
+    "220->66": 76,
+    "220->69": 6,
+    "230->138": 17,
+    "230->220": 6,
+    "230->34.5": 3,
+    "230->69": 2,
+    "287->230": 1,
+    "34.5->12": 113,
+    "500->220": 29,
+    "500->230": 1,
+    "66->12": 51,
+    "66->16": 33,
+    "69->12": 16
+  },
+  "wave1_relevant_transformer_count": 143,
+  "wave1_voltage_tiers": [
+    "EHV_500",
+    "EHV_220_230"
+  ]
+}

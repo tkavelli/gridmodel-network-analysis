@@ -1,0 +1,5174 @@
+{
+  "excluded_lines": [
+    {
+      "connection_point_ids": [
+        "d4247965-22a1-5e08-8abc-4af651db7e17"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "00c4e15d-34c3-5cc2-851c-539d82ca6dc2",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 566434-702365",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "f16c1abb-b232-5163-902d-9ddaf8b208c0"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "f16c1abb-b232-5163-902d-9ddaf8b208c0",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "c91c4ff5-26f9-5377-806b-b0bec9c46f28"
+      ],
+      "corridor_role": "BACKBONE",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "035f76f7-b265-5afa-a56d-a4c3a9e1baa4",
+      "line_length_m": 0.0,
+      "line_name": "Toluca Receiving Station - DISTRIBUTING STATION 67",
+      "nominal_voltage_kv": 500.0,
+      "normalized_tier": "EHV_500",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [
+        "151e4fc3-f201-5af4-9427-1646b4d79baa"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_AND_NAME",
+        "From Substation Id": "151e4fc3-f201-5af4-9427-1646b4d79baa",
+        "To Substation Id": "0c68f716-f998-500a-8399-377489d89ed3"
+      },
+      "virtual_endpoint_ids": [
+        "c787f7a4-c7e0-5d69-aee3-6067140825e9"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "16dc9b4a-05fd-52a8-9d6e-c311de868e58",
+        "7cdcce3e-7faf-5591-8d89-6c6ff2d90271",
+        "9e895927-364e-529f-9312-660fff0ce39e",
+        "ba429b2c-29bc-5bbd-ab1f-aac0a4327c42",
+        "c87423e5-f910-5e1b-a90d-bdf34d9abbc7"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "03764d96-7b2c-5eed-a7b9-be06d9be31da",
+      "line_length_m": 0.0,
+      "line_name": "Olympic Receiving Station - Unnamed LA Substation 1040107232",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "more_than_two_station_cps",
+        "more_than_two_station_roots",
+        "non_wave1_station_tier",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [
+        "20ad519b-08d1-5a30-85da-910310e6c4a4",
+        "20d9cb6d-4af5-50ae-9e8b-6fd02dda3677",
+        "26936504-8492-5e8b-a822-489bb1ba5caa",
+        "6587aabc-0864-5e07-b9c1-596b54a6445c",
+        "7a48e63c-37c0-5aa4-a145-618abc47423b"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "6587aabc-0864-5e07-b9c1-596b54a6445c",
+        "To Substation Id": "20ad519b-08d1-5a30-85da-910310e6c4a4"
+      },
+      "virtual_endpoint_ids": [
+        "03f3a2ad-7c3e-5695-8c0f-2063af1ac775",
+        "045b1b99-210c-59de-a592-c6795932808f",
+        "16e5484e-2b5a-5bb0-a736-7ac4577f6b8a",
+        "5e722489-7b1c-51f0-84f8-65ac6c7f8dc6",
+        "609d0c97-09d1-5505-9e8e-3188d7c8cf51",
+        "656f6139-542a-5d5b-9de8-eb1048c75f20",
+        "ad7f5bef-6a72-5a9c-a3ce-05f56eb6d1b4",
+        "c837d09f-9666-58f3-bc07-e2cb57efab4b",
+        "e0ea0912-80fa-515f-a81e-7e15aea47280"
+      ],
+      "wire_count": 10
+    },
+    {
+      "connection_point_ids": [
+        "4afac9ff-89bf-5a5f-a6e2-579c3814465b"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "03a52879-8585-59fb-ba44-34f07a6409bb",
+      "line_length_m": 0.0,
+      "line_name": "Mesa Substation - Boundary LA-51182289",
+      "nominal_voltage_kv": 500.0,
+      "normalized_tier": "EHV_500",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "f16c1abb-b232-5163-902d-9ddaf8b208c0"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "f16c1abb-b232-5163-902d-9ddaf8b208c0",
+        "To Substation Id": "51182289-84a0-5e4f-9186-062f8aab0604"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "00ec7462-d624-5d75-b328-61422a39b37b"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "03e5f189-fd42-5f16-9420-ccfeac60bc77",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 702073-211528",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b0cff18d-bdc5-5c24-b571-3025f55f1c58"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b0cff18d-bdc5-5c24-b571-3025f55f1c58",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "0638aa1a-25b2-5251-8645-690c4e587314",
+      "line_length_m": 0.0,
+      "line_name": "Boundary LA-720c1590 - Boundary LA-d687d2f2",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "720c1590-4aec-5598-824d-720ddd7bbb1a",
+        "To Substation Id": "d687d2f2-501e-58c9-b834-a89fa6ffa246"
+      },
+      "virtual_endpoint_ids": [
+        "720c1590-4aec-5598-824d-720ddd7bbb1a",
+        "d687d2f2-501e-58c9-b834-a89fa6ffa246"
+      ],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [
+        "3a0a468d-4850-5afe-b63b-ef7e160c5cca",
+        "7e659f19-a365-5f69-9754-9564b96d1939",
+        "e0464822-f561-5f26-8d75-0dbfc5eb68c9"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "077e4cd5-d2d4-5f94-b007-a3a2d60acc4f",
+      "line_length_m": 0.0,
+      "line_name": "Unnamed LA Substation 394895302 - Chevmain Substation",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "more_than_two_station_cps",
+        "more_than_two_station_roots"
+      ],
+      "substation_ids": [
+        "17ce1ca5-672f-545b-affc-1bd681be8cf4",
+        "4d7c57cb-d6b1-5710-8a87-2ff14630a1a6",
+        "cdd253af-7a32-5344-826e-8a86001cf6d6"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "0f5e2dc4-4eb2-5a7f-be8c-79a7f15cbf3b",
+        "To Substation Id": "4d7c57cb-d6b1-5710-8a87-2ff14630a1a6"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [
+        "7cae5cd6-4528-5d9f-9b4f-e7da06b9baf9"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "0818228a-70e8-5004-8877-2ba13eed60a5",
+      "line_length_m": 0.0,
+      "line_name": "Walnut Substation - Boundary LA-a20583dd",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [
+        "6ccb8ac8-a50c-5efe-9583-d8f65f19e850"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "6ccb8ac8-a50c-5efe-9583-d8f65f19e850",
+        "To Substation Id": "a20583dd-951a-5ec9-8605-47abcd02bff7"
+      },
+      "virtual_endpoint_ids": [
+        "a20583dd-951a-5ec9-8605-47abcd02bff7"
+      ],
+      "wire_count": 3
+    },
+    {
+      "connection_point_ids": [
+        "76d86d1f-99bf-5aac-9270-82bc6e4cad1a"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "083d64dd-43c8-5a6a-bf6e-7a997b386c00",
+      "line_length_m": 0.0,
+      "line_name": "LADWP Receiving Station J - Northridge - DISTRIBUTING STATION 68 (230 kV)",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "0d26aa16-6423-57d5-afb8-874d483b8d01"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "0d26aa16-6423-57d5-afb8-874d483b8d01",
+        "To Substation Id": "42e5a821-a34f-5a9c-9cd4-5deaec0fbfef"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 3
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "09550fe1-302e-5163-ba08-23e70425df43",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 210797-437353",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NONE",
+        "From Substation Id": null,
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 3
+    },
+    {
+      "connection_point_ids": [
+        "00ec7462-d624-5d75-b328-61422a39b37b"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "0a5e98f0-71db-5903-849f-b9530b66922b",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 240877-241045",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b0cff18d-bdc5-5c24-b571-3025f55f1c58"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b0cff18d-bdc5-5c24-b571-3025f55f1c58",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "d4cb2663-969c-5148-907d-fed59315f997"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "0b004a83-4c56-5b05-ba73-8c6ae19ec5fc",
+      "line_length_m": 0.0,
+      "line_name": "DISTRIBUTING STATION 85 - San Fernando Substation",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "151e4fc3-f201-5af4-9427-1646b4d79baa"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "9dd8cc3f-45b0-50f2-8469-f7af92384970",
+        "To Substation Id": "fce834ae-155c-5e56-a02d-fd8216e18290"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "a8cf9588-ab48-5b86-92c7-5102885a0865"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "0b007ee2-11be-5c8e-b702-a51e39015b2f",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 240946-240980",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "37d8f961-f81b-5ef7-a2fa-4ba0fee9127e"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "37d8f961-f81b-5ef7-a2fa-4ba0fee9127e",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "d4247965-22a1-5e08-8abc-4af651db7e17"
+      ],
+      "corridor_role": "BACKBONE",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "0cc02ea7-7d9d-5aa1-bc74-9f615197f438",
+      "line_length_m": 0.0,
+      "line_name": "Mesa Substation - Boundary LA-f89a180a",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [
+        "f16c1abb-b232-5163-902d-9ddaf8b208c0"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "f16c1abb-b232-5163-902d-9ddaf8b208c0",
+        "To Substation Id": "f89a180a-6d8d-517d-a0d5-41033763334f"
+      },
+      "virtual_endpoint_ids": [
+        "f89a180a-6d8d-517d-a0d5-41033763334f"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "0e707a04-be3c-5011-81ff-b6e5701349a1",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 437430-437433",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NONE",
+        "From Substation Id": null,
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "00ec7462-d624-5d75-b328-61422a39b37b"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "0f1f9c2d-292e-5e7b-8b30-80611f15b699",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 240888-210249",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b0cff18d-bdc5-5c24-b571-3025f55f1c58"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b0cff18d-bdc5-5c24-b571-3025f55f1c58",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "1544a085-e3c3-5353-a29d-644573e5bdd9"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "10bd322f-f841-544d-ae80-9ec0025c3205",
+      "line_length_m": 0.0,
+      "line_name": "Laguna Bell Substation - Boundary LA-35f08f21",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "965f109b-c3a2-57f6-a727-cf3c7be4c486"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "965f109b-c3a2-57f6-a727-cf3c7be4c486",
+        "To Substation Id": "35f08f21-b227-53d3-ae0b-426cf8cdc4b7"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "11fcf1a7-814a-566e-8393-8a71a824b9fc",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 273006-702561",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "51f2856b-ffea-574b-a5b2-f7b499e5aff9",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "51f2856b-ffea-574b-a5b2-f7b499e5aff9"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "1499941b-10de-5917-aae1-17f86a502a8f",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 437424-437428",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "f452e296-17b1-59a0-9a40-3b0c8c04e6cc",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "f452e296-17b1-59a0-9a40-3b0c8c04e6cc"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "15534aab-cf8e-502a-871e-7780add2e3b3",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 157763-157765",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NONE",
+        "From Substation Id": null,
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "0d75634b-0f93-575d-be3f-abe32a1ecf47",
+        "9c909351-5b5e-5111-a216-2a17d4b167b5"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "1870e527-1cea-50c3-9b1e-1b2b6f718128",
+      "line_length_m": 0.0,
+      "line_name": "Eagle Rock Switchyard - Boundary LA-3fe5e678",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "non_wave1_station_tier"
+      ],
+      "substation_ids": [
+        "8d3c92c8-c9eb-5c2a-af0d-dc29fd4ef442",
+        "e7200ab4-38e8-5386-bff9-d1150b6f1acd"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "e7200ab4-38e8-5386-bff9-d1150b6f1acd",
+        "To Substation Id": "3fe5e678-55c7-5622-b95c-e14808e4c5f7"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [
+        "fc203218-dfbd-56a0-afb7-21290de7bda6"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "1b38febe-f1c0-5506-8a2b-0a81c4412991",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 329897-424935",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "46906f24-d7da-5847-85dc-457b6abce27a"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "46906f24-d7da-5847-85dc-457b6abce27a",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "1db65f42-313f-5676-b855-337f7f23e388",
+      "line_length_m": 0.0,
+      "line_name": "Haskell Canyon Switching Station - Boundary LA-85ed7d7a",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "6335af26-4e19-51ce-860a-e42d884cebf7",
+        "To Substation Id": "85ed7d7a-9337-5ce7-b2cf-c2c1ff8f43b9"
+      },
+      "virtual_endpoint_ids": [
+        "85ed7d7a-9337-5ce7-b2cf-c2c1ff8f43b9"
+      ],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [
+        "e3f0cc86-fdea-589c-a9d3-1f62da7eaa5d"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "1e9f0b7d-7c1d-5f06-b993-0a8873d8e2ef",
+      "line_length_m": 0.0,
+      "line_name": "Unnamed LA Substation 86092401 - Center Substation",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b5fcb265-2046-5197-a2a7-bc9dbb943c06"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "ad74744d-6615-58d0-9dd5-17a65f74cafe",
+        "To Substation Id": "b5fcb265-2046-5197-a2a7-bc9dbb943c06"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "1ea8606e-f1f2-5f13-8276-d61868b80790",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 551568-606541",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NONE",
+        "From Substation Id": null,
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 3
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "BACKBONE",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "21609292-eadb-5e53-88e6-468877bbd6e5",
+      "line_length_m": 0.0,
+      "line_name": "Unnamed LA Substation 1435238820 - Unnamed LA Substation 1012221850 (500 kV | Victorville-Rinaldi)",
+      "nominal_voltage_kv": 500.0,
+      "normalized_tier": "EHV_500",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "36e0f84c-76dc-5cd3-894e-09ccaba3386c",
+        "To Substation Id": "b05119e0-22ae-53c4-8e7b-0ffb2472d1fa"
+      },
+      "virtual_endpoint_ids": [
+        "20989cc4-3174-55d9-a1bc-11883d35255e",
+        "880271b0-a23b-5fe8-9e50-4719209dfa25"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "00ec7462-d624-5d75-b328-61422a39b37b"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "223d3882-7a29-5f4f-8a3f-d2c6628d4614",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 948536-241110",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b0cff18d-bdc5-5c24-b571-3025f55f1c58"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b0cff18d-bdc5-5c24-b571-3025f55f1c58",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "22b51bf3-e63c-5162-9fe6-fab89ba2fbfc",
+      "line_length_m": 0.0,
+      "line_name": "Rio Hondo-Vincent",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_AND_NAME",
+        "From Substation Id": "da125c6c-f618-5f92-b3ac-f60bf2184aae",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "76d86d1f-99bf-5aac-9270-82bc6e4cad1a",
+        "e13ce41e-0468-5156-9616-26c38f6f1c3f"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "2317334b-7a75-5255-b6f5-ebcb47aee88d",
+      "line_length_m": 0.0,
+      "line_name": "Unnamed LA Substation 1435238820 - DISTRIBUTING STATION 68",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "non_wave1_station_tier"
+      ],
+      "substation_ids": [
+        "0d26aa16-6423-57d5-afb8-874d483b8d01",
+        "36e0f84c-76dc-5cd3-894e-09ccaba3386c"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "36e0f84c-76dc-5cd3-894e-09ccaba3386c",
+        "To Substation Id": "42e5a821-a34f-5a9c-9cd4-5deaec0fbfef"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 4
+    },
+    {
+      "connection_point_ids": [
+        "e13ce41e-0468-5156-9616-26c38f6f1c3f"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "23a0c47b-081c-51f2-8948-28cfc4e94d53",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 701785-272969",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "non_wave1_station_tier",
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "36e0f84c-76dc-5cd3-894e-09ccaba3386c"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "36e0f84c-76dc-5cd3-894e-09ccaba3386c",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "24999437-bf9f-5594-81b0-d06c5c800057",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 220799-220801",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NONE",
+        "From Substation Id": null,
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "8f96ce88-a18d-59b4-aa40-0fa921a92d2c",
+        "a62d7c4c-4a48-59cf-84ac-7f16c208aaf0",
+        "ef77005d-bcd4-5a93-9183-5aa11697df92"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "25868b74-6788-5f56-a9dd-aa97daaa36dc",
+      "line_length_m": 0.0,
+      "line_name": "Receiving Station A - Unnamed LA Substation 675049851",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "more_than_two_station_cps",
+        "more_than_two_station_roots"
+      ],
+      "substation_ids": [
+        "07edf980-3ffb-5906-899e-1faa44e59147",
+        "8562088a-78a8-5632-8ac4-259349d25d9a",
+        "8a6b40f4-3e27-5a07-a739-3184b82fee44"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "8a6b40f4-3e27-5a07-a739-3184b82fee44",
+        "To Substation Id": "8562088a-78a8-5632-8ac4-259349d25d9a"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 8
+    },
+    {
+      "connection_point_ids": [
+        "00ec7462-d624-5d75-b328-61422a39b37b"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "275137d6-ac50-50e6-93a2-5ea6eb4a0c5f",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 240938-241047",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b0cff18d-bdc5-5c24-b571-3025f55f1c58"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b0cff18d-bdc5-5c24-b571-3025f55f1c58",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "19ead322-2a6d-5778-9519-9c830e356864"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "27f46e5d-509c-5587-a7a5-82a2d8df9f95",
+      "line_length_m": 0.0,
+      "line_name": "OrangeCounty Feeder 439809-388497",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "42df28c8-c984-5682-b2ac-1c522e64de59"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "42df28c8-c984-5682-b2ac-1c522e64de59",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "BACKBONE",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "298194c6-dcc9-501d-953f-0ae67b6ac6d0",
+      "line_length_m": 0.0,
+      "line_name": "Boundary LA-db95dd94 - Boundary LA-987e6697",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "db95dd94-b006-5127-8640-d069dd0e82eb",
+        "To Substation Id": "987e6697-7e86-5226-869a-0386bc1e8b68"
+      },
+      "virtual_endpoint_ids": [
+        "cdccaa40-b4d8-5c28-a779-26c895fa0961"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "2a7d0aba-9b5f-5964-a9fa-1c3ccfdc53e9",
+      "line_length_m": 0.0,
+      "line_name": "Viejo Substation - Serrano Substation",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NAME_ONLY",
+        "From Substation Id": "12aab700-b0e3-5005-9893-35b3efeebcea",
+        "To Substation Id": "b54c54ea-37c2-55b9-9b7a-045efa13615d"
+      },
+      "virtual_endpoint_ids": [
+        "2340fbcf-b906-57c4-81ef-c641c924c0eb"
+      ],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "2a88a3a6-7e8d-55ea-8a02-8347bfdb901e",
+      "line_length_m": 0.0,
+      "line_name": "Mesa Substation - Boundary LA-6010eead",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "f16c1abb-b232-5163-902d-9ddaf8b208c0",
+        "To Substation Id": "6010eead-e6b3-531d-9511-3c840d4b7205"
+      },
+      "virtual_endpoint_ids": [
+        "6010eead-e6b3-531d-9511-3c840d4b7205"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "2b2fda03-6e1c-57ab-a56b-ad8e486f96ee",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 702549-702564",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "6630f57b-6a49-5c81-8256-445b4715706f",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "6630f57b-6a49-5c81-8256-445b4715706f"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "2c8fbc05-3f2f-540d-acb5-ae91f1befd89",
+      "line_length_m": 0.0,
+      "line_name": "Boundary LA-fe6b3355 - Boundary LA-6cd5ef24",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "fe6b3355-69bc-55d8-aa84-ecc63541ec0a",
+        "To Substation Id": "6cd5ef24-45a4-5e62-9038-f0bba022b614"
+      },
+      "virtual_endpoint_ids": [
+        "fe6b3355-69bc-55d8-aa84-ecc63541ec0a"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "cedfa24d-77a1-563a-b0b2-b18411efb5e6"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "2cc11b45-9c20-56b5-b68a-b1246aa0a0bf",
+      "line_length_m": 0.0,
+      "line_name": "Vincent Substation - Boundary LA-65b13f72",
+      "nominal_voltage_kv": 500.0,
+      "normalized_tier": "EHV_500",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [
+        "da125c6c-f618-5f92-b3ac-f60bf2184aae"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_AND_NAME",
+        "From Substation Id": "da125c6c-f618-5f92-b3ac-f60bf2184aae",
+        "To Substation Id": "65b13f72-07a3-54e1-9ffb-9d1a5df12d9f"
+      },
+      "virtual_endpoint_ids": [
+        "2f59da96-5e85-5bb0-9b8b-cdf08823ef11",
+        "65b13f72-07a3-54e1-9ffb-9d1a5df12d9f"
+      ],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "BACKBONE",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "2d8d7509-4ca0-54c3-9f00-16aed84f0244",
+      "line_length_m": 0.0,
+      "line_name": "Boundary OC-b1a8ce38 - Boundary OC-59e21226",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "b1a8ce38-0938-585b-98ea-395b0054cd66",
+        "To Substation Id": "59e21226-19f4-56d5-8fc0-6edc9330c74b"
+      },
+      "virtual_endpoint_ids": [
+        "59e21226-19f4-56d5-8fc0-6edc9330c74b",
+        "b1a8ce38-0938-585b-98ea-395b0054cd66"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "2e0096fd-b467-5748-9646-e2c89db36fbd",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 210797-210805",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NONE",
+        "From Substation Id": null,
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "e13ce41e-0468-5156-9616-26c38f6f1c3f"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "2f95ca7d-8d3b-5a2b-9919-5d84f6c87ff9",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 273096-273302",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "non_wave1_station_tier",
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "36e0f84c-76dc-5cd3-894e-09ccaba3386c"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "36e0f84c-76dc-5cd3-894e-09ccaba3386c",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "3224903f-f77c-5814-ac5c-02c5cc6b14d4",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 210819-210823",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NONE",
+        "From Substation Id": null,
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "2cbd5e0f-685f-5b69-8d57-14b32990563a"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "32339325-803c-5944-b6a7-28e9c7fce935",
+      "line_length_m": 0.0,
+      "line_name": "Edison Jersey Substation - Unnamed LA Substation 78797598 (220 kV) #2",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "8779f71c-b6a6-5308-ac7c-779f6c9ae248"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "d09ef39f-f83d-54c5-b729-d4467a967d3d",
+        "To Substation Id": "bb2e376b-8b8c-5cf9-9274-2046ed8505c5"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "00ec7462-d624-5d75-b328-61422a39b37b"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "33db3b92-f687-57b6-a0fb-c066cdf74f9c",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 240938-948617",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b0cff18d-bdc5-5c24-b571-3025f55f1c58"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b0cff18d-bdc5-5c24-b571-3025f55f1c58",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "fc203218-dfbd-56a0-afb7-21290de7bda6"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "33f55670-9b44-54b3-b844-333e06261ee5",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 424564-424623",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "46906f24-d7da-5847-85dc-457b6abce27a"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "46906f24-d7da-5847-85dc-457b6abce27a",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [
+        "cedfa24d-77a1-563a-b0b2-b18411efb5e6"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "34dde8d5-c1b4-54d9-a687-dbb70a7f1c13",
+      "line_length_m": 0.0,
+      "line_name": "Vincent Substation - Boundary LA-339663f7",
+      "nominal_voltage_kv": 500.0,
+      "normalized_tier": "EHV_500",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [
+        "da125c6c-f618-5f92-b3ac-f60bf2184aae"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "da125c6c-f618-5f92-b3ac-f60bf2184aae",
+        "To Substation Id": "339663f7-e793-53ee-bfa1-25842f0c4762"
+      },
+      "virtual_endpoint_ids": [
+        "339663f7-e793-53ee-bfa1-25842f0c4762"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "7cae5cd6-4528-5d9f-9b4f-e7da06b9baf9"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "38c3ca44-d2ad-5816-9d6c-db3ba2959157",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 398153-551608",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "6ccb8ac8-a50c-5efe-9583-d8f65f19e850"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "6ccb8ac8-a50c-5efe-9583-d8f65f19e850",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "398a232f-18e3-5f86-9619-1a899f2d99f8",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 272950-702563",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "136c2a98-8f7d-592b-bf52-febbfc611123",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "136c2a98-8f7d-592b-bf52-febbfc611123"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "a493185a-32dc-566d-a233-95801fb5b074"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "3adcb591-fcf4-554c-b30c-cc825c3d4830",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 424712-425040",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "fd4cea16-e91d-5752-a04d-689a87e0f2a1"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "fd4cea16-e91d-5752-a04d-689a87e0f2a1",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "3b5724cb-a681-5d23-91e8-fab38de40371",
+      "line_length_m": 0.0,
+      "line_name": "Boundary LA-0099c44a - Boundary LA-b6af28fa",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "0099c44a-1716-527d-ad33-85e322cce252",
+        "To Substation Id": "b6af28fa-09cc-5301-a55e-d2abb1753cd2"
+      },
+      "virtual_endpoint_ids": [
+        "d480cd60-54a7-50bd-9cf2-b12f8e64b3a6"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "818d9254-e52a-5cc2-8f29-188bfa30ce8d"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "3dbc13b8-1305-5241-a4e5-159af14b5263",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 658162-716829",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "1d2d3e5a-84a4-588d-abb8-1177089e62b7"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "1d2d3e5a-84a4-588d-abb8-1177089e62b7",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 3
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "3e9cfbac-3a3e-5e50-a9f2-f80ec697ebd0",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 955915-994254",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "59f005d3-4367-5287-b52d-d876623b3419",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "59f005d3-4367-5287-b52d-d876623b3419"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "0d75634b-0f93-575d-be3f-abe32a1ecf47",
+        "9c909351-5b5e-5111-a216-2a17d4b167b5"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "3f8642be-5bfd-5347-b708-f9f657e298fb",
+      "line_length_m": 0.0,
+      "line_name": "Eagle Rock Switchyard - La Canada Substation",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "non_wave1_station_tier"
+      ],
+      "substation_ids": [
+        "8d3c92c8-c9eb-5c2a-af0d-dc29fd4ef442",
+        "e7200ab4-38e8-5386-bff9-d1150b6f1acd"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "e7200ab4-38e8-5386-bff9-d1150b6f1acd",
+        "To Substation Id": "69eb7876-043d-5581-a5ae-b790632ba062"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 5
+    },
+    {
+      "connection_point_ids": [
+        "e3f0cc86-fdea-589c-a9d3-1f62da7eaa5d"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "40634ede-d773-5c40-b18e-48d8e8dbc5cf",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 554498-682696",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b5fcb265-2046-5197-a2a7-bc9dbb943c06"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b5fcb265-2046-5197-a2a7-bc9dbb943c06",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "0adc2cd0-4669-5187-93d6-6c0248dacdbc"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "4324de31-52df-5f36-ad74-dbfb6bfe4a13",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 437321-213639",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "28e2dd01-156d-5da8-99f3-dd567a4817e4"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "28e2dd01-156d-5da8-99f3-dd567a4817e4",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "4796b9c8-2c78-5652-b409-ec8d8b29c06d",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 766600-864057",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "20e0a27d-9a9b-5c8e-ad20-ad7afb7c527a",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "20e0a27d-9a9b-5c8e-ad20-ad7afb7c527a"
+      ],
+      "wire_count": 3
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "484186e3-8021-516c-afe0-73fab68fbb0b",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 701500-701501",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "21dd901d-7861-595f-b3dc-509cb8497e41",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "21dd901d-7861-595f-b3dc-509cb8497e41"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "9a42a79d-755b-55b8-aaad-32bfa5b9f0f7",
+        "d40ac81a-39d8-5ea8-b735-8ea5db75660e"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "4a510a8b-175d-5a29-8ceb-e705c6e9e87f",
+      "line_length_m": 0.0,
+      "line_name": "Receiving Station F - Unnamed LA Substation 169880228",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "non_wave1_station_tier"
+      ],
+      "substation_ids": [
+        "27611811-63f9-53bc-9154-63e66a03f80f",
+        "ce8d036c-7f45-50a9-b7c8-e7e669bcf7b9"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "27611811-63f9-53bc-9154-63e66a03f80f",
+        "To Substation Id": "15473c45-8498-52ca-b925-315a66e15f74"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "014534bf-d8b9-5d23-8f92-7acfb1a18853"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "4e2ce237-e18e-51e1-967d-8b232e16da1d",
+      "line_length_m": 0.0,
+      "line_name": "Big Sky Substation - Antelope Substation (220 kV)",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "2747111d-0c6b-51ce-8032-11c8de67cfff"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "a799ed5a-7843-5477-981c-523fe120c14c",
+        "To Substation Id": "2747111d-0c6b-51ce-8032-11c8de67cfff"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "4ebf095c-0b2e-5abc-9b06-b4057ea03623",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 701748-253180",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NONE",
+        "From Substation Id": null,
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "08deceb9-5fea-58a5-83f5-fadf74372e0e",
+        "19ead322-2a6d-5778-9519-9c830e356864",
+        "9cf38aa7-1375-5871-a5c5-5a7326acfc9f"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "4f04b42d-0651-5fcb-a9f8-4be773db48a5",
+      "line_length_m": 0.0,
+      "line_name": "Lewis Substation - Southwest Substation",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "more_than_two_station_cps",
+        "more_than_two_station_roots"
+      ],
+      "substation_ids": [
+        "2909ab3e-d126-53eb-968d-8f1f14dafa94",
+        "42df28c8-c984-5682-b2ac-1c522e64de59",
+        "f1e76650-053e-5394-b64c-d521d74f63d7"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "f1e76650-053e-5394-b64c-d521d74f63d7",
+        "To Substation Id": "d72ee37d-431a-56d6-9e22-0c50cf2c044c"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 3
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "514199d8-d882-5e6a-a808-c5d749ae578d",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 098518-098519",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "e96fc795-a393-51c9-8acc-2fe9e2ecb64a",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "e96fc795-a393-51c9-8acc-2fe9e2ecb64a"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "53484498-9d8b-5a4b-8055-de70fc5a420c",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 961958-961959",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NONE",
+        "From Substation Id": null,
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "55540cd4-17a7-5021-813c-564ac94d935f",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 701751-253269",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NONE",
+        "From Substation Id": null,
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "2cbd5e0f-685f-5b69-8d57-14b32990563a",
+        "e7ef6c66-85a0-51cc-a5d6-9827b6a3fe40"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "5771d872-b3f1-5f5f-b4d4-34a5b03aade6",
+      "line_length_m": 0.0,
+      "line_name": "La Fresa Substation - Victoria Substation (220 kV)",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "non_wave1_station_tier"
+      ],
+      "substation_ids": [
+        "61da3665-e083-5609-9053-f1453addbbcc",
+        "8779f71c-b6a6-5308-ac7c-779f6c9ae248"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "8779f71c-b6a6-5308-ac7c-779f6c9ae248",
+        "To Substation Id": "800b51bd-16f1-50d5-b7d2-996be32e670d"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "9ece507d-c3fe-544a-8412-ae6f20264ce7"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "59a639ee-8932-5f2e-aa5d-248a619f6a02",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 480587-702623",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "6335af26-4e19-51ce-860a-e42d884cebf7"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "6335af26-4e19-51ce-860a-e42d884cebf7",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "5a43fc67-c2d9-5d64-861a-1a81be79c171",
+      "line_length_m": 0.0,
+      "line_name": "Mesa Substation - Boundary LA-791e1bb7",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "f16c1abb-b232-5163-902d-9ddaf8b208c0",
+        "To Substation Id": "791e1bb7-baa5-5e2d-8c89-90027e787ffb"
+      },
+      "virtual_endpoint_ids": [
+        "791e1bb7-baa5-5e2d-8c89-90027e787ffb"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "76d86d1f-99bf-5aac-9270-82bc6e4cad1a"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "5afcb423-c1ac-51e6-b667-66d422e3848b",
+      "line_length_m": 0.0,
+      "line_name": "LADWP Receiving Station J - Northridge - DISTRIBUTING STATION 68 (230 kV) #2",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "0d26aa16-6423-57d5-afb8-874d483b8d01"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "0d26aa16-6423-57d5-afb8-874d483b8d01",
+        "To Substation Id": "42e5a821-a34f-5a9c-9cd4-5deaec0fbfef"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [
+        "00ec7462-d624-5d75-b328-61422a39b37b"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "5b1d62e3-e137-513d-b7e3-bffe20aad71b",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 240847-948582",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b0cff18d-bdc5-5c24-b571-3025f55f1c58"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b0cff18d-bdc5-5c24-b571-3025f55f1c58",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "e7ef6c66-85a0-51cc-a5d6-9827b6a3fe40"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "5b606812-dfc3-5567-a6e6-decf0edd154a",
+      "line_length_m": 0.0,
+      "line_name": "66kV Switching Station - Boundary LA-a6db28cc",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "non_wave1_station_tier",
+        "same_substation_both_ends",
+        "single_station_endpoint",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [
+        "61da3665-e083-5609-9053-f1453addbbcc"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "61da3665-e083-5609-9053-f1453addbbcc",
+        "To Substation Id": "a6db28cc-f4ba-5ca1-a26e-cfd7da0134c5"
+      },
+      "virtual_endpoint_ids": [
+        "a6db28cc-f4ba-5ca1-a26e-cfd7da0134c5"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "5b772a34-d826-5862-af1a-34df438738c8",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 272950-702562",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "a110499a-e2af-58b7-92b3-a83c7c64eb3e",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "a110499a-e2af-58b7-92b3-a83c7c64eb3e"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "5b8d9453-ecb5-59af-a19f-63d91ec9fde3",
+      "line_length_m": 0.0,
+      "line_name": "Mesa Substation - Receiving Station A",
+      "nominal_voltage_kv": 500.0,
+      "normalized_tier": "EHV_500",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NAME_ONLY",
+        "From Substation Id": "f16c1abb-b232-5163-902d-9ddaf8b208c0",
+        "To Substation Id": "8a6b40f4-3e27-5a07-a739-3184b82fee44"
+      },
+      "virtual_endpoint_ids": [
+        "1c9e2ffb-49b4-5167-8042-648ef3e88710"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "afc1008c-03a0-5af8-a0bf-a51350c1606f"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "5be6e7bf-086a-51e0-b067-566a9cd3d5af",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 217300-204361",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "da125c6c-f618-5f92-b3ac-f60bf2184aae"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "da125c6c-f618-5f92-b3ac-f60bf2184aae",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [
+        "26147d6b-e263-5aa9-82e6-d5e85ed699fc"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "5d3f3f0d-4341-5237-9651-444efd3ecc15",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 551568-499299",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "677692bd-4e4c-58a5-a919-67305275fbb1"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "677692bd-4e4c-58a5-a919-67305275fbb1",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "adae50ac-9590-548b-aa76-4596738989ef"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "5d9584d0-a1ee-5c8a-aa3a-beafa9878c0a",
+      "line_length_m": 0.0,
+      "line_name": "Unnamed LA Substation 31871976 - Unnamed LA Substation 1485094843 (230 kV)",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "de3f3aa3-1bfc-5395-a823-4cdd72ff0834"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "de3f3aa3-1bfc-5395-a823-4cdd72ff0834",
+        "To Substation Id": "1153d8d3-37f7-5ad4-bc65-cff7aad33ce0"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "2cbd5e0f-685f-5b69-8d57-14b32990563a"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "5e070650-738a-5559-9482-ad46b4b941d2",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 658362-263939",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "8779f71c-b6a6-5308-ac7c-779f6c9ae248"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "8779f71c-b6a6-5308-ac7c-779f6c9ae248",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "0d75634b-0f93-575d-be3f-abe32a1ecf47"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "5e4c4bfa-76aa-58f9-9a87-0f7290a6094a",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 214743-220960",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "e7200ab4-38e8-5386-bff9-d1150b6f1acd"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "e7200ab4-38e8-5386-bff9-d1150b6f1acd",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "BACKBONE",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "5f58fbb6-2c63-5415-a587-47d888dfdf04",
+      "line_length_m": 0.0,
+      "line_name": "Boundary OC-0d65fe95 - Boundary OC-7f27d19a",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "0d65fe95-106d-5d25-a52b-c63236492e17",
+        "To Substation Id": "7f27d19a-ccbb-53b3-b1e5-dc9312fed59d"
+      },
+      "virtual_endpoint_ids": [
+        "0d65fe95-106d-5d25-a52b-c63236492e17",
+        "7f27d19a-ccbb-53b3-b1e5-dc9312fed59d"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "fc203218-dfbd-56a0-afb7-21290de7bda6"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "5f923c12-c9b6-5eac-a108-1e51baa696a0",
+      "line_length_m": 0.0,
+      "line_name": "Del Amo Substation - Bovine Substation (220 kV)",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [
+        "46906f24-d7da-5847-85dc-457b6abce27a"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "46906f24-d7da-5847-85dc-457b6abce27a",
+        "To Substation Id": "f25a90ae-ae50-53ed-a2bb-4ab2024d0ab2"
+      },
+      "virtual_endpoint_ids": [
+        "e926d49a-bb4b-556e-bbfa-3d18e8902924"
+      ],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [
+        "cedfa24d-77a1-563a-b0b2-b18411efb5e6"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "603cc43e-f7e5-52ca-869c-a92364bb35c9",
+      "line_length_m": 0.0,
+      "line_name": "SCE Mira Loma-Vincent",
+      "nominal_voltage_kv": 500.0,
+      "normalized_tier": "EHV_500",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "da125c6c-f618-5f92-b3ac-f60bf2184aae"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_AND_NAME",
+        "From Substation Id": "da125c6c-f618-5f92-b3ac-f60bf2184aae",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 3
+    },
+    {
+      "connection_point_ids": [
+        "e7f86592-9e17-51e2-b13f-5f50b2249ec5"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "60ab43b6-7b24-5155-ba29-f5ca9e2c51ee",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 989753-097825",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "9b9c0b85-73be-5fc9-8554-5b433a2dd32a"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "9b9c0b85-73be-5fc9-8554-5b433a2dd32a",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "7a989001-0b73-5a13-9752-955ce9ea2fa3"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "64e7efc9-e94e-52ed-ab91-1937b09132c7",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 973120-144705",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "9d825d74-1d4d-51b1-9179-1c636859fdcf"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "9d825d74-1d4d-51b1-9179-1c636859fdcf",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "afc1008c-03a0-5af8-a0bf-a51350c1606f"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "651a0cbd-5a8a-5f55-b9ae-d30a9a6169b7",
+      "line_length_m": 0.0,
+      "line_name": "Vincent Substation - Unnamed LA Substation 496313045",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [
+        "da125c6c-f618-5f92-b3ac-f60bf2184aae"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "da125c6c-f618-5f92-b3ac-f60bf2184aae",
+        "To Substation Id": "b0438a13-f296-5dc0-81f0-6cae2b0286c0"
+      },
+      "virtual_endpoint_ids": [
+        "56b9e5ee-4ef2-545d-991f-e4081eee3eb1"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "3e535b21-97fe-5ce5-ba15-685a0d777a98"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "6548d99b-7b12-5a23-9fd6-447c864fcbb9",
+      "line_length_m": 0.0,
+      "line_name": "SCE San Onofre - Serrano",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "12aab700-b0e3-5005-9893-35b3efeebcea"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "12aab700-b0e3-5005-9893-35b3efeebcea",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 4
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "65aa1a4a-6953-50b1-a4a4-55f5ff4c002e",
+      "line_length_m": 0.0,
+      "line_name": "Vincent Substation - Receiving Station A",
+      "nominal_voltage_kv": 500.0,
+      "normalized_tier": "EHV_500",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NAME_ONLY",
+        "From Substation Id": "da125c6c-f618-5f92-b3ac-f60bf2184aae",
+        "To Substation Id": "8a6b40f4-3e27-5a07-a739-3184b82fee44"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "9ece507d-c3fe-544a-8412-ae6f20264ce7"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "67076358-0c42-5df5-9816-df9ddb674ef3",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 480587-702600",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "6335af26-4e19-51ce-860a-e42d884cebf7"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "6335af26-4e19-51ce-860a-e42d884cebf7",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "67e653d9-c020-5d28-896f-149b45fa26af",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 098526-098527",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "eb327093-330b-5ad9-8e4e-2319d4ad5859",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "eb327093-330b-5ad9-8e4e-2319d4ad5859"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "00ec7462-d624-5d75-b328-61422a39b37b"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "68eb43b4-33cd-53b0-a629-46d3c9108081",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 240963-241102",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b0cff18d-bdc5-5c24-b571-3025f55f1c58"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b0cff18d-bdc5-5c24-b571-3025f55f1c58",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "669454eb-30e2-576c-8976-28cf3d2c8937"
+      ],
+      "corridor_role": "BACKBONE",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "6a589d01-7b15-5d12-8c06-086b5b446925",
+      "line_length_m": 0.0,
+      "line_name": "Serrano Substation - Boundary OC-c3e2c4d0",
+      "nominal_voltage_kv": 500.0,
+      "normalized_tier": "EHV_500",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [
+        "b54c54ea-37c2-55b9-9b7a-045efa13615d"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b54c54ea-37c2-55b9-9b7a-045efa13615d",
+        "To Substation Id": "c3e2c4d0-e2e0-5527-a5dc-f3ab63960b76"
+      },
+      "virtual_endpoint_ids": [
+        "c3e2c4d0-e2e0-5527-a5dc-f3ab63960b76"
+      ],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [
+        "e7f86592-9e17-51e2-b13f-5f50b2249ec5"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "6f022199-8c2c-573e-a3fd-29192634f1e3",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 989753-436864",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "9b9c0b85-73be-5fc9-8554-5b433a2dd32a"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "9b9c0b85-73be-5fc9-8554-5b433a2dd32a",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "70c41361-957c-58ac-81cc-72f73995282f",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 241102-428675",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "bee1cd65-a163-5414-88ee-3f55d920bf92",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "bee1cd65-a163-5414-88ee-3f55d920bf92"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "b9cc6046-7b63-560c-9180-e27403af1eee"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "727d9006-8585-5114-955e-ba6819e8c924",
+      "line_length_m": 0.0,
+      "line_name": "Bailey Substation - Boundary LA-02acb7d2",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "19d980cc-3721-565c-ba1b-110f5d9345e4"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "19d980cc-3721-565c-ba1b-110f5d9345e4",
+        "To Substation Id": "02acb7d2-5020-5e83-b190-d9ba3a2d0103"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "7291c5a4-27a8-5984-8498-127645318e4f",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 218541-220503",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NONE",
+        "From Substation Id": null,
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "731b4af9-5902-5bd2-b7e7-0093f064b694",
+      "line_length_m": 0.0,
+      "line_name": "Mesa Substation - Boundary LA-62d14ee9",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "f16c1abb-b232-5163-902d-9ddaf8b208c0",
+        "To Substation Id": "62d14ee9-bb43-5efb-91ba-2d3be1a36bae"
+      },
+      "virtual_endpoint_ids": [
+        "62d14ee9-bb43-5efb-91ba-2d3be1a36bae"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "e276bbfe-6670-579f-abee-6d005b3d2396"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "73f86dfb-a586-51eb-97c1-f82809bf8433",
+      "line_length_m": 0.0,
+      "line_name": "SCE San Onofre - Serrano;Serrano - Chino",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b54c54ea-37c2-55b9-9b7a-045efa13615d"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_AND_NAME",
+        "From Substation Id": "b54c54ea-37c2-55b9-9b7a-045efa13615d",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 3
+    },
+    {
+      "connection_point_ids": [
+        "0adc2cd0-4669-5187-93d6-6c0248dacdbc"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "7418a4a7-d2f4-59e5-9478-071057f2d3e5",
+      "line_length_m": 0.0,
+      "line_name": "Gould Substation - La Canada Substation",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "28e2dd01-156d-5da8-99f3-dd567a4817e4"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "28e2dd01-156d-5da8-99f3-dd567a4817e4",
+        "To Substation Id": "69eb7876-043d-5581-a5ae-b790632ba062"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 3
+    },
+    {
+      "connection_point_ids": [
+        "00ec7462-d624-5d75-b328-61422a39b37b"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "75230c06-84f4-58fb-bb5f-296bf80a985e",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 948571-211528",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b0cff18d-bdc5-5c24-b571-3025f55f1c58"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b0cff18d-bdc5-5c24-b571-3025f55f1c58",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "00ec7462-d624-5d75-b328-61422a39b37b"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "7542d3e7-9261-507b-8a92-7754cb1275a5",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 948607-241102",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b0cff18d-bdc5-5c24-b571-3025f55f1c58"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b0cff18d-bdc5-5c24-b571-3025f55f1c58",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "0d75634b-0f93-575d-be3f-abe32a1ecf47",
+        "9c909351-5b5e-5111-a216-2a17d4b167b5"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "75ee688a-6515-5416-b19f-9aaffa5c8868",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 220801-098487",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "non_wave1_station_tier"
+      ],
+      "substation_ids": [
+        "8d3c92c8-c9eb-5c2a-af0d-dc29fd4ef442",
+        "e7200ab4-38e8-5386-bff9-d1150b6f1acd"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "e7200ab4-38e8-5386-bff9-d1150b6f1acd",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 4
+    },
+    {
+      "connection_point_ids": [
+        "08deceb9-5fea-58a5-83f5-fadf74372e0e"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "76e7d11e-d5c4-52bc-ba6c-be22347b07c1",
+      "line_length_m": 0.0,
+      "line_name": "Lewis Substation - Unnamed OC Substation 383837116 (220 kV)",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "f1e76650-053e-5394-b64c-d521d74f63d7"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "f1e76650-053e-5394-b64c-d521d74f63d7",
+        "To Substation Id": "093e5404-1bee-5716-9367-3b3ea65f7df9"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "c87423e5-f910-5e1b-a90d-bdf34d9abbc7"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "77ebff1a-b96a-5420-9dfe-6137cc92ab9a",
+      "line_length_m": 0.0,
+      "line_name": "Unnamed LA Substation 1463930554 - Unnamed LA Substation 1463930555",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "6587aabc-0864-5e07-b9c1-596b54a6445c"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "0773ad5d-ce5d-5020-ac5b-444cd1f6a72b",
+        "To Substation Id": "b586593a-8c0e-5f95-aa0a-0c2bd2393d80"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "784dd68f-94a7-5b39-9bbb-e6afdd22ad95",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 437353-210808",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NONE",
+        "From Substation Id": null,
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "00ec7462-d624-5d75-b328-61422a39b37b"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "7a03be03-daa8-55a8-9d6d-1f4e5af2134b",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 948623-217300",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b0cff18d-bdc5-5c24-b571-3025f55f1c58"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b0cff18d-bdc5-5c24-b571-3025f55f1c58",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "9ece507d-c3fe-544a-8412-ae6f20264ce7"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "7a2799fc-30d0-51ce-a23c-123015610a0a",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 211470-480587",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "6335af26-4e19-51ce-860a-e42d884cebf7"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "6335af26-4e19-51ce-860a-e42d884cebf7",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "7be97d55-3ba0-537d-957f-41bbf53d59bd",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 702728-220490",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NONE",
+        "From Substation Id": null,
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "7f443e70-832a-5c82-9128-202265d5f1f5",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 702723-220503",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "846ae200-2961-56fc-b8f1-44da8bd63828",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "846ae200-2961-56fc-b8f1-44da8bd63828"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "BACKBONE",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "83dc96c3-709e-5d9d-9e91-c27e969080e8",
+      "line_length_m": 0.0,
+      "line_name": "Boundary OC-4118e564 - Boundary OC-71ec568a",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "4118e564-8ca8-5ca0-9fbb-9a88495c7f32",
+        "To Substation Id": "71ec568a-b828-5454-aa2c-0d2fb0ce68ff"
+      },
+      "virtual_endpoint_ids": [
+        "4118e564-8ca8-5ca0-9fbb-9a88495c7f32",
+        "71ec568a-b828-5454-aa2c-0d2fb0ce68ff"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "84438c96-427b-5916-a3fc-11d2ec116ae0",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 702725-220503",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "2b36da30-75a4-5292-b3cf-5719a84b21b7",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "2b36da30-75a4-5292-b3cf-5719a84b21b7"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "85a7c614-0fd8-544b-9d19-70354a2942eb",
+      "line_length_m": 0.0,
+      "line_name": "Haskell Canyon Switching Station - Boundary LA-77be3cbd",
+      "nominal_voltage_kv": 500.0,
+      "normalized_tier": "EHV_500",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "6335af26-4e19-51ce-860a-e42d884cebf7",
+        "To Substation Id": "77be3cbd-a743-5a14-afe3-f1053f2c6897"
+      },
+      "virtual_endpoint_ids": [
+        "77be3cbd-a743-5a14-afe3-f1053f2c6897"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "879191cf-fa9f-55bc-8e74-6c9f7814b459",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 701500-990363",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "94a712bd-026e-500b-ad83-5fff97b6dc8d",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "94a712bd-026e-500b-ad83-5fff97b6dc8d"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "2cbd5e0f-685f-5b69-8d57-14b32990563a"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "88017d86-6fdb-56e9-a102-dc19e3622124",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 124906-263939",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "8779f71c-b6a6-5308-ac7c-779f6c9ae248"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "8779f71c-b6a6-5308-ac7c-779f6c9ae248",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "19ead322-2a6d-5778-9519-9c830e356864"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "8879d293-cd88-5f9f-8876-76ded2edc39d",
+      "line_length_m": 0.0,
+      "line_name": "OrangeCounty Feeder 388521-408570",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "42df28c8-c984-5682-b2ac-1c522e64de59"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "42df28c8-c984-5682-b2ac-1c522e64de59",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "89171ca3-2e28-5ced-9fc8-5694d414786a",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 098522-098523",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "ab739f86-7b45-59eb-b82a-933ede9c3079",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "ab739f86-7b45-59eb-b82a-933ede9c3079"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "891844c9-5299-53fc-b17f-6f136701b982",
+      "line_length_m": 0.0,
+      "line_name": "Boundary LA-1ea3c8d0 - Boundary LA-dd662052",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "1ea3c8d0-840f-5e9f-904e-4f459215b5de",
+        "To Substation Id": "dd662052-df2c-58fd-8186-0e7e4b6f49a2"
+      },
+      "virtual_endpoint_ids": [
+        "1ea3c8d0-840f-5e9f-904e-4f459215b5de",
+        "dd662052-df2c-58fd-8186-0e7e4b6f49a2"
+      ],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [
+        "adae50ac-9590-548b-aa76-4596738989ef"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "8b77c71b-3c70-5805-be26-b79f2eea08e1",
+      "line_length_m": 0.0,
+      "line_name": "Unnamed LA Substation 31871976 - Unnamed LA Substation 1485094843 (230 kV) #2",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [
+        "de3f3aa3-1bfc-5395-a823-4cdd72ff0834"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "de3f3aa3-1bfc-5395-a823-4cdd72ff0834",
+        "To Substation Id": "1153d8d3-37f7-5ad4-bc65-cff7aad33ce0"
+      },
+      "virtual_endpoint_ids": [
+        "0dd04e86-e24a-5e39-96a9-e68ebd8b6a72"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "8c8410f9-d25a-5c49-9705-d8fe9cece1e1",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 972937-972965",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "7d47101a-32f1-5aa5-a306-e385ee331f3c",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "7d47101a-32f1-5aa5-a306-e385ee331f3c"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "e3f0cc86-fdea-589c-a9d3-1f62da7eaa5d"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "8cf40efc-bde6-5ae3-9401-e13826d4af53",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 424564-549186",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b5fcb265-2046-5197-a2a7-bc9dbb943c06"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b5fcb265-2046-5197-a2a7-bc9dbb943c06",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "0adc2cd0-4669-5187-93d6-6c0248dacdbc",
+        "538f8f77-ea15-5e8e-b59d-87098fa42b76",
+        "d4247965-22a1-5e08-8abc-4af651db7e17"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "8de94678-a7db-584a-aca1-344ea2a64180",
+      "line_length_m": 0.0,
+      "line_name": "T. M. Goodrich Substation - Mesa Substation (220 kV)",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "more_than_two_station_cps",
+        "more_than_two_station_roots"
+      ],
+      "substation_ids": [
+        "28e2dd01-156d-5da8-99f3-dd567a4817e4",
+        "edea7ee8-b2c2-53ff-bcd5-e1f956b153f6",
+        "f16c1abb-b232-5163-902d-9ddaf8b208c0"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "edea7ee8-b2c2-53ff-bcd5-e1f956b153f6",
+        "To Substation Id": "f16c1abb-b232-5163-902d-9ddaf8b208c0"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [
+        "08deceb9-5fea-58a5-83f5-fadf74372e0e"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "8efdc906-2913-5b1a-9008-5d40eb7593fc",
+      "line_length_m": 0.0,
+      "line_name": "Lewis Substation - Boundary OC-cfd1bafe",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "f1e76650-053e-5394-b64c-d521d74f63d7"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "f1e76650-053e-5394-b64c-d521d74f63d7",
+        "To Substation Id": "cfd1bafe-8153-5886-b724-0b94de5ab1c1"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "993cb553-d379-51e9-afbc-7d23ab110a37"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "90cc68ec-42ba-5eb2-bbd1-5518d5e9b936",
+      "line_length_m": 0.0,
+      "line_name": "Unnamed LA Substation 94788736 - Boundary LA-8b500ded",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "d2081ded-a5de-509d-a179-71ae4bd744c5"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "d2081ded-a5de-509d-a179-71ae4bd744c5",
+        "To Substation Id": "8b500ded-d94f-5d5a-9a2b-ac6c62c65495"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "9ece507d-c3fe-544a-8412-ae6f20264ce7"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "945abe74-0e92-549a-9e75-316f05e5df07",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 157768-218101",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "6335af26-4e19-51ce-860a-e42d884cebf7"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "6335af26-4e19-51ce-860a-e42d884cebf7",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "BACKBONE",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "96c1a54d-9e5f-5cfa-b661-6a61b2ea4d03",
+      "line_length_m": 0.0,
+      "line_name": "LA Backbone 592114-571157",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "f50345e6-36ca-52d7-ba17-5f7fc9565cbc",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "f50345e6-36ca-52d7-ba17-5f7fc9565cbc"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "972b0f39-c1cb-5f85-8047-06e66aea74d5",
+      "line_length_m": 0.0,
+      "line_name": "Rio Hondo Substation - Unnamed LA Substation 1485095008 (500 kV | Vincent-Mesa)",
+      "nominal_voltage_kv": 500.0,
+      "normalized_tier": "EHV_500",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "28296cc4-34c9-5b19-8b1a-56f241b8aa7b",
+        "To Substation Id": "b2174649-82a7-532a-b6af-9b7940af90d2"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "c1a68f3e-4bec-56b5-8061-ad2eb312d29e"
+      ],
+      "corridor_role": "BACKBONE",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "97310e9d-2922-54c7-bf85-c31859ba0940",
+      "line_length_m": 0.0,
+      "line_name": "Unnamed LA Substation 499178659 - Boundary LA-00c2e8df",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "2d96d98b-8251-5ff7-aa3b-db54d03f972c"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "2d96d98b-8251-5ff7-aa3b-db54d03f972c",
+        "To Substation Id": "00c2e8df-57e0-564e-b19e-9de591a82dad"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "fc203218-dfbd-56a0-afb7-21290de7bda6"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "97993bc4-f109-5f86-a939-e5e1332be9b5",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 422877-424712",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "46906f24-d7da-5847-85dc-457b6abce27a"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "46906f24-d7da-5847-85dc-457b6abce27a",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "e13ce41e-0468-5156-9616-26c38f6f1c3f"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "97c1eea4-d001-57eb-b01a-5c2f9a4e43ee",
+      "line_length_m": 0.0,
+      "line_name": "Unnamed LA Substation 1435238820 - Unnamed LA Substation 767650531",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "non_wave1_station_tier",
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "36e0f84c-76dc-5cd3-894e-09ccaba3386c"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "36e0f84c-76dc-5cd3-894e-09ccaba3386c",
+        "To Substation Id": "99513844-8811-5936-a1b7-dd07fdda638d"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "9a2238a8-cbf9-51e2-b492-551298c7e9e0",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 273192-702565",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "72362ebb-3b28-51b3-ad3c-92b652cb7ac1",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "72362ebb-3b28-51b3-ad3c-92b652cb7ac1"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "0d75634b-0f93-575d-be3f-abe32a1ecf47",
+        "9c909351-5b5e-5111-a216-2a17d4b167b5"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "9a93b4d4-2d7f-58e0-8cbe-7af8bde7bca2",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 098492-098490",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "non_wave1_station_tier"
+      ],
+      "substation_ids": [
+        "8d3c92c8-c9eb-5c2a-af0d-dc29fd4ef442",
+        "e7200ab4-38e8-5386-bff9-d1150b6f1acd"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "e7200ab4-38e8-5386-bff9-d1150b6f1acd",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "9ece507d-c3fe-544a-8412-ae6f20264ce7",
+        "e9fe9c0f-1f16-59f3-becf-0a16c879df68"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "9bab6be4-5f75-5c04-a2ad-b8e1c3c3cd0e",
+      "line_length_m": 0.0,
+      "line_name": "Haskell Canyon Switching Station - Unnamed LA Substation 1485094844",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "non_wave1_station_tier"
+      ],
+      "substation_ids": [
+        "6335af26-4e19-51ce-860a-e42d884cebf7",
+        "dd469ade-3be7-5ca2-8bbe-cf5454cbb9b7"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "6335af26-4e19-51ce-860a-e42d884cebf7",
+        "To Substation Id": "dd469ade-3be7-5ca2-8bbe-cf5454cbb9b7"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 10
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "9bafd35a-66a4-54bf-ac19-0eafe4913cbf",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 273188-702566",
+      "nominal_voltage_kv": 500.0,
+      "normalized_tier": "EHV_500",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "f253658b-72fd-5b41-b739-1f201f02372c",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "f253658b-72fd-5b41-b739-1f201f02372c"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "9c20080e-d34f-5462-a6fd-55df08fb5408",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 098518-098533",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "dccf056a-81a6-5678-9a85-9d650f64aad3",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "dccf056a-81a6-5678-9a85-9d650f64aad3"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "9cb3b220-3144-5adc-b6ff-627f626be203",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 098524-098525",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "e0ad619d-c4c8-5f17-8b4b-4e99ac859304",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "e0ad619d-c4c8-5f17-8b4b-4e99ac859304"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "3e535b21-97fe-5ce5-ba15-685a0d777a98"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "9fc133a2-1260-52f3-be50-43c74b6995ba",
+      "line_length_m": 0.0,
+      "line_name": "SCE San Onofre - Serrano;Chino - Viejo",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "12aab700-b0e3-5005-9893-35b3efeebcea"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_AND_NAME",
+        "From Substation Id": "12aab700-b0e3-5005-9893-35b3efeebcea",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "9cf38aa7-1375-5871-a5c5-5a7326acfc9f"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "a033aef2-19a8-57a4-bc13-a86058d35368",
+      "line_length_m": 0.0,
+      "line_name": "Unnamed OC Substation 915704590 - Unnamed OC Substation 935669323",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [
+        "2909ab3e-d126-53eb-968d-8f1f14dafa94"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "9dd9dca7-78da-54be-99ff-faf30c307950",
+        "To Substation Id": "fb601a83-91ab-527d-9256-765c0d0bded7"
+      },
+      "virtual_endpoint_ids": [
+        "94253de5-debf-5a95-b019-42deda444804"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "9cf38aa7-1375-5871-a5c5-5a7326acfc9f",
+        "fc203218-dfbd-56a0-afb7-21290de7bda6"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "a2de1322-de86-55cc-a533-421383476a73",
+      "line_length_m": 0.0,
+      "line_name": "Bovine Substation - Unnamed OC Substation 915704590",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [
+        "2909ab3e-d126-53eb-968d-8f1f14dafa94",
+        "46906f24-d7da-5847-85dc-457b6abce27a"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "f25a90ae-ae50-53ed-a2bb-4ab2024d0ab2",
+        "To Substation Id": "9dd9dca7-78da-54be-99ff-faf30c307950"
+      },
+      "virtual_endpoint_ids": [
+        "570284d2-28dd-5f80-b061-e2cf98bfc13a",
+        "be94f618-5ef2-5bcb-b569-4d85fe834c5a"
+      ],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [
+        "00ec7462-d624-5d75-b328-61422a39b37b"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "a41c5715-df65-5d17-bf11-f4e2cc35ef31",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 241030-241110",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b0cff18d-bdc5-5c24-b571-3025f55f1c58"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b0cff18d-bdc5-5c24-b571-3025f55f1c58",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "00ec7462-d624-5d75-b328-61422a39b37b"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "a4bf7105-5e98-5bbf-b1da-39e7eeac54cd",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 948544-241045",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b0cff18d-bdc5-5c24-b571-3025f55f1c58"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b0cff18d-bdc5-5c24-b571-3025f55f1c58",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "e13ce41e-0468-5156-9616-26c38f6f1c3f"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "a65c658e-970c-5987-ae96-a669e6e46454",
+      "line_length_m": 0.0,
+      "line_name": "SCE 00755",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "non_wave1_station_tier",
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "36e0f84c-76dc-5cd3-894e-09ccaba3386c"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "36e0f84c-76dc-5cd3-894e-09ccaba3386c",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "b9cc6046-7b63-560c-9180-e27403af1eee"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "a685b6b7-7e65-5961-b603-95a7f9cfa375",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 210278-917608",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "19d980cc-3721-565c-ba1b-110f5d9345e4"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "19d980cc-3721-565c-ba1b-110f5d9345e4",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "a784331d-2a4b-5c55-8ccd-08b4e3bc8554",
+      "line_length_m": 0.0,
+      "line_name": "SCE Chino - Viejo",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_AND_NAME",
+        "From Substation Id": "12aab700-b0e3-5005-9893-35b3efeebcea",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "a7cfb659-4e56-5b12-9797-acbcb1096213",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 232585-234384",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NONE",
+        "From Substation Id": null,
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "BACKBONE",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "a84e20ca-0a10-53f3-b6b4-afffd9da7509",
+      "line_length_m": 0.0,
+      "line_name": "Unnamed LA Substation 1435238820 - Unnamed LA Substation 1012221850 (500 kV | Adelanto-Rinaldi)",
+      "nominal_voltage_kv": 500.0,
+      "normalized_tier": "EHV_500",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "36e0f84c-76dc-5cd3-894e-09ccaba3386c",
+        "To Substation Id": "b05119e0-22ae-53c4-8e7b-0ffb2472d1fa"
+      },
+      "virtual_endpoint_ids": [
+        "3c0a01b7-c0dd-5888-ace7-a8cc59ae68fb",
+        "75d5be27-ccd4-5ebf-a002-7204e71a4dcc"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "adbd295e-ebad-5891-87b9-52a923c50252",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 939062-702718",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "2ee0cea5-56b6-5fc6-a960-348b812ff74e",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "2ee0cea5-56b6-5fc6-a960-348b812ff74e"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "3a0a468d-4850-5afe-b63b-ef7e160c5cca"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "b023e59a-fa44-5d5a-8fa9-dd3a0c7949b7",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 990363-701483",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "cdd253af-7a32-5344-826e-8a86001cf6d6"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "cdd253af-7a32-5344-826e-8a86001cf6d6",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "b1442d3a-75f0-5e15-ae09-cb67e7890150",
+      "line_length_m": 0.0,
+      "line_name": "Unnamed LA Substation 691693677 - Inglewood Substation",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "bcecd917-bb75-53f2-a7e0-c54606b1e63a",
+        "To Substation Id": "72913b4a-3cfd-5e78-a142-982c74b89358"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [
+        "9748f8de-1f99-5ca1-a931-b5db9f5669de"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "b2cd0ff8-0d3b-56d7-b1c9-b4de44e71bf4",
+      "line_length_m": 0.0,
+      "line_name": "Atwater Receiving Station - Distributing Station 25",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "3e882381-b1ad-555a-8cc1-e4df63d7a8e9"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "3e882381-b1ad-555a-8cc1-e4df63d7a8e9",
+        "To Substation Id": "d9e9f7a9-309e-533c-9279-a91fc0ad1acb"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [
+        "19ead322-2a6d-5778-9519-9c830e356864"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "b3d9392a-a9f3-57ad-b648-cbd3ea8e5bb2",
+      "line_length_m": 0.0,
+      "line_name": "OrangeCounty Feeder 388521-439809",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "42df28c8-c984-5682-b2ac-1c522e64de59"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "42df28c8-c984-5682-b2ac-1c522e64de59",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "b6770f3a-7317-5792-8560-7585691c5979",
+      "line_length_m": 0.0,
+      "line_name": "Boundary LA-1f9c95d2 - Boundary LA-b659516e",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "1f9c95d2-d990-5fc8-bfdc-e87f26519c3a",
+        "To Substation Id": "b659516e-d0ec-550a-8aa0-a1282cce6aa0"
+      },
+      "virtual_endpoint_ids": [
+        "0e72c2c6-1126-56f7-9711-2b477357dd1e"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "dd6ee712-b1e6-59e1-9bc9-6e46ced63f23"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "b7a5cde6-6052-5ee5-89b5-125f062c26d6",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 157765-209052",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "fb633da3-d2f2-5a65-98d1-083dc049fa3e"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "fb633da3-d2f2-5a65-98d1-083dc049fa3e",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "b98c1b51-3e67-5acb-b3e1-a5ed293e9bb9",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 437430-437436",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NONE",
+        "From Substation Id": null,
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "5194db6f-c654-5fa1-a6b7-589f11831d82"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "bc824a43-7353-537c-8bcb-3da1f3adecd8",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 042025-042049",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "28296cc4-34c9-5b19-8b1a-56f241b8aa7b"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "28296cc4-34c9-5b19-8b1a-56f241b8aa7b",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "1544a085-e3c3-5353-a29d-644573e5bdd9"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "be9deb21-e74a-5218-98df-f9fc2921de0f",
+      "line_length_m": 0.0,
+      "line_name": "Laguna Bell Substation - Mesa Substation",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "965f109b-c3a2-57f6-a727-cf3c7be4c486"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "965f109b-c3a2-57f6-a727-cf3c7be4c486",
+        "To Substation Id": "f16c1abb-b232-5163-902d-9ddaf8b208c0"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "bf0988d5-888d-5b29-9e40-584f5c1dd862",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 863858-157765",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NONE",
+        "From Substation Id": null,
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "c2b18411-b0cc-5f03-9cc4-d6e9ae4200c2",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 240938-797599",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NONE",
+        "From Substation Id": null,
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "3e535b21-97fe-5ce5-ba15-685a0d777a98"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "c677818c-a244-58ec-9432-c75c25e762e0",
+      "line_length_m": 0.0,
+      "line_name": "SCE San Onofre - Viejo",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "12aab700-b0e3-5005-9893-35b3efeebcea"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_AND_NAME",
+        "From Substation Id": "12aab700-b0e3-5005-9893-35b3efeebcea",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "925682ce-eb18-53ef-9463-87d49c21d694"
+      ],
+      "corridor_role": "BACKBONE",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "c77ada7f-2fc4-50ef-8b55-94d318fe625d",
+      "line_length_m": 0.0,
+      "line_name": "Antelope Substation - Boundary LA-5ed8ac18",
+      "nominal_voltage_kv": 500.0,
+      "normalized_tier": "EHV_500",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [
+        "2747111d-0c6b-51ce-8032-11c8de67cfff"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "2747111d-0c6b-51ce-8032-11c8de67cfff",
+        "To Substation Id": "5ed8ac18-be15-5137-9cf7-faeb435eadf0"
+      },
+      "virtual_endpoint_ids": [
+        "72e09167-1d82-549d-a5ec-d8a2cf01f420"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "bbd08eed-69fa-58ba-9a64-2407784e5a88"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "c7921c41-910a-53f2-9698-be196f3c565f",
+      "line_length_m": 0.0,
+      "line_name": "Hinson Substation - Unnamed LA Substation 74839034 (220 kV)",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b225513a-09f6-5e9c-983b-1bf077aa205d"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b225513a-09f6-5e9c-983b-1bf077aa205d",
+        "To Substation Id": "b8a9fb59-3eb1-5934-80f3-18361bfb44ed"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "c9f15b20-219e-577b-89b1-bd6bfbc6fb06",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 972891-435694",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NONE",
+        "From Substation Id": null,
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "7a989001-0b73-5a13-9752-955ce9ea2fa3"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "ca374857-3350-5e2d-99bc-789df79f9438",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 973105-144705",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "9d825d74-1d4d-51b1-9179-1c636859fdcf"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "9d825d74-1d4d-51b1-9179-1c636859fdcf",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "00ec7462-d624-5d75-b328-61422a39b37b"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "cc07000f-81a7-5f97-b09f-6e74d56ed95a",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 240885-240946",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b0cff18d-bdc5-5c24-b571-3025f55f1c58"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b0cff18d-bdc5-5c24-b571-3025f55f1c58",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "00ec7462-d624-5d75-b328-61422a39b37b"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "cc2ded97-c50f-522e-a424-6089360314fc",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 948580-217300",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b0cff18d-bdc5-5c24-b571-3025f55f1c58"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b0cff18d-bdc5-5c24-b571-3025f55f1c58",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "4afac9ff-89bf-5a5f-a6e2-579c3814465b"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "cef30899-aa7a-5528-bd2e-b8c7a5f78548",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 592371-065741",
+      "nominal_voltage_kv": 500.0,
+      "normalized_tier": "EHV_500",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "f16c1abb-b232-5163-902d-9ddaf8b208c0"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "f16c1abb-b232-5163-902d-9ddaf8b208c0",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "e13ce41e-0468-5156-9616-26c38f6f1c3f"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "cf07c03c-5133-5cad-8bfa-a446e7a86d86",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 241110-961621",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "non_wave1_station_tier",
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "36e0f84c-76dc-5cd3-894e-09ccaba3386c"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "36e0f84c-76dc-5cd3-894e-09ccaba3386c",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "cf27f617-d227-5a5c-9669-9810ddaa94be",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 778818-240904",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "264ae838-221a-52e9-b250-78cbfbd25715",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "264ae838-221a-52e9-b250-78cbfbd25715"
+      ],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [
+        "00ec7462-d624-5d75-b328-61422a39b37b"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "cf8b0142-9e06-51df-a881-f1c8b351a035",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 240847-240998",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b0cff18d-bdc5-5c24-b571-3025f55f1c58"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b0cff18d-bdc5-5c24-b571-3025f55f1c58",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "d0175baf-c61c-5fbe-ab06-02a678f2e5c3",
+      "line_length_m": 0.0,
+      "line_name": "Saugus Substation - Boundary LA-04b8666b",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "37d8f961-f81b-5ef7-a2fa-4ba0fee9127e",
+        "To Substation Id": "04b8666b-9daf-53f6-ac4c-4016d31f9af3"
+      },
+      "virtual_endpoint_ids": [
+        "04b8666b-9daf-53f6-ac4c-4016d31f9af3"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "88bb5e10-7451-5f26-89b9-22a8a2db495a",
+        "aaddb602-5a93-5f9a-853a-3a7712f3b989",
+        "e23dae14-46af-549e-a02a-bd937056817b"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "d08411a5-a1eb-5ab8-8bd0-1fb4f3807709",
+      "line_length_m": 0.0,
+      "line_name": "Hollywood Receiving Station - Unnamed LA Substation 158586539",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "more_than_two_station_cps",
+        "more_than_two_station_roots"
+      ],
+      "substation_ids": [
+        "3030d2b4-f8c0-5fa7-9f07-62eced74b7a9",
+        "732502bf-e213-56d7-9a77-10e912769c95",
+        "b06330f3-a536-580d-af6e-a6c4bb19d710"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b06330f3-a536-580d-af6e-a6c4bb19d710",
+        "To Substation Id": "3030d2b4-f8c0-5fa7-9f07-62eced74b7a9"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 3
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "BACKBONE",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "d22351ac-4a42-54d0-800c-6e704e68eb43",
+      "line_length_m": 0.0,
+      "line_name": "Boundary OC-00fe55bc - Boundary OC-aef706be",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "00fe55bc-2932-5469-9275-17e7e592ff24",
+        "To Substation Id": "aef706be-13e5-504f-87b2-b12548b229ef"
+      },
+      "virtual_endpoint_ids": [
+        "00fe55bc-2932-5469-9275-17e7e592ff24",
+        "aef706be-13e5-504f-87b2-b12548b229ef"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "8f32749c-80e5-57a7-9057-a3764c38212e"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "d49a3813-014d-5dd7-9461-3cdf8f41c0cd",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 232808-232585",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "ab47d90a-8396-5590-a1a8-8e87864f0d05"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "ab47d90a-8396-5590-a1a8-8e87864f0d05",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [
+        "bbd08eed-69fa-58ba-9a64-2407784e5a88"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "d600d59f-2935-5654-adc5-d2c4abbae88f",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 819691-964111",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b225513a-09f6-5e9c-983b-1bf077aa205d"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b225513a-09f6-5e9c-983b-1bf077aa205d",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [
+        "a493185a-32dc-566d-a233-95801fb5b074",
+        "d9ab05f6-7aa6-5a8b-b293-7c61ed4b7153"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "d76b7aa4-95d5-55fd-952e-87ef5b5788a0",
+      "line_length_m": 0.0,
+      "line_name": "Unnamed LA Substation 1467180896 - Unnamed LA Substation 27186604 (220 kV) #4",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "non_wave1_station_tier"
+      ],
+      "substation_ids": [
+        "dcecd3e3-242d-5f28-ab7b-160716ce5b55",
+        "fd4cea16-e91d-5752-a04d-689a87e0f2a1"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "dcecd3e3-242d-5f28-ab7b-160716ce5b55",
+        "To Substation Id": "fd4cea16-e91d-5752-a04d-689a87e0f2a1"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "d820d2b2-81a5-5034-a1fb-04bd65e1248c",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 273188-702567",
+      "nominal_voltage_kv": 500.0,
+      "normalized_tier": "EHV_500",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "1f30489f-3540-5499-8e50-48533d0bef78",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "1f30489f-3540-5499-8e50-48533d0bef78"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "dd2b8a3f-5953-57f9-bd7d-a7d05dd001ef",
+      "line_length_m": 0.0,
+      "line_name": "Boundary LA-31c48fae - Boundary LA-a4f5bb86",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "31c48fae-173d-5195-be54-9a747b8beb8c",
+        "To Substation Id": "a4f5bb86-cf1e-5e57-9032-6264bf2414ec"
+      },
+      "virtual_endpoint_ids": [
+        "31c48fae-173d-5195-be54-9a747b8beb8c",
+        "a4f5bb86-cf1e-5e57-9032-6264bf2414ec"
+      ],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [
+        "00ec7462-d624-5d75-b328-61422a39b37b"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "dd3701d7-bad0-549a-ba78-03d3d1e832a4",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 240946-702076",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b0cff18d-bdc5-5c24-b571-3025f55f1c58"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "b0cff18d-bdc5-5c24-b571-3025f55f1c58",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "818d9254-e52a-5cc2-8f29-188bfa30ce8d"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "deeb1208-6bcd-58cf-9b72-f1078e63aeab",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 658162-658355",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "1d2d3e5a-84a4-588d-abb8-1177089e62b7"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "1d2d3e5a-84a4-588d-abb8-1177089e62b7",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "4afac9ff-89bf-5a5f-a6e2-579c3814465b"
+      ],
+      "corridor_role": "BACKBONE",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "dfcd9e51-9471-53dc-8691-cc1a48fa0551",
+      "line_length_m": 0.0,
+      "line_name": "Mesa Substation - Boundary LA-d0cd92fd",
+      "nominal_voltage_kv": 500.0,
+      "normalized_tier": "EHV_500",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [
+        "f16c1abb-b232-5163-902d-9ddaf8b208c0"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "f16c1abb-b232-5163-902d-9ddaf8b208c0",
+        "To Substation Id": "d0cd92fd-b0e2-545b-9b86-f7626303790a"
+      },
+      "virtual_endpoint_ids": [
+        "d0cd92fd-b0e2-545b-9b86-f7626303790a"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "8f32749c-80e5-57a7-9057-a3764c38212e",
+        "a493185a-32dc-566d-a233-95801fb5b074",
+        "fc203218-dfbd-56a0-afb7-21290de7bda6"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "e1b05a41-eb6d-53ee-9d86-fab7f4d12748",
+      "line_length_m": 0.0,
+      "line_name": "Del Amo Substation - Unnamed LA Substation 383644496 (220 kV) #2",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "more_than_two_station_cps",
+        "more_than_two_station_roots"
+      ],
+      "substation_ids": [
+        "46906f24-d7da-5847-85dc-457b6abce27a",
+        "ab47d90a-8396-5590-a1a8-8e87864f0d05",
+        "fd4cea16-e91d-5752-a04d-689a87e0f2a1"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "46906f24-d7da-5847-85dc-457b6abce27a",
+        "To Substation Id": "20aa7d0a-ba34-5e72-a3bd-79d6dc53f83f"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 3
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "e3c17e6f-d117-5e7f-98db-fae4708d3c67",
+      "line_length_m": 0.0,
+      "line_name": "Boundary LA-6f95ee40 - Boundary LA-c067652a",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "6f95ee40-c9b6-54c6-a94b-293504cb380d",
+        "To Substation Id": "c067652a-8442-586f-94a4-19917a14f059"
+      },
+      "virtual_endpoint_ids": [
+        "6f95ee40-c9b6-54c6-a94b-293504cb380d"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "c1c513b1-a2b1-5d53-8710-cf38cbf0ab89"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "e4f8e44c-07cf-5834-b350-44a0d23e8a5b",
+      "line_length_m": 0.0,
+      "line_name": "Unnamed LA Substation 1462897169 - Unnamed LA Substation 383664682",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "b474e1ed-edaa-5b0d-92e4-f67c6dedb8b9"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "f77ac7c5-b5da-55d4-adb9-fde325aefcd5",
+        "To Substation Id": "b474e1ed-edaa-5b0d-92e4-f67c6dedb8b9"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "e6bbcb8e-ab1b-599b-bd5f-e5b920df79a1",
+      "line_length_m": 0.0,
+      "line_name": "Pico Substation - Chiquita Substation",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "29b98fb0-5db2-53f8-be61-6b91b157e672",
+        "To Substation Id": "9315caf8-ac37-5a83-a0ab-0cefc19f0057"
+      },
+      "virtual_endpoint_ids": [
+        "2b3f021b-5a48-5cb2-bd84-cb51cad4c29d"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "e7245c2d-e1b9-53ab-b044-260470e98f0a",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 972952-972955",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "9899823c-2067-5db9-ba9f-f8ede9920389",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "9899823c-2067-5db9-ba9f-f8ede9920389"
+      ],
+      "wire_count": 3
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "e777b1bd-2510-5a2f-842c-cbb1a9557fc7",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 551568-499460",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NONE",
+        "From Substation Id": null,
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "26147d6b-e263-5aa9-82e6-d5e85ed699fc"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "e838f720-e8cd-5adf-bffc-c3fdcffd6e9a",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 913537-499444",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "677692bd-4e4c-58a5-a919-67305275fbb1"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "677692bd-4e4c-58a5-a919-67305275fbb1",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "7cae5cd6-4528-5d9f-9b4f-e7da06b9baf9"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "e97f982e-dccd-504a-9a4e-b1a2f541babe",
+      "line_length_m": 0.0,
+      "line_name": "Walnut Substation - Boundary LA-d1be0c9f",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "6ccb8ac8-a50c-5efe-9583-d8f65f19e850"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "6ccb8ac8-a50c-5efe-9583-d8f65f19e850",
+        "To Substation Id": "d1be0c9f-296a-50f8-bbcf-8181f04ef9c4"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "0adc2cd0-4669-5187-93d6-6c0248dacdbc"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "e9bdf6ee-8ad6-55e7-aee0-f52aa1a5844a",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 437348-437353",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "28e2dd01-156d-5da8-99f3-dd567a4817e4"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "28e2dd01-156d-5da8-99f3-dd567a4817e4",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "e7f86592-9e17-51e2-b13f-5f50b2249ec5"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "ea5b2cb6-ea06-5ea7-bb69-81fb58a83da1",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 437148-437008",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "9b9c0b85-73be-5fc9-8554-5b433a2dd32a"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "9b9c0b85-73be-5fc9-8554-5b433a2dd32a",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "818d9254-e52a-5cc2-8f29-188bfa30ce8d"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "eb5d6c9b-cbaf-5c9e-bd97-ceba88403d0a",
+      "line_length_m": 0.0,
+      "line_name": "Unnamed LA Substation 75206072 - Boundary LA-432ec842",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "1d2d3e5a-84a4-588d-abb8-1177089e62b7"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "1d2d3e5a-84a4-588d-abb8-1177089e62b7",
+        "To Substation Id": "432ec842-485f-5e58-a888-ddc121b50232"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "e9fe9c0f-1f16-59f3-becf-0a16c879df68"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "ed6132f8-2454-5482-b788-a350265640ba",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 865023-961968",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "non_wave1_station_tier",
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "dd469ade-3be7-5ca2-8bbe-cf5454cbb9b7"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "dd469ade-3be7-5ca2-8bbe-cf5454cbb9b7",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "BACKBONE",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "edfb7227-ad85-5f16-9d53-5703b06661cc",
+      "line_length_m": 0.0,
+      "line_name": "Boundary OC-7857ce41 - Boundary OC-3d16d57c",
+      "nominal_voltage_kv": 500.0,
+      "normalized_tier": "EHV_500",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "7857ce41-9b5c-5ad8-9d69-d8dda46f82f0",
+        "To Substation Id": "3d16d57c-6144-5e1a-9afb-fe0865a631f9"
+      },
+      "virtual_endpoint_ids": [
+        "3d16d57c-6144-5e1a-9afb-fe0865a631f9",
+        "7857ce41-9b5c-5ad8-9d69-d8dda46f82f0"
+      ],
+      "wire_count": 2
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "f0776c9c-b2a1-59ab-b343-8353150ff791",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 098520-098521",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "8bc9d8cc-5eec-5bbc-b93c-6b61df94846c",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "8bc9d8cc-5eec-5bbc-b93c-6b61df94846c"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "d74a9da6-3d15-5010-9731-8b7f49a742c1"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "f3ae8c3a-af30-5546-b51e-303c5abfa47b",
+      "line_length_m": 0.0,
+      "line_name": "HarborGen Substation - Boundary LA-6802d7ea",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "9bfa1636-2824-503d-bbc1-eedcf7a022f3"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "9bfa1636-2824-503d-bbc1-eedcf7a022f3",
+        "To Substation Id": "6802d7ea-48c2-5cf2-b4ca-0209abdb4958"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "a8cf9588-ab48-5b86-92c7-5102885a0865"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "f3dba2e2-862b-57e1-a656-a94b4c0ca7bd",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 240847-241065",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "37d8f961-f81b-5ef7-a2fa-4ba0fee9127e"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "37d8f961-f81b-5ef7-a2fa-4ba0fee9127e",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "f4acdcab-131a-50b8-a40a-d477d46900e5",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 701753-253285",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "NONE",
+        "From Substation Id": null,
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "adae50ac-9590-548b-aa76-4596738989ef"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "f6a541de-9dd8-5830-9778-deb28e593b4c",
+      "line_length_m": 0.0,
+      "line_name": "San Fernando Substation - Unnamed LA Substation 1485094843",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "de3f3aa3-1bfc-5395-a823-4cdd72ff0834"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "fce834ae-155c-5e56-a02d-fd8216e18290",
+        "To Substation Id": "1153d8d3-37f7-5ad4-bc65-cff7aad33ce0"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "8f96ce88-a18d-59b4-aa40-0fa921a92d2c",
+        "9748f8de-1f99-5ca1-a931-b5db9f5669de",
+        "a62d7c4c-4a48-59cf-84ac-7f16c208aaf0",
+        "d40ac81a-39d8-5ea8-b735-8ea5db75660e"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "f80bc7c1-2472-540c-930e-1032fa36884c",
+      "line_length_m": 0.0,
+      "line_name": "Atwater Receiving Station - Receiving Station F",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "more_than_two_station_cps",
+        "more_than_two_station_roots"
+      ],
+      "substation_ids": [
+        "07edf980-3ffb-5906-899e-1faa44e59147",
+        "27611811-63f9-53bc-9154-63e66a03f80f",
+        "3e882381-b1ad-555a-8cc1-e4df63d7a8e9",
+        "8a6b40f4-3e27-5a07-a739-3184b82fee44"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "3e882381-b1ad-555a-8cc1-e4df63d7a8e9",
+        "To Substation Id": "27611811-63f9-53bc-9154-63e66a03f80f"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 4
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "fc2cf89b-152c-5516-801f-951d55a666ed",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 701721-701722",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "aeb7f959-2c59-5603-8715-9339cd1ec45a",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "aeb7f959-2c59-5603-8715-9339cd1ec45a"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "fc50fe85-e7b7-517c-90e9-e1610f7cbee5",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 273092-273192",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "VEP_BOUNDARY",
+        "From Substation Id": "4df16b54-4962-58c9-9996-2bbdd9781455",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [
+        "4df16b54-4962-58c9-9996-2bbdd9781455"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "d40ac81a-39d8-5ea8-b735-8ea5db75660e"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "fc85967d-42de-5598-b057-3961611ce08b",
+      "line_length_m": 0.0,
+      "line_name": "LA Feeder 435661-435846",
+      "nominal_voltage_kv": 230.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "same_substation_both_ends",
+        "single_station_endpoint"
+      ],
+      "substation_ids": [
+        "27611811-63f9-53bc-9154-63e66a03f80f"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "27611811-63f9-53bc-9154-63e66a03f80f",
+        "To Substation Id": null
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "a493185a-32dc-566d-a233-95801fb5b074",
+        "d9ab05f6-7aa6-5a8b-b293-7c61ed4b7153"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "fcee3ec0-d276-5fec-a68f-39f2add6ef48",
+      "line_length_m": 0.0,
+      "line_name": "Unnamed LA Substation 1467180896 - Unnamed LA Substation 27186604 (220 kV) #6",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "non_wave1_station_tier"
+      ],
+      "substation_ids": [
+        "dcecd3e3-242d-5f28-ab7b-160716ce5b55",
+        "fd4cea16-e91d-5752-a04d-689a87e0f2a1"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "dcecd3e3-242d-5f28-ab7b-160716ce5b55",
+        "To Substation Id": "fd4cea16-e91d-5752-a04d-689a87e0f2a1"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "fd9bbd72-2774-5027-a9e6-a741fac1e885",
+      "line_length_m": 0.0,
+      "line_name": "Saugus Substation - Boundary LA-6c827ed8",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "no_station_boundary_cp",
+        "virtual_endpoint_present"
+      ],
+      "substation_ids": [],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "37d8f961-f81b-5ef7-a2fa-4ba0fee9127e",
+        "To Substation Id": "6c827ed8-534f-5928-a4f1-1c41568e2165"
+      },
+      "virtual_endpoint_ids": [
+        "6c827ed8-534f-5928-a4f1-1c41568e2165"
+      ],
+      "wire_count": 1
+    },
+    {
+      "connection_point_ids": [
+        "2cbd5e0f-685f-5b69-8d57-14b32990563a",
+        "e7ef6c66-85a0-51cc-a5d6-9827b6a3fe40"
+      ],
+      "corridor_role": "FEEDER",
+      "endpoint_resolution_confidence": "ANOMALOUS",
+      "line_id": "ffda5813-dd51-51f0-9eab-81c4b0003a9d",
+      "line_length_m": 0.0,
+      "line_name": "La Fresa Substation - Victoria Substation (220 kV) #2",
+      "nominal_voltage_kv": 220.0,
+      "normalized_tier": "EHV_220_230",
+      "reasons": [
+        "non_wave1_station_tier"
+      ],
+      "substation_ids": [
+        "61da3665-e083-5609-9053-f1453addbbcc",
+        "8779f71c-b6a6-5308-ac7c-779f6c9ae248"
+      ],
+      "supporting_line_attrs": {
+        "Endpoint Confidence": "SPATIAL_ONLY",
+        "From Substation Id": "8779f71c-b6a6-5308-ac7c-779f6c9ae248",
+        "To Substation Id": "800b51bd-16f1-50d5-b7d2-996be32e670d"
+      },
+      "virtual_endpoint_ids": [],
+      "wire_count": 1
+    }
+  ],
+  "unmapped_wave1_substations": []
+}
