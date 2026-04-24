@@ -1,0 +1,50 @@
+{
+  "counts": {
+    "high_priority_substations": 22,
+    "lines_by_role": {
+      "BACKBONE": 684,
+      "FEEDER": 1617
+    },
+    "lines_by_voltage": {
+      "12": 3,
+      "138": 44,
+      "220": 212,
+      "230": 99,
+      "287": 2,
+      "34.5": 86,
+      "35": 3,
+      "4.8": 31,
+      "500": 26,
+      "66": 787,
+      "69": 33,
+      "UNKNOWN": 975
+    },
+    "lines_total": 2301,
+    "substations_needing_name_research": 465,
+    "substations_total": 674
+  },
+  "files": [
+    {
+      "lfs_expected": true,
+      "path": "naming/substation_naming_pack.jsonl.gz",
+      "row_count": 674,
+      "sha256": "27c02874fa61b021b97be4a8fddac65e613bf3302ffdbddd52fc43c45647795f",
+      "size_bytes": 140258
+    },
+    {
+      "lfs_expected": true,
+      "path": "naming/line_context_pack.jsonl.gz",
+      "row_count": 2301,
+      "sha256": "798f6921d3a3f95f953ef987a6cc8fdabb09b1cb3e155effc4ba7c6291f38693",
+      "size_bytes": 152399
+    }
+  ],
+  "generated_at_utc": "2026-04-24T04:33:40Z",
+  "source_root": "/Users/nikolaybubnov/Downloads/gridmodel-dev/gridmodel-datasets/08_Data/08.01_Seed/scripts/output",
+  "truth_policy": [
+    "This pack is evidence for human/LLM research, not canonical naming truth.",
+    "Do not overwrite source names without cited evidence and confidence.",
+    "Prefer utility/ISO/planning documents over map label guesses.",
+    "Keep proposed names separate from current_name until reviewed."
+  ]
+}

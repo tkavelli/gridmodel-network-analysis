@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "required": [
+    "substation_id",
+    "current_name",
+    "proposed_name",
+    "confidence",
+    "sources",
+    "evidence_summary",
+    "needs_manual_review"
+  ],
+  "properties": {
+    "substation_id": {
+      "type": "string"
+    },
+    "current_name": {
+      "type": "string"
+    },
+    "proposed_name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low",
+        "none"
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "url",
+          "source_type",
+          "claim"
+        ],
+        "properties": {
+          "url": {
+            "type": "string"
+          },
+          "source_type": {
+            "enum": [
+              "utility",
+              "iso",
+              "regulatory",
+              "planning",
+              "osm",
+              "map_label",
+              "other"
+            ]
+          },
+          "claim": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "evidence_summary": {
+      "type": "string"
+    },
+    "needs_manual_review": {
+      "type": "boolean"
+    },
+    "operator": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "voltage_kv": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "alternate_names": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rejected_names": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "reason"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "type": "object"
+}

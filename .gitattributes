@@ -1,1 +1,2 @@
 full_raw/*.gz filter=lfs diff=lfs merge=lfs -text
+naming/*.gz filter=lfs diff=lfs merge=lfs -text
