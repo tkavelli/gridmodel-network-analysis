@@ -1,0 +1,2401 @@
+{
+  "version": "hv_14i_substation_naming_pack_v1",
+  "source_files": [
+    "08_Data/08.01_Seed/scripts/output/14i_hv_station_lines.json",
+    "08_Data/08.01_Seed/scripts/output/service/14i_hv_station_lines_report.json",
+    "08_Data/08.01_Seed/scripts/output/service/14h_substation_boundaries_metadata.json",
+    "08_Data/08.01_Seed/scripts/output/00_raw/unified_substations.json"
+  ],
+  "summary": {
+    "line_candidates": 54,
+    "unique_endpoint_substations": 61,
+    "voltage_counts": {
+      "138.0": 9,
+      "220.0": 33,
+      "230.0": 11,
+      "500.0": 1
+    }
+  },
+  "items": [
+    {
+      "component_id": "02ce35d6-f268-5e23-bd67-0fb3fce0d1b7",
+      "current_name": "Gramercy Switching Station",
+      "osm_id": "394549585",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.9464845,
+      "lon": -118.3128266,
+      "voltage_kv": 138.0,
+      "max_voltage_kv": 138.0,
+      "min_voltage_kv": 138.0,
+      "operator": "LADWP",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "09afc681-b873-5072-ba0b-f24a3f203f48",
+          "other_substation_id": "f5371dfa-a684-5394-becc-625c3a3a6564",
+          "voltage_kv": 138.0,
+          "length_m": 8380.28,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "398361678"
+          ]
+        },
+        {
+          "line_candidate_id": "49ca33fc-ae9d-5547-ad06-0cf99df7c40d",
+          "other_substation_id": "48bb4886-3049-5b6b-8ef3-70fa47bf6077",
+          "voltage_kv": 138.0,
+          "length_m": 2406.0,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "394549580"
+          ]
+        },
+        {
+          "line_candidate_id": "bc811809-e9b2-5111-a718-c925550bf1a3",
+          "other_substation_id": "7d1f61c1-18c0-5c6e-8cbd-8780585091e6",
+          "voltage_kv": 138.0,
+          "length_m": 5107.53,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "111288427",
+            "394549584"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "0a5067b8-e4bb-5885-ab9a-8ffc87747765",
+      "current_name": "Laguna Bell Substation",
+      "osm_id": "78797580",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.9757351,
+      "lon": -118.1474805,
+      "voltage_kv": 220.0,
+      "max_voltage_kv": 220.0,
+      "min_voltage_kv": 16.0,
+      "operator": "SCE",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "14172e4f-752c-5f90-9692-62ffa1414874",
+          "other_substation_id": "8f13259a-41bd-561e-a0aa-079d4bf986c5",
+          "voltage_kv": 220.0,
+          "length_m": 10999.5,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "78797560"
+          ]
+        },
+        {
+          "line_candidate_id": "28042367-c9b5-56c0-ab3f-9e779ec261da",
+          "other_substation_id": "c3c0bbea-a2bf-52fd-b333-0c3587c54fa8",
+          "voltage_kv": 220.0,
+          "length_m": 7640.86,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "169294696",
+            "66209417",
+            "78797581"
+          ]
+        },
+        {
+          "line_candidate_id": "c20a3d6a-6d67-5b68-80e9-3beaa3228552",
+          "other_substation_id": "8f13259a-41bd-561e-a0aa-079d4bf986c5",
+          "voltage_kv": 220.0,
+          "length_m": 11013.08,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "78797586"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "1032d3fb-93fd-521e-a78b-cd594572ff0e",
+      "current_name": "Receiving Station E - Toluca",
+      "osm_id": "71817088",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 34.1755754,
+      "lon": -118.3598194,
+      "voltage_kv": 500.0,
+      "max_voltage_kv": 500.0,
+      "min_voltage_kv": 34.5,
+      "operator": "LADWP",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "afd5aa9b-42cf-522f-bd2b-59b78961ac25",
+          "other_substation_id": "1adcf929-2c11-53ee-a5d5-d6fb459971f4",
+          "voltage_kv": 230.0,
+          "length_m": 2567.23,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "77017969"
+          ]
+        },
+        {
+          "line_candidate_id": "bbae54c9-103c-5114-801c-32e8b4763b9f",
+          "other_substation_id": "1adcf929-2c11-53ee-a5d5-d6fb459971f4",
+          "voltage_kv": 230.0,
+          "length_m": 2368.64,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "77017983"
+          ]
+        },
+        {
+          "line_candidate_id": "a328865f-102d-57c1-922e-88d051198333",
+          "other_substation_id": "1adcf929-2c11-53ee-a5d5-d6fb459971f4",
+          "voltage_kv": 500.0,
+          "length_m": 2485.53,
+          "refs": [
+            "Adelanto-Toluca"
+          ],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "58521799"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "10c0109a-2941-5b88-8ac3-163874f622e4",
+      "current_name": null,
+      "osm_id": "1485094843",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 34.2428,
+      "lon": -118.3921247,
+      "voltage_kv": null,
+      "max_voltage_kv": null,
+      "min_voltage_kv": null,
+      "operator": null,
+      "substation_type": null,
+      "line_context": [
+        {
+          "line_candidate_id": "8d587fc9-cca9-5ff8-a477-5d8d058ed1ef",
+          "other_substation_id": "1adcf929-2c11-53ee-a5d5-d6fb459971f4",
+          "voltage_kv": 230.0,
+          "length_m": 8414.28,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "77017983"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "11cad09c-a0ec-59c2-a921-c3401bb8232f",
+      "current_name": "Lewis Substation",
+      "osm_id": "126153864",
+      "region": "OrangeCounty",
+      "region_code": "OC",
+      "lat": 33.8093309,
+      "lon": -117.8990834,
+      "voltage_kv": 220.0,
+      "max_voltage_kv": 220.0,
+      "min_voltage_kv": 12.0,
+      "operator": "Anaheim Public Utilities",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "a138112f-076e-52b4-a414-a57e8cc597dd",
+          "other_substation_id": "3fa544e5-d82c-512b-b595-c719f089ead6",
+          "voltage_kv": 220.0,
+          "length_m": 2763.67,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "77972308"
+          ]
+        },
+        {
+          "line_candidate_id": "db1371e7-6e96-54f5-81be-e3575b31e901",
+          "other_substation_id": "16f5f64e-d121-5696-a0b4-883a173322e6",
+          "voltage_kv": 220.0,
+          "length_m": 1854.74,
+          "refs": [],
+          "operators": [
+            "Anaheim Public Utilities"
+          ],
+          "way_ids": [
+            "384671090"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "16f5f64e-d121-5696-a0b4-883a173322e6",
+      "current_name": "Vermont Substation",
+      "osm_id": "384671109",
+      "region": "OrangeCounty",
+      "region_code": "OC",
+      "lat": 33.8267886,
+      "lon": -117.9025777,
+      "voltage_kv": 220.0,
+      "max_voltage_kv": 220.0,
+      "min_voltage_kv": 69.0,
+      "operator": "Anaheim Public Utilities",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "db1371e7-6e96-54f5-81be-e3575b31e901",
+          "other_substation_id": "11cad09c-a0ec-59c2-a921-c3401bb8232f",
+          "voltage_kv": 220.0,
+          "length_m": 1854.74,
+          "refs": [],
+          "operators": [
+            "Anaheim Public Utilities"
+          ],
+          "way_ids": [
+            "384671090"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "183d8f19-655d-5a93-9157-2929b0a31b90",
+      "current_name": null,
+      "osm_id": "496313045",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 34.5792478,
+      "lon": -118.2030361,
+      "voltage_kv": null,
+      "max_voltage_kv": null,
+      "min_voltage_kv": null,
+      "operator": null,
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "03af88c3-5122-5c30-8244-19c97740f26d",
+          "other_substation_id": "ed7c4135-be77-5c50-9477-1d73b9474fa3",
+          "voltage_kv": 220.0,
+          "length_m": 15950.84,
+          "refs": [],
+          "operators": [
+            "Azusa Light & Power"
+          ],
+          "way_ids": [
+            "88776832"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "1adcf929-2c11-53ee-a5d5-d6fb459971f4",
+      "current_name": "DISTRIBUTING STATION 85",
+      "osm_id": "77003956",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 34.1912061,
+      "lon": -118.3797173,
+      "voltage_kv": 34.5,
+      "max_voltage_kv": 34.5,
+      "min_voltage_kv": 4.8,
+      "operator": "LADWP",
+      "substation_type": "distribution",
+      "line_context": [
+        {
+          "line_candidate_id": "8d587fc9-cca9-5ff8-a477-5d8d058ed1ef",
+          "other_substation_id": "10c0109a-2941-5b88-8ac3-163874f622e4",
+          "voltage_kv": 230.0,
+          "length_m": 8414.28,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "77017983"
+          ]
+        },
+        {
+          "line_candidate_id": "afd5aa9b-42cf-522f-bd2b-59b78961ac25",
+          "other_substation_id": "1032d3fb-93fd-521e-a78b-cd594572ff0e",
+          "voltage_kv": 230.0,
+          "length_m": 2567.23,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "77017969"
+          ]
+        },
+        {
+          "line_candidate_id": "bbae54c9-103c-5114-801c-32e8b4763b9f",
+          "other_substation_id": "1032d3fb-93fd-521e-a78b-cd594572ff0e",
+          "voltage_kv": 230.0,
+          "length_m": 2368.64,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "77017983"
+          ]
+        },
+        {
+          "line_candidate_id": "a328865f-102d-57c1-922e-88d051198333",
+          "other_substation_id": "1032d3fb-93fd-521e-a78b-cd594572ff0e",
+          "voltage_kv": 500.0,
+          "length_m": 2485.53,
+          "refs": [
+            "Adelanto-Toluca"
+          ],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "58521799"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "1c734dd1-857c-52ed-947c-dae79b083247",
+      "current_name": "Receiving Station U - Tarzana",
+      "osm_id": "32663174",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 34.1790643,
+      "lon": -118.5442153,
+      "voltage_kv": 230.0,
+      "max_voltage_kv": 230.0,
+      "min_voltage_kv": 230.0,
+      "operator": "LADWP",
+      "substation_type": "yes",
+      "line_context": [
+        {
+          "line_candidate_id": "9ba197af-6650-5545-a3b2-191d6e7d0549",
+          "other_substation_id": "aec5834e-bc4c-5de3-b951-726de887506b",
+          "voltage_kv": 230.0,
+          "length_m": 5750.69,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "398600369"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "1fe8329a-09cb-58bd-b9ae-7e81d33cda25",
+      "current_name": "Antelope Substation",
+      "osm_id": "88776835",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 34.6870564,
+      "lon": -118.2985454,
+      "voltage_kv": 500.0,
+      "max_voltage_kv": 500.0,
+      "min_voltage_kv": 220.0,
+      "operator": "SCE",
+      "substation_type": null,
+      "line_context": [
+        {
+          "line_candidate_id": "e4960671-1d7f-56a3-a564-295ee1934fde",
+          "other_substation_id": "d94331d6-6996-5dd5-9905-fe48902a1a96",
+          "voltage_kv": 220.0,
+          "length_m": 297.94,
+          "refs": [],
+          "operators": [],
+          "way_ids": [
+            "1150007333"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "2a160406-e855-5f87-87ef-5056d1d259e1",
+      "current_name": "Receiving Station F",
+      "osm_id": "169880238",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 34.015275,
+      "lon": -118.2043219,
+      "voltage_kv": 230.0,
+      "max_voltage_kv": 230.0,
+      "min_voltage_kv": 230.0,
+      "operator": "LADWP",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "785d0fb1-c9d2-55d6-9cb5-7b3478ba6e1b",
+          "other_substation_id": "a8c33d98-2457-53d8-b759-bcb1adf7a2c0",
+          "voltage_kv": 230.0,
+          "length_m": 2004.4,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "169880242"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "348793ed-4b01-5b89-948b-d0ab992bbd85",
+      "current_name": "Receiving Station N - Airport",
+      "osm_id": "338062751",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.9615817,
+      "lon": -118.3766403,
+      "voltage_kv": 138.0,
+      "max_voltage_kv": 138.0,
+      "min_voltage_kv": 34.5,
+      "operator": "LADWP",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "0e3f05a0-db64-5e93-aafc-a3a89f1aba1b",
+          "other_substation_id": "6d1b6039-95f2-55f9-95aa-dd9335be0db5",
+          "voltage_kv": 138.0,
+          "length_m": 7784.42,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "394549579"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "34f420d1-af2b-55db-8eaa-857217609221",
+      "current_name": "Santiago Substation",
+      "osm_id": "29175070",
+      "region": "OrangeCounty",
+      "region_code": "OC",
+      "lat": 33.6648674,
+      "lon": -117.7688663,
+      "voltage_kv": 220.0,
+      "max_voltage_kv": 220.0,
+      "min_voltage_kv": 12.0,
+      "operator": "SCE",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "87dac7be-7f4b-5b3f-9410-c05e7cd0fb5f",
+          "other_substation_id": "cc83c903-c47c-53f4-8a2e-5c1a7f27dcf8",
+          "voltage_kv": 220.0,
+          "length_m": 12844.86,
+          "refs": [
+            "Johanna - Santiago; Ellis - Santiago"
+          ],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "61132023"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "35614a75-1762-59ee-ab6a-22a00bbd01a6",
+      "current_name": "Receiving Station K - Olympic",
+      "osm_id": "267159397",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 34.0334121,
+      "lon": -118.4600172,
+      "voltage_kv": 230.0,
+      "max_voltage_kv": 230.0,
+      "min_voltage_kv": 34.5,
+      "operator": "LADWP",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "11b1104d-cd24-5eec-bcbe-f4627515d028",
+          "other_substation_id": "3f426093-7b4b-5a00-9d3e-ba2cd1652ddf",
+          "voltage_kv": 230.0,
+          "length_m": 6154.76,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "985760360"
+          ]
+        },
+        {
+          "line_candidate_id": "34d22e61-0cb1-5f03-a7f4-c4be906894e3",
+          "other_substation_id": "c33aca34-6a6c-5983-8fe5-b6abf3c066cd",
+          "voltage_kv": 230.0,
+          "length_m": 4906.06,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "392266901"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "37479b15-d76a-5c9a-906f-fe9de3897dbf",
+      "current_name": "Hinson Substation",
+      "osm_id": "65411731",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.8192836,
+      "lon": -118.2224085,
+      "voltage_kv": 220.0,
+      "max_voltage_kv": 220.0,
+      "min_voltage_kv": 66.0,
+      "operator": "SCE",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "c2fedd13-7c85-57a3-92aa-19cf9cabc053",
+          "other_substation_id": "a9877191-f75d-5e84-ba80-ee1b7d45e937",
+          "voltage_kv": 220.0,
+          "length_m": 1082.77,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "74839042"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "38a5467f-002a-535c-87b9-e87c4f8e2bd7",
+      "current_name": "Margarita Substation",
+      "osm_id": "30995423",
+      "region": "OrangeCounty",
+      "region_code": "OC",
+      "lat": 33.5497467,
+      "lon": -117.6281883,
+      "voltage_kv": 138.0,
+      "max_voltage_kv": 138.0,
+      "min_voltage_kv": 138.0,
+      "operator": null,
+      "substation_type": "distribution",
+      "line_context": [
+        {
+          "line_candidate_id": "82c6bc5c-1b23-5907-92e8-651624687264",
+          "other_substation_id": "b332548e-6fc3-592f-828a-1bb83730498b",
+          "voltage_kv": 138.0,
+          "length_m": 4938.09,
+          "refs": [
+            "13831"
+          ],
+          "operators": [
+            "SDG&E"
+          ],
+          "way_ids": [
+            "572727252"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "3f426093-7b4b-5a00-9d3e-ba2cd1652ddf",
+      "current_name": "Distributing Station 95",
+      "osm_id": "393475141",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.9903917,
+      "lon": -118.42096,
+      "voltage_kv": null,
+      "max_voltage_kv": null,
+      "min_voltage_kv": null,
+      "operator": "LADWP",
+      "substation_type": "distribution",
+      "line_context": [
+        {
+          "line_candidate_id": "11b1104d-cd24-5eec-bcbe-f4627515d028",
+          "other_substation_id": "35614a75-1762-59ee-ab6a-22a00bbd01a6",
+          "voltage_kv": 230.0,
+          "length_m": 6154.76,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "985760360"
+          ]
+        },
+        {
+          "line_candidate_id": "28d25bc3-4abc-528a-bb4d-12c781dece1e",
+          "other_substation_id": "c60a25c3-0e39-5b55-a864-ac99718a7f48",
+          "voltage_kv": 230.0,
+          "length_m": 6791.0,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "985760360"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "3fa544e5-d82c-512b-b595-c719f089ead6",
+      "current_name": null,
+      "osm_id": "383837116",
+      "region": "OrangeCounty",
+      "region_code": "OC",
+      "lat": 33.8126697,
+      "lon": -117.869675,
+      "voltage_kv": 66.0,
+      "max_voltage_kv": 66.0,
+      "min_voltage_kv": 66.0,
+      "operator": "SCE",
+      "substation_type": "distribution",
+      "line_context": [
+        {
+          "line_candidate_id": "376f1699-7d80-50c7-bd4d-cbdd01bfae4d",
+          "other_substation_id": "5627e19f-1f37-5451-a5bc-8ea37e0343ca",
+          "voltage_kv": 220.0,
+          "length_m": 3167.64,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "64161680"
+          ]
+        },
+        {
+          "line_candidate_id": "a138112f-076e-52b4-a414-a57e8cc597dd",
+          "other_substation_id": "11cad09c-a0ec-59c2-a921-c3401bb8232f",
+          "voltage_kv": 220.0,
+          "length_m": 2763.67,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "77972308"
+          ]
+        },
+        {
+          "line_candidate_id": "d48413ef-c065-519c-adc2-91937d0c9537",
+          "other_substation_id": "5627e19f-1f37-5451-a5bc-8ea37e0343ca",
+          "voltage_kv": 220.0,
+          "length_m": 3200.56,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "77972308"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "42dacdd8-17ec-55ca-8df8-0c2090695b66",
+      "current_name": null,
+      "osm_id": "45074901",
+      "region": "OrangeCounty",
+      "region_code": "OC",
+      "lat": 33.6463291,
+      "lon": -117.9777919,
+      "voltage_kv": 220.0,
+      "max_voltage_kv": 220.0,
+      "min_voltage_kv": 220.0,
+      "operator": "SCE",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "5cfd98e1-58a5-5d4d-953f-1d7bf8a273f7",
+          "other_substation_id": "b90d052a-9007-56b1-9081-368b8bce4175",
+          "voltage_kv": 220.0,
+          "length_m": 3155.54,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "13286456"
+          ]
+        },
+        {
+          "line_candidate_id": "dbd3007e-ea9b-50c7-8226-6c8f016c1842",
+          "other_substation_id": "b90d052a-9007-56b1-9081-368b8bce4175",
+          "voltage_kv": 220.0,
+          "length_m": 3173.27,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "79876842"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "48bb4886-3049-5b6b-8ef3-70fa47bf6077",
+      "current_name": null,
+      "osm_id": "1458489448",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.9263302,
+      "lon": -118.3097126,
+      "voltage_kv": 138.0,
+      "max_voltage_kv": 138.0,
+      "min_voltage_kv": 138.0,
+      "operator": null,
+      "substation_type": "transition",
+      "line_context": [
+        {
+          "line_candidate_id": "305634ef-c45c-5c6a-91d3-d3bced21b72f",
+          "other_substation_id": "5fc2361c-bbf9-5627-94b1-c2b9cbbe57dd",
+          "voltage_kv": 138.0,
+          "length_m": 5697.6,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "74839058"
+          ]
+        },
+        {
+          "line_candidate_id": "49ca33fc-ae9d-5547-ad06-0cf99df7c40d",
+          "other_substation_id": "02ce35d6-f268-5e23-bd67-0fb3fce0d1b7",
+          "voltage_kv": 138.0,
+          "length_m": 2406.0,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "394549580"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "4ff10f3d-09c7-523e-97e0-ade381e89062",
+      "current_name": "Del Amo Substation",
+      "osm_id": "32223005",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.8484868,
+      "lon": -118.0969856,
+      "voltage_kv": 220.0,
+      "max_voltage_kv": 220.0,
+      "min_voltage_kv": 66.0,
+      "operator": "SCE",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "7d452cf2-9248-5815-878b-24a4ce3dc266",
+          "other_substation_id": "8f13259a-41bd-561e-a0aa-079d4bf986c5",
+          "voltage_kv": 220.0,
+          "length_m": 9912.36,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "32222998"
+          ]
+        },
+        {
+          "line_candidate_id": "c3ec6e50-31b9-570d-a692-8df827420ab0",
+          "other_substation_id": "6076bdb1-02b1-58f9-a00a-25d2be1d8332",
+          "voltage_kv": 220.0,
+          "length_m": 6452.75,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "66158398"
+          ]
+        },
+        {
+          "line_candidate_id": "d97a7dfc-1e86-5a66-a963-ce49381e7dcc",
+          "other_substation_id": "d72bcc92-f002-55ed-a0c1-c508d74562de",
+          "voltage_kv": 220.0,
+          "length_m": 2924.09,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "13279846"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "5627e19f-1f37-5451-a5bc-8ea37e0343ca",
+      "current_name": "Villa Park Substation",
+      "osm_id": "61960845",
+      "region": "OrangeCounty",
+      "region_code": "OC",
+      "lat": 33.8157889,
+      "lon": -117.8347265,
+      "voltage_kv": 220.0,
+      "max_voltage_kv": 220.0,
+      "min_voltage_kv": 12.0,
+      "operator": "SCE",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "376f1699-7d80-50c7-bd4d-cbdd01bfae4d",
+          "other_substation_id": "3fa544e5-d82c-512b-b595-c719f089ead6",
+          "voltage_kv": 220.0,
+          "length_m": 3167.64,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "64161680"
+          ]
+        },
+        {
+          "line_candidate_id": "d48413ef-c065-519c-adc2-91937d0c9537",
+          "other_substation_id": "3fa544e5-d82c-512b-b595-c719f089ead6",
+          "voltage_kv": 220.0,
+          "length_m": 3200.56,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "77972308"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "5ce80ac9-775f-55b1-8284-430ee28225d5",
+      "current_name": null,
+      "osm_id": "1369410947",
+      "region": "OrangeCounty",
+      "region_code": "OC",
+      "lat": 33.5171561,
+      "lon": -117.586771,
+      "voltage_kv": null,
+      "max_voltage_kv": null,
+      "min_voltage_kv": null,
+      "operator": null,
+      "substation_type": null,
+      "line_context": [
+        {
+          "line_candidate_id": "702b9ac0-50a9-547a-81aa-aab75ad1c7f6",
+          "other_substation_id": "b332548e-6fc3-592f-828a-1bb83730498b",
+          "voltage_kv": 138.0,
+          "length_m": 1626.53,
+          "refs": [
+            "13831"
+          ],
+          "operators": [
+            "SDG&E"
+          ],
+          "way_ids": [
+            "572727251"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "5fc2361c-bbf9-5627-94b1-c2b9cbbe57dd",
+      "current_name": "Distributing Station 143",
+      "osm_id": "457315602",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.8949075,
+      "lon": -118.2848206,
+      "voltage_kv": 34.5,
+      "max_voltage_kv": 34.5,
+      "min_voltage_kv": 4.8,
+      "operator": "LADWP",
+      "substation_type": "distribution",
+      "line_context": [
+        {
+          "line_candidate_id": "305634ef-c45c-5c6a-91d3-d3bced21b72f",
+          "other_substation_id": "48bb4886-3049-5b6b-8ef3-70fa47bf6077",
+          "voltage_kv": 138.0,
+          "length_m": 5697.6,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "74839058"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "6076bdb1-02b1-58f9-a00a-25d2be1d8332",
+      "current_name": null,
+      "osm_id": "383644496",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.8742752,
+      "lon": -118.1430167,
+      "voltage_kv": 66.0,
+      "max_voltage_kv": 66.0,
+      "min_voltage_kv": 66.0,
+      "operator": "SCE",
+      "substation_type": "distribution",
+      "line_context": [
+        {
+          "line_candidate_id": "6440cb7f-a39b-5e83-9cfb-c65ec21ce733",
+          "other_substation_id": "8f13259a-41bd-561e-a0aa-079d4bf986c5",
+          "voltage_kv": 220.0,
+          "length_m": 3422.07,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "66158398"
+          ]
+        },
+        {
+          "line_candidate_id": "c3ec6e50-31b9-570d-a692-8df827420ab0",
+          "other_substation_id": "4ff10f3d-09c7-523e-97e0-ade381e89062",
+          "voltage_kv": 220.0,
+          "length_m": 6452.75,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "66158398"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "675a5b18-c9a4-5754-90f8-5b70d29b47f5",
+      "current_name": "LADWP Distributing Station No. 105",
+      "osm_id": "655826994",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.8471963,
+      "lon": -118.2915128,
+      "voltage_kv": 34.5,
+      "max_voltage_kv": 34.5,
+      "min_voltage_kv": 4.8,
+      "operator": "LADWP",
+      "substation_type": "distribution",
+      "line_context": [
+        {
+          "line_candidate_id": "c14d22cb-e166-5bfd-b523-71a9ab8fa8d6",
+          "other_substation_id": "945bd131-339d-53e4-addd-c29fe632ac4b",
+          "voltage_kv": 138.0,
+          "length_m": 1097.49,
+          "refs": [],
+          "operators": [],
+          "way_ids": [
+            "74839021"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "6d1b6039-95f2-55f9-95aa-dd9335be0db5",
+      "current_name": null,
+      "osm_id": "390483362",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.9316077,
+      "lon": -118.425948,
+      "voltage_kv": 66.0,
+      "max_voltage_kv": 66.0,
+      "min_voltage_kv": 66.0,
+      "operator": "SCE",
+      "substation_type": "transition",
+      "line_context": [
+        {
+          "line_candidate_id": "0e3f05a0-db64-5e93-aafc-a3a89f1aba1b",
+          "other_substation_id": "348793ed-4b01-5b89-948b-d0ab992bbd85",
+          "voltage_kv": 138.0,
+          "length_m": 7784.42,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "394549579"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "6e703186-92b3-5f53-8e8e-8050b4a0cad7",
+      "current_name": "Barre Substation",
+      "osm_id": "65596865",
+      "region": "OrangeCounty",
+      "region_code": "OC",
+      "lat": 33.808909,
+      "lon": -117.9827252,
+      "voltage_kv": 220.0,
+      "max_voltage_kv": 220.0,
+      "min_voltage_kv": 12.0,
+      "operator": "SCE",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "8007ef67-46c6-5556-bd0c-bb3fe301bbda",
+          "other_substation_id": "972afc66-651b-57a9-8b95-58e67671b314",
+          "voltage_kv": 220.0,
+          "length_m": 20249.32,
+          "refs": [
+            "Del Amo - Ellis"
+          ],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "65596875"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "7cc074b4-3092-5d42-b22d-0647b3948c10",
+      "current_name": null,
+      "osm_id": "604773381",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 34.1219012,
+      "lon": -118.0811361,
+      "voltage_kv": null,
+      "max_voltage_kv": null,
+      "min_voltage_kv": null,
+      "operator": null,
+      "substation_type": null,
+      "line_context": [
+        {
+          "line_candidate_id": "7dd651b4-3aab-5e46-bcdf-6104e88c8cae",
+          "other_substation_id": "c6a0149f-52aa-576c-9913-f7fe47d7c196",
+          "voltage_kv": 220.0,
+          "length_m": 3312.58,
+          "refs": [],
+          "operators": [],
+          "way_ids": [
+            "31567173"
+          ]
+        },
+        {
+          "line_candidate_id": "7de1cb55-807a-5e7d-9763-d0033cdef408",
+          "other_substation_id": "c3c0bbea-a2bf-52fd-b333-0c3587c54fa8",
+          "voltage_kv": 220.0,
+          "length_m": 10614.88,
+          "refs": [],
+          "operators": [],
+          "way_ids": [
+            "31567173"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "7d1f61c1-18c0-5c6e-8cbd-8780585091e6",
+      "current_name": "Receiving Station B",
+      "osm_id": "49048130",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.9483545,
+      "lon": -118.2550728,
+      "voltage_kv": 287.0,
+      "max_voltage_kv": 287.0,
+      "min_voltage_kv": 138.0,
+      "operator": "LADWP",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "bc811809-e9b2-5111-a718-c925550bf1a3",
+          "other_substation_id": "02ce35d6-f268-5e23-bd67-0fb3fce0d1b7",
+          "voltage_kv": 138.0,
+          "length_m": 5107.53,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "111288427",
+            "394549584"
+          ]
+        },
+        {
+          "line_candidate_id": "e26d082d-5ed9-50d0-9359-4c1ce8df5757",
+          "other_substation_id": "a8c33d98-2457-53d8-b759-bcb1adf7a2c0",
+          "voltage_kv": 230.0,
+          "length_m": 10248.76,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "169880242"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "8dc27b1d-7130-5683-b78b-0b98af189724",
+      "current_name": null,
+      "osm_id": "1296517408",
+      "region": "OrangeCounty",
+      "region_code": "OC",
+      "lat": 33.6872305,
+      "lon": -117.9426496,
+      "voltage_kv": 66.0,
+      "max_voltage_kv": 66.0,
+      "min_voltage_kv": 66.0,
+      "operator": null,
+      "substation_type": null,
+      "line_context": [
+        {
+          "line_candidate_id": "7cfe2391-33f3-5319-a12f-19928bf5ca0b",
+          "other_substation_id": "cc83c903-c47c-53f4-8a2e-5c1a7f27dcf8",
+          "voltage_kv": 220.0,
+          "length_m": 9663.8,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "101448950"
+          ]
+        },
+        {
+          "line_candidate_id": "ac54d0c2-5778-5125-840c-f07f9a8fc1e2",
+          "other_substation_id": "972afc66-651b-57a9-8b95-58e67671b314",
+          "voltage_kv": 220.0,
+          "length_m": 452.83,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "101448950"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "8dd865b1-b7b2-5ac0-a2f7-287fc4bf2729",
+      "current_name": "230kV Switching Station",
+      "osm_id": "75206115",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.8525611,
+      "lon": -118.3939316,
+      "voltage_kv": 220.0,
+      "max_voltage_kv": 220.0,
+      "min_voltage_kv": 220.0,
+      "operator": "SCE",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "77d3a23c-76d2-5acb-925b-acd0868bf381",
+          "other_substation_id": "d3c9cf8c-0a8b-5966-af6f-20ec202e7193",
+          "voltage_kv": 220.0,
+          "length_m": 6930.46,
+          "refs": [],
+          "operators": [],
+          "way_ids": [
+            "91735956"
+          ]
+        },
+        {
+          "line_candidate_id": "b9eca89e-4718-5cda-8044-cd24253c25ad",
+          "other_substation_id": "d3c9cf8c-0a8b-5966-af6f-20ec202e7193",
+          "voltage_kv": 220.0,
+          "length_m": 6884.43,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "46097017"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "8f13259a-41bd-561e-a0aa-079d4bf986c5",
+      "current_name": "Lighthipe Substation",
+      "osm_id": "66157642",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.880729,
+      "lon": -118.1750643,
+      "voltage_kv": 220.0,
+      "max_voltage_kv": 220.0,
+      "min_voltage_kv": 12.0,
+      "operator": "SCE",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "14172e4f-752c-5f90-9692-62ffa1414874",
+          "other_substation_id": "0a5067b8-e4bb-5885-ab9a-8ffc87747765",
+          "voltage_kv": 220.0,
+          "length_m": 10999.5,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "78797560"
+          ]
+        },
+        {
+          "line_candidate_id": "36fed775-029a-53a3-9e52-4ab9a2ad1c30",
+          "other_substation_id": "a9877191-f75d-5e84-ba80-ee1b7d45e937",
+          "voltage_kv": 220.0,
+          "length_m": 8578.24,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "74839051"
+          ]
+        },
+        {
+          "line_candidate_id": "410c0da6-b97a-5836-93fc-e4eea8658435",
+          "other_substation_id": "f214b431-24cd-50e9-8575-ba4d92cd24d4",
+          "voltage_kv": 220.0,
+          "length_m": 1958.55,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "78797555"
+          ]
+        },
+        {
+          "line_candidate_id": "6440cb7f-a39b-5e83-9cfb-c65ec21ce733",
+          "other_substation_id": "6076bdb1-02b1-58f9-a00a-25d2be1d8332",
+          "voltage_kv": 220.0,
+          "length_m": 3422.07,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "66158398"
+          ]
+        },
+        {
+          "line_candidate_id": "7d452cf2-9248-5815-878b-24a4ce3dc266",
+          "other_substation_id": "4ff10f3d-09c7-523e-97e0-ade381e89062",
+          "voltage_kv": 220.0,
+          "length_m": 9912.36,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "32222998"
+          ]
+        },
+        {
+          "line_candidate_id": "c20a3d6a-6d67-5b68-80e9-3beaa3228552",
+          "other_substation_id": "0a5067b8-e4bb-5885-ab9a-8ffc87747765",
+          "voltage_kv": 220.0,
+          "length_m": 11013.08,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "78797586"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "945bd131-339d-53e4-addd-c29fe632ac4b",
+      "current_name": null,
+      "osm_id": "74839059",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.8478096,
+      "lon": -118.3035405,
+      "voltage_kv": 138.0,
+      "max_voltage_kv": 138.0,
+      "min_voltage_kv": 138.0,
+      "operator": "LADWP",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "c14d22cb-e166-5bfd-b523-71a9ab8fa8d6",
+          "other_substation_id": "675a5b18-c9a4-5754-90f8-5b70d29b47f5",
+          "voltage_kv": 138.0,
+          "length_m": 1097.49,
+          "refs": [],
+          "operators": [],
+          "way_ids": [
+            "74839021"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "96a0f111-6dda-53b0-a3bd-cb2e8392ed31",
+      "current_name": "Felton Substation",
+      "osm_id": "390473088",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.9157672,
+      "lon": -118.3623468,
+      "voltage_kv": 66.0,
+      "max_voltage_kv": 66.0,
+      "min_voltage_kv": 66.0,
+      "operator": "SCE",
+      "substation_type": "distribution",
+      "line_context": [
+        {
+          "line_candidate_id": "0df243b5-c56d-58ef-8d02-7bb2c7c1c040",
+          "other_substation_id": "e10ebd40-fa76-54a0-a6a9-042eed9ee920",
+          "voltage_kv": 220.0,
+          "length_m": 2557.57,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "91638886"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "972afc66-651b-57a9-8b95-58e67671b314",
+      "current_name": "Ellis Substation",
+      "osm_id": "62333225",
+      "region": "OrangeCounty",
+      "region_code": "OC",
+      "lat": 33.6849055,
+      "lon": -117.943113,
+      "voltage_kv": 220.0,
+      "max_voltage_kv": 220.0,
+      "min_voltage_kv": 12.0,
+      "operator": "SCE",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "8007ef67-46c6-5556-bd0c-bb3fe301bbda",
+          "other_substation_id": "6e703186-92b3-5f53-8e8e-8050b4a0cad7",
+          "voltage_kv": 220.0,
+          "length_m": 20249.32,
+          "refs": [
+            "Del Amo - Ellis"
+          ],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "65596875"
+          ]
+        },
+        {
+          "line_candidate_id": "ac54d0c2-5778-5125-840c-f07f9a8fc1e2",
+          "other_substation_id": "8dc27b1d-7130-5683-b78b-0b98af189724",
+          "voltage_kv": 220.0,
+          "length_m": 452.83,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "101448950"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "a8c33d98-2457-53d8-b759-bcb1adf7a2c0",
+      "current_name": null,
+      "osm_id": "169880228",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.9979057,
+      "lon": -118.2063029,
+      "voltage_kv": 66.0,
+      "max_voltage_kv": 66.0,
+      "min_voltage_kv": 66.0,
+      "operator": null,
+      "substation_type": null,
+      "line_context": [
+        {
+          "line_candidate_id": "785d0fb1-c9d2-55d6-9cb5-7b3478ba6e1b",
+          "other_substation_id": "2a160406-e855-5f87-87ef-5056d1d259e1",
+          "voltage_kv": 230.0,
+          "length_m": 2004.4,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "169880242"
+          ]
+        },
+        {
+          "line_candidate_id": "e26d082d-5ed9-50d0-9359-4c1ce8df5757",
+          "other_substation_id": "7d1f61c1-18c0-5c6e-8cbd-8780585091e6",
+          "voltage_kv": 230.0,
+          "length_m": 10248.76,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "169880242"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "a9877191-f75d-5e84-ba80-ee1b7d45e937",
+      "current_name": null,
+      "osm_id": "74839034",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.8193385,
+      "lon": -118.2172287,
+      "voltage_kv": null,
+      "max_voltage_kv": null,
+      "min_voltage_kv": null,
+      "operator": null,
+      "substation_type": null,
+      "line_context": [
+        {
+          "line_candidate_id": "36fed775-029a-53a3-9e52-4ab9a2ad1c30",
+          "other_substation_id": "8f13259a-41bd-561e-a0aa-079d4bf986c5",
+          "voltage_kv": 220.0,
+          "length_m": 8578.24,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "74839051"
+          ]
+        },
+        {
+          "line_candidate_id": "c2fedd13-7c85-57a3-92aa-19cf9cabc053",
+          "other_substation_id": "37479b15-d76a-5c9a-906f-fe9de3897dbf",
+          "voltage_kv": 220.0,
+          "length_m": 1082.77,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "74839042"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "aec5834e-bc4c-5de3-b951-726de887506b",
+      "current_name": "LADWP Receiving Station J - Northridge",
+      "osm_id": "76344891",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 34.229236,
+      "lon": -118.5432927,
+      "voltage_kv": 230.0,
+      "max_voltage_kv": 230.0,
+      "min_voltage_kv": 4.8,
+      "operator": "LADWP",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "9ba197af-6650-5545-a3b2-191d6e7d0549",
+          "other_substation_id": "1c734dd1-857c-52ed-947c-dae79b083247",
+          "voltage_kv": 230.0,
+          "length_m": 5750.69,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "398600369"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "b332548e-6fc3-592f-828a-1bb83730498b",
+      "current_name": "Rancho Mission Viejo Substation",
+      "osm_id": "501515904",
+      "region": "OrangeCounty",
+      "region_code": "OC",
+      "lat": 33.5265161,
+      "lon": -117.5989228,
+      "voltage_kv": null,
+      "max_voltage_kv": null,
+      "min_voltage_kv": null,
+      "operator": null,
+      "substation_type": null,
+      "line_context": [
+        {
+          "line_candidate_id": "702b9ac0-50a9-547a-81aa-aab75ad1c7f6",
+          "other_substation_id": "5ce80ac9-775f-55b1-8284-430ee28225d5",
+          "voltage_kv": 138.0,
+          "length_m": 1626.53,
+          "refs": [
+            "13831"
+          ],
+          "operators": [
+            "SDG&E"
+          ],
+          "way_ids": [
+            "572727251"
+          ]
+        },
+        {
+          "line_candidate_id": "82c6bc5c-1b23-5907-92e8-651624687264",
+          "other_substation_id": "38a5467f-002a-535c-87b9-e87c4f8e2bd7",
+          "voltage_kv": 138.0,
+          "length_m": 4938.09,
+          "refs": [
+            "13831"
+          ],
+          "operators": [
+            "SDG&E"
+          ],
+          "way_ids": [
+            "572727252"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "b4e6f654-ca2f-50d5-92a6-24e17fd23660",
+      "current_name": "Gould Substation",
+      "osm_id": "31173635",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 34.2215512,
+      "lon": -118.1872336,
+      "voltage_kv": 220.0,
+      "max_voltage_kv": 220.0,
+      "min_voltage_kv": 66.0,
+      "operator": "SCE",
+      "substation_type": null,
+      "line_context": [
+        {
+          "line_candidate_id": "73fac2da-36f2-56de-ad79-49c092f016df",
+          "other_substation_id": "ed7c4135-be77-5c50-9477-1d73b9474fa3",
+          "voltage_kv": 220.0,
+          "length_m": 30157.86,
+          "refs": [],
+          "operators": [],
+          "way_ids": [
+            "1426900378",
+            "31567151"
+          ]
+        },
+        {
+          "line_candidate_id": "907210fd-d5e2-5c56-8830-15b6dd474ee0",
+          "other_substation_id": "c6a0149f-52aa-576c-9913-f7fe47d7c196",
+          "voltage_kv": 220.0,
+          "length_m": 13675.8,
+          "refs": [],
+          "operators": [],
+          "way_ids": [
+            "31567173"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "b90d052a-9007-56b1-9081-368b8bce4175",
+      "current_name": null,
+      "osm_id": "62333226",
+      "region": "OrangeCounty",
+      "region_code": "OC",
+      "lat": 33.6544749,
+      "lon": -117.952981,
+      "voltage_kv": 66.0,
+      "max_voltage_kv": 66.0,
+      "min_voltage_kv": 66.0,
+      "operator": "SCE",
+      "substation_type": "distribution",
+      "line_context": [
+        {
+          "line_candidate_id": "5cfd98e1-58a5-5d4d-953f-1d7bf8a273f7",
+          "other_substation_id": "42dacdd8-17ec-55ca-8df8-0c2090695b66",
+          "voltage_kv": 220.0,
+          "length_m": 3155.54,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "13286456"
+          ]
+        },
+        {
+          "line_candidate_id": "dbd3007e-ea9b-50c7-8226-6c8f016c1842",
+          "other_substation_id": "42dacdd8-17ec-55ca-8df8-0c2090695b66",
+          "voltage_kv": 220.0,
+          "length_m": 3173.27,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "79876842"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "c27ae52d-7536-5e99-b22f-7424e516d792",
+      "current_name": null,
+      "osm_id": "75206072",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.8958228,
+      "lon": -118.3727518,
+      "voltage_kv": 220.0,
+      "max_voltage_kv": 220.0,
+      "min_voltage_kv": 16.0,
+      "operator": "SCE",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "71be1843-457c-5c48-a5a8-da285ecbee01",
+          "other_substation_id": "d3c9cf8c-0a8b-5966-af6f-20ec202e7193",
+          "voltage_kv": 220.0,
+          "length_m": 5945.53,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "74839056"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "c33aca34-6a6c-5983-8fe5-b6abf3c066cd",
+      "current_name": "Kenter Canyon",
+      "osm_id": "184909077",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 34.0681555,
+      "lon": -118.4884124,
+      "voltage_kv": 230.0,
+      "max_voltage_kv": 230.0,
+      "min_voltage_kv": 230.0,
+      "operator": "LADWP",
+      "substation_type": "transition",
+      "line_context": [
+        {
+          "line_candidate_id": "34d22e61-0cb1-5f03-a7f4-c4be906894e3",
+          "other_substation_id": "35614a75-1762-59ee-ab6a-22a00bbd01a6",
+          "voltage_kv": 230.0,
+          "length_m": 4906.06,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "392266901"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "c3c0bbea-a2bf-52fd-b333-0c3587c54fa8",
+      "current_name": "Mesa Substation",
+      "osm_id": "66209607",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 34.0367305,
+      "lon": -118.1106531,
+      "voltage_kv": 500.0,
+      "max_voltage_kv": 500.0,
+      "min_voltage_kv": 12.0,
+      "operator": "SCE",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "28042367-c9b5-56c0-ab3f-9e779ec261da",
+          "other_substation_id": "0a5067b8-e4bb-5885-ab9a-8ffc87747765",
+          "voltage_kv": 220.0,
+          "length_m": 7640.86,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "169294696",
+            "66209417",
+            "78797581"
+          ]
+        },
+        {
+          "line_candidate_id": "7de1cb55-807a-5e7d-9763-d0033cdef408",
+          "other_substation_id": "7cc074b4-3092-5d42-b22d-0647b3948c10",
+          "voltage_kv": 220.0,
+          "length_m": 10614.88,
+          "refs": [],
+          "operators": [],
+          "way_ids": [
+            "31567173"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "c60a25c3-0e39-5b55-a864-ac99718a7f48",
+      "current_name": null,
+      "osm_id": "1463930555",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.9514145,
+      "lon": -118.4366693,
+      "voltage_kv": null,
+      "max_voltage_kv": null,
+      "min_voltage_kv": null,
+      "operator": null,
+      "substation_type": null,
+      "line_context": [
+        {
+          "line_candidate_id": "28d25bc3-4abc-528a-bb4d-12c781dece1e",
+          "other_substation_id": "3f426093-7b4b-5a00-9d3e-ba2cd1652ddf",
+          "voltage_kv": 230.0,
+          "length_m": 6791.0,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "985760360"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "c6a0149f-52aa-576c-9913-f7fe47d7c196",
+      "current_name": "T. M. Goodrich Substation",
+      "osm_id": "169880237",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 34.1509336,
+      "lon": -118.0882805,
+      "voltage_kv": 220.0,
+      "max_voltage_kv": 220.0,
+      "min_voltage_kv": 34.5,
+      "operator": "SCE",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "7dd651b4-3aab-5e46-bcdf-6104e88c8cae",
+          "other_substation_id": "7cc074b4-3092-5d42-b22d-0647b3948c10",
+          "voltage_kv": 220.0,
+          "length_m": 3312.58,
+          "refs": [],
+          "operators": [],
+          "way_ids": [
+            "31567173"
+          ]
+        },
+        {
+          "line_candidate_id": "907210fd-d5e2-5c56-8830-15b6dd474ee0",
+          "other_substation_id": "b4e6f654-ca2f-50d5-92a6-24e17fd23660",
+          "voltage_kv": 220.0,
+          "length_m": 13675.8,
+          "refs": [],
+          "operators": [],
+          "way_ids": [
+            "31567173"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "ca222a1e-51a8-532c-ab7e-3b6594c1cfb0",
+      "current_name": "Nichols Canyon",
+      "osm_id": "785309456",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 34.1056045,
+      "lon": -118.3587828,
+      "voltage_kv": 230.0,
+      "max_voltage_kv": 230.0,
+      "min_voltage_kv": 230.0,
+      "operator": "LADWP",
+      "substation_type": "transition",
+      "line_context": [
+        {
+          "line_candidate_id": "d30d6cfa-6c62-510b-b067-c43164f5a420",
+          "other_substation_id": "dfcc9036-a6b2-53d3-8b5a-0186cf4ab963",
+          "voltage_kv": 230.0,
+          "length_m": 2699.13,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "395848521"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "ca78ea04-3de3-58d2-ae24-1ffdd0e7d96a",
+      "current_name": "Edison Jersey Substation",
+      "osm_id": "1019311460",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.8795752,
+      "lon": -118.2482618,
+      "voltage_kv": 66.0,
+      "max_voltage_kv": 66.0,
+      "min_voltage_kv": 66.0,
+      "operator": "SCE",
+      "substation_type": null,
+      "line_context": [
+        {
+          "line_candidate_id": "1c3bb34e-3722-5a10-80f4-71bb25420748",
+          "other_substation_id": "d3c9cf8c-0a8b-5966-af6f-20ec202e7193",
+          "voltage_kv": 220.0,
+          "length_m": 8526.71,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "74839024"
+          ]
+        },
+        {
+          "line_candidate_id": "84ad3117-4b4e-546c-8087-e3318d526c7d",
+          "other_substation_id": "f214b431-24cd-50e9-8575-ba4d92cd24d4",
+          "voltage_kv": 220.0,
+          "length_m": 4819.08,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "78797555"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "cc83c903-c47c-53f4-8a2e-5c1a7f27dcf8",
+      "current_name": "Johanna Substation",
+      "osm_id": "61961948",
+      "region": "OrangeCounty",
+      "region_code": "OC",
+      "lat": 33.7131546,
+      "lon": -117.8524991,
+      "voltage_kv": 220.0,
+      "max_voltage_kv": 220.0,
+      "min_voltage_kv": 12.0,
+      "operator": "SCE",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "7cfe2391-33f3-5319-a12f-19928bf5ca0b",
+          "other_substation_id": "8dc27b1d-7130-5683-b78b-0b98af189724",
+          "voltage_kv": 220.0,
+          "length_m": 9663.8,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "101448950"
+          ]
+        },
+        {
+          "line_candidate_id": "87dac7be-7f4b-5b3f-9410-c05e7cd0fb5f",
+          "other_substation_id": "34f420d1-af2b-55db-8eaa-857217609221",
+          "voltage_kv": 220.0,
+          "length_m": 12844.86,
+          "refs": [
+            "Johanna - Santiago; Ellis - Santiago"
+          ],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "61132023"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "d3c9cf8c-0a8b-5966-af6f-20ec202e7193",
+      "current_name": "La Fresa Substation",
+      "osm_id": "74839063",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.8692965,
+      "lon": -118.3328301,
+      "voltage_kv": 220.0,
+      "max_voltage_kv": 220.0,
+      "min_voltage_kv": 16.0,
+      "operator": null,
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "1c3bb34e-3722-5a10-80f4-71bb25420748",
+          "other_substation_id": "ca78ea04-3de3-58d2-ae24-1ffdd0e7d96a",
+          "voltage_kv": 220.0,
+          "length_m": 8526.71,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "74839024"
+          ]
+        },
+        {
+          "line_candidate_id": "71be1843-457c-5c48-a5a8-da285ecbee01",
+          "other_substation_id": "c27ae52d-7536-5e99-b22f-7424e516d792",
+          "voltage_kv": 220.0,
+          "length_m": 5945.53,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "74839056"
+          ]
+        },
+        {
+          "line_candidate_id": "77d3a23c-76d2-5acb-925b-acd0868bf381",
+          "other_substation_id": "8dd865b1-b7b2-5ac0-a2f7-287fc4bf2729",
+          "voltage_kv": 220.0,
+          "length_m": 6930.46,
+          "refs": [],
+          "operators": [],
+          "way_ids": [
+            "91735956"
+          ]
+        },
+        {
+          "line_candidate_id": "b9eca89e-4718-5cda-8044-cd24253c25ad",
+          "other_substation_id": "8dd865b1-b7b2-5ac0-a2f7-287fc4bf2729",
+          "voltage_kv": 220.0,
+          "length_m": 6884.43,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "46097017"
+          ]
+        },
+        {
+          "line_candidate_id": "d731e77f-ac21-50b3-83fe-ccbc36f21b00",
+          "other_substation_id": "e10ebd40-fa76-54a0-a6a9-042eed9ee920",
+          "voltage_kv": 220.0,
+          "length_m": 4729.15,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "91638886"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "d64d87f9-81f0-55c3-a377-0520ac1383e8",
+      "current_name": "Receiving Station D - Fairfax",
+      "osm_id": "393475144",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 34.0380928,
+      "lon": -118.3708253,
+      "voltage_kv": 138.0,
+      "max_voltage_kv": 138.0,
+      "min_voltage_kv": 34.5,
+      "operator": "LADWP",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "93cf5ddf-b067-5a8a-b01b-e3c5de775c8b",
+          "other_substation_id": "dfcc9036-a6b2-53d3-8b5a-0186cf4ab963",
+          "voltage_kv": 138.0,
+          "length_m": 6693.4,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "394710542"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "d72bcc92-f002-55ed-a0c1-c508d74562de",
+      "current_name": "Bovine Substation",
+      "osm_id": "389163905",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.8508141,
+      "lon": -118.064198,
+      "voltage_kv": 66.0,
+      "max_voltage_kv": 66.0,
+      "min_voltage_kv": 12.0,
+      "operator": "SCE",
+      "substation_type": "distribution",
+      "line_context": [
+        {
+          "line_candidate_id": "d97a7dfc-1e86-5a66-a963-ce49381e7dcc",
+          "other_substation_id": "4ff10f3d-09c7-523e-97e0-ade381e89062",
+          "voltage_kv": 220.0,
+          "length_m": 2924.09,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "13279846"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "d94331d6-6996-5dd5-9905-fe48902a1a96",
+      "current_name": "Big Sky Substation",
+      "osm_id": "597452232",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 34.6858729,
+      "lon": -118.3042778,
+      "voltage_kv": 220.0,
+      "max_voltage_kv": 220.0,
+      "min_voltage_kv": 34.5,
+      "operator": "AES Corporation",
+      "substation_type": "generation",
+      "line_context": [
+        {
+          "line_candidate_id": "e4960671-1d7f-56a3-a564-295ee1934fde",
+          "other_substation_id": "1fe8329a-09cb-58bd-b9ae-7e81d33cda25",
+          "voltage_kv": 220.0,
+          "length_m": 297.94,
+          "refs": [],
+          "operators": [],
+          "way_ids": [
+            "1150007333"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "ddaecca5-edfd-537d-a09c-945b9b5cc652",
+      "current_name": null,
+      "osm_id": "1040107232",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.9306838,
+      "lon": -118.4278829,
+      "voltage_kv": null,
+      "max_voltage_kv": null,
+      "min_voltage_kv": null,
+      "operator": null,
+      "substation_type": null,
+      "line_context": [
+        {
+          "line_candidate_id": "cdd182e2-1fd2-5575-9418-06065004acaa",
+          "other_substation_id": "de136a9a-d4ea-5a22-b68a-3b83b701ab88",
+          "voltage_kv": 230.0,
+          "length_m": 1231.46,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "26710633"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "de136a9a-d4ea-5a22-b68a-3b83b701ab88",
+      "current_name": "Scattergood Substation",
+      "osm_id": "49715851",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.9189932,
+      "lon": -118.4252938,
+      "voltage_kv": 230.0,
+      "max_voltage_kv": 230.0,
+      "min_voltage_kv": 138.0,
+      "operator": null,
+      "substation_type": null,
+      "line_context": [
+        {
+          "line_candidate_id": "cdd182e2-1fd2-5575-9418-06065004acaa",
+          "other_substation_id": "ddaecca5-edfd-537d-a09c-945b9b5cc652",
+          "voltage_kv": 230.0,
+          "length_m": 1231.46,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "26710633"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "dfcc9036-a6b2-53d3-8b5a-0186cf4ab963",
+      "current_name": "Receiving Station H - Hollywood",
+      "osm_id": "394710539",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 34.0884202,
+      "lon": -118.3471084,
+      "voltage_kv": 230.0,
+      "max_voltage_kv": 230.0,
+      "min_voltage_kv": 138.0,
+      "operator": "Los Angeles Department and Power",
+      "substation_type": "transmission",
+      "line_context": [
+        {
+          "line_candidate_id": "93cf5ddf-b067-5a8a-b01b-e3c5de775c8b",
+          "other_substation_id": "d64d87f9-81f0-55c3-a377-0520ac1383e8",
+          "voltage_kv": 138.0,
+          "length_m": 6693.4,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "394710542"
+          ]
+        },
+        {
+          "line_candidate_id": "d30d6cfa-6c62-510b-b067-c43164f5a420",
+          "other_substation_id": "ca222a1e-51a8-532c-ab7e-3b6594c1cfb0",
+          "voltage_kv": 230.0,
+          "length_m": 2699.13,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "395848521"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "e10ebd40-fa76-54a0-a6a9-042eed9ee920",
+      "current_name": "Lawndale Substation",
+      "osm_id": "390473090",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.8949037,
+      "lon": -118.3578201,
+      "voltage_kv": 16.0,
+      "max_voltage_kv": 16.0,
+      "min_voltage_kv": 4.0,
+      "operator": "SCE",
+      "substation_type": "distribution",
+      "line_context": [
+        {
+          "line_candidate_id": "0df243b5-c56d-58ef-8d02-7bb2c7c1c040",
+          "other_substation_id": "96a0f111-6dda-53b0-a3bd-cb2e8392ed31",
+          "voltage_kv": 220.0,
+          "length_m": 2557.57,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "91638886"
+          ]
+        },
+        {
+          "line_candidate_id": "d731e77f-ac21-50b3-83fe-ccbc36f21b00",
+          "other_substation_id": "d3c9cf8c-0a8b-5966-af6f-20ec202e7193",
+          "voltage_kv": 220.0,
+          "length_m": 4729.15,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "91638886"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "ed7c4135-be77-5c50-9477-1d73b9474fa3",
+      "current_name": "Vincent Substation",
+      "osm_id": "30567721",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 34.4858488,
+      "lon": -118.1193686,
+      "voltage_kv": 500.0,
+      "max_voltage_kv": 500.0,
+      "min_voltage_kv": 220.0,
+      "operator": "SCE",
+      "substation_type": null,
+      "line_context": [
+        {
+          "line_candidate_id": "03af88c3-5122-5c30-8244-19c97740f26d",
+          "other_substation_id": "183d8f19-655d-5a93-9157-2929b0a31b90",
+          "voltage_kv": 220.0,
+          "length_m": 15950.84,
+          "refs": [],
+          "operators": [
+            "Azusa Light & Power"
+          ],
+          "way_ids": [
+            "88776832"
+          ]
+        },
+        {
+          "line_candidate_id": "73fac2da-36f2-56de-ad79-49c092f016df",
+          "other_substation_id": "b4e6f654-ca2f-50d5-92a6-24e17fd23660",
+          "voltage_kv": 220.0,
+          "length_m": 30157.86,
+          "refs": [],
+          "operators": [],
+          "way_ids": [
+            "1426900378",
+            "31567151"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "f214b431-24cd-50e9-8575-ba4d92cd24d4",
+      "current_name": null,
+      "osm_id": "78797598",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.881831,
+      "lon": -118.195607,
+      "voltage_kv": 16.0,
+      "max_voltage_kv": 16.0,
+      "min_voltage_kv": 4.0,
+      "operator": "SCE",
+      "substation_type": "distribution",
+      "line_context": [
+        {
+          "line_candidate_id": "410c0da6-b97a-5836-93fc-e4eea8658435",
+          "other_substation_id": "8f13259a-41bd-561e-a0aa-079d4bf986c5",
+          "voltage_kv": 220.0,
+          "length_m": 1958.55,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "78797555"
+          ]
+        },
+        {
+          "line_candidate_id": "84ad3117-4b4e-546c-8087-e3318d526c7d",
+          "other_substation_id": "ca78ea04-3de3-58d2-ae24-1ffdd0e7d96a",
+          "voltage_kv": 220.0,
+          "length_m": 4819.08,
+          "refs": [],
+          "operators": [
+            "SCE"
+          ],
+          "way_ids": [
+            "78797555"
+          ]
+        }
+      ]
+    },
+    {
+      "component_id": "f5371dfa-a684-5394-becc-625c3a3a6564",
+      "current_name": null,
+      "osm_id": "159759778",
+      "region": "LA",
+      "region_code": "LA",
+      "lat": 33.989193,
+      "lon": -118.3594201,
+      "voltage_kv": 138.0,
+      "max_voltage_kv": 138.0,
+      "min_voltage_kv": 138.0,
+      "operator": "LADWP",
+      "substation_type": "transition",
+      "line_context": [
+        {
+          "line_candidate_id": "09afc681-b873-5072-ba0b-f24a3f203f48",
+          "other_substation_id": "02ce35d6-f268-5e23-bd67-0fb3fce0d1b7",
+          "voltage_kv": 138.0,
+          "length_m": 8380.28,
+          "refs": [],
+          "operators": [
+            "LADWP"
+          ],
+          "way_ids": [
+            "398361678"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -33,7 +33,19 @@ Research rules:
 - If evidence is weak, set `confidence=low` and `needs_manual_review=true`.
 - If no reliable name is found, set `proposed_name=null`, `confidence=none`, and explain why.
 
-Return JSONL rows matching `naming/schema_candidate_names.json`.
+Return one downloadable JSONL file matching `naming/schema_candidate_names.json`.
+Name it like `candidate_names_waveNN.jsonl`.
+
+Output rules:
+
+- Return raw JSONL only, not Markdown.
+- Do not wrap the result in a code fence.
+- Every line must be one valid JSON object.
+- Use plain URL strings only. Do not use Markdown links inside JSON.
+- Keep source URLs exactly as browsed, e.g. `"https://www.openstreetmap.org/node/655826994"`.
+- It is OK to return large batches, preferably 50-150 JSONL rows per file.
+- Preserve `substation_id` exactly from the input pack.
+- Do not include prose before or after the JSONL file content.
 
 For each row, include:
 

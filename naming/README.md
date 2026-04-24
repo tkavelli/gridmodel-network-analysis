@@ -42,7 +42,14 @@ The intended workflow is:
 
 ## Candidate Output Contract
 
-Return JSONL rows matching `schema_candidate_names.json`.
+Return a downloadable `.jsonl` file matching `schema_candidate_names.json`.
+The file should contain raw JSONL only:
+
+- one valid JSON object per line
+- no Markdown code fence
+- no Markdown links inside JSON
+- source URLs as plain strings
+- 50-150 rows per batch is acceptable
 
 Required fields:
 
