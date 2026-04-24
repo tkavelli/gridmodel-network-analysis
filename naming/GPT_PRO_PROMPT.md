@@ -9,7 +9,11 @@ Input files:
 
 - `naming/substation_naming_pack.jsonl.gz`
 - `naming/line_context_pack.jsonl.gz`
+- `naming/substation_naming_pack.json`
+- `naming/line_context_pack.json`
 - `naming/schema_candidate_names.json`
+
+Prefer the plain `.json` files when the GitHub connector cannot decompress or index `.jsonl.gz` files.
 
 Work priority:
 

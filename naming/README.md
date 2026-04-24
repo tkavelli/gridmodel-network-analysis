@@ -15,9 +15,13 @@ The intended workflow is:
 - `substation_naming_pack.jsonl.gz`
   - one row per seed `Substation` component
   - includes current synthetic/source name, raw OSM evidence, coordinates, voltage, connected lines, neighbors, and search hints
+- `substation_naming_pack.json`
+  - same content as a plain JSON array for GitHub/ChatGPT indexing
 - `line_context_pack.jsonl.gz`
   - one row per seed `Line` component
   - includes endpoint station IDs/names, voltage, corridor role, wire/member counts, line length, and bbox
+- `line_context_pack.json`
+  - same content as a plain JSON array for GitHub/ChatGPT indexing
 - `manifest.json`
   - deterministic counts, hashes, source root, and truth policy
 - `schema_candidate_names.json`

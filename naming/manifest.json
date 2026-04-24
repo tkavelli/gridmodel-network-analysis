@@ -32,14 +32,28 @@
       "size_bytes": 140258
     },
     {
+      "lfs_expected": false,
+      "path": "naming/substation_naming_pack.json",
+      "row_count": 674,
+      "sha256": "4acb7fbf4b156471f5bf76f21211e0733df30598f2cc68738587a6305d734287",
+      "size_bytes": 1576160
+    },
+    {
       "lfs_expected": true,
       "path": "naming/line_context_pack.jsonl.gz",
       "row_count": 2301,
       "sha256": "798f6921d3a3f95f953ef987a6cc8fdabb09b1cb3e155effc4ba7c6291f38693",
       "size_bytes": 152399
+    },
+    {
+      "lfs_expected": false,
+      "path": "naming/line_context_pack.json",
+      "row_count": 2301,
+      "sha256": "593d77f4886cd50f37ff2a5d4b368febf3df0d509649c9fe0e579487d2351090",
+      "size_bytes": 1225057
     }
   ],
-  "generated_at_utc": "2026-04-24T04:33:40Z",
+  "generated_at_utc": "2026-04-24T05:09:09Z",
   "source_root": "/Users/nikolaybubnov/Downloads/gridmodel-dev/gridmodel-datasets/08_Data/08.01_Seed/scripts/output",
   "truth_policy": [
     "This pack is evidence for human/LLM research, not canonical naming truth.",

@@ -410,8 +410,12 @@ def main() -> int:
     naming_dir = repo_root / "naming"
     substation_path = naming_dir / "substation_naming_pack.jsonl.gz"
     line_path = naming_dir / "line_context_pack.jsonl.gz"
+    substation_json_path = naming_dir / "substation_naming_pack.json"
+    line_json_path = naming_dir / "line_context_pack.json"
     write_jsonl_gz(substation_path, substation_rows)
     write_jsonl_gz(line_path, line_rows)
+    write_json(substation_json_path, substation_rows)
+    write_json(line_json_path, line_rows)
 
     summary = {
         "generated_at_utc": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -425,11 +429,25 @@ def main() -> int:
                 "lfs_expected": True,
             },
             {
+                "path": "naming/substation_naming_pack.json",
+                "row_count": len(substation_rows),
+                "size_bytes": substation_json_path.stat().st_size,
+                "sha256": sha256_file(substation_json_path),
+                "lfs_expected": False,
+            },
+            {
                 "path": "naming/line_context_pack.jsonl.gz",
                 "row_count": len(line_rows),
                 "size_bytes": line_path.stat().st_size,
                 "sha256": sha256_file(line_path),
                 "lfs_expected": True,
+            },
+            {
+                "path": "naming/line_context_pack.json",
+                "row_count": len(line_rows),
+                "size_bytes": line_json_path.stat().st_size,
+                "sha256": sha256_file(line_json_path),
+                "lfs_expected": False,
             },
         ],
         "counts": {
